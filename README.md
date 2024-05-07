@@ -4,3 +4,5 @@
 ![mjohne's Stats](https://github-readme-stats.vercel.app/api?username=mjohne&theme=vue-dark&show_icons=true&hide_border=true&count_private=false)
 ![mjohne's Streak](https://github-readme-streak-stats.herokuapp.com/?user=mjohne&theme=vue-dark&hide_border=true)
 ![mjohne's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=mjohne&theme=vue-dark&show_icons=true&hide_border=true&layout=compact)
+
+![Visitor Count](https://profile-counter.glitch.me/{mjohne}/count.svg)
