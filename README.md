@@ -5,6 +5,6 @@
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mjohne&size_weight=1&count_weight=0&langs_count=8&show_icons=true&layout=compact&theme=github_dark)
 
-![mjohne's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=mjohne&theme=github_dark)
+![mjohne's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=mjohne&theme=github_dark)]
 
-![visitors](https://visitor-badge.laobi.icu/badge?page_id=mjohne)
+![visitors](https://visitor-badge.laobi.icu/badge?page_id=mjohne) [![wakatime](https://wakatime.com/badge/user/0441723d-b00a-4e96-afcf-192485957344.svg)](https://wakatime.com/@0441723d-b00a-4e96-afcf-192485957344)
