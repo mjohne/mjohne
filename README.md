@@ -7,7 +7,7 @@
 
 > *„It's not a bug. It's an undocumented feature.“ — unknown*
 
-🔭 **Currently working on:** Data management of minor planets</br>
+🔭 **Currently working on:** Data management software of minor planets</br>
 🎯 **Experienced in:** astronomic stuff, desktop programming</br> 
 🎓 **Education:** Training as a technical assistant for computer science and former student of media informatics at the university; currently further training as an IT specialist for application development</br> 
 📍 **Location:** Bremen, Germany
