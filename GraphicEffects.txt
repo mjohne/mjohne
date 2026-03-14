@@ -1,0 +1,7086 @@
+		// Entscheide dich hier für einen der Effekte oder kombiniere sie.
+		// Wichtig: Beim Click-Event sollte "async" am Methoden-Kopf stehen.
+
+		// Effekt 1: Das Bild "eindrücken" (Push-Effekt)
+		//_ = ApplyPushEffectAsync(pictureBoxBanner);
+
+		// Effekt 2: Die Box wackeln lassen
+		//_ = ApplyShakeEffectAsync(control: pictureBoxBanner);
+
+		// Effekt 3: Farben kurz invertieren (Blitz-Effekt)
+		//ApplyInvertEffect(pictureBoxBanner);
+
+		// Effekt 4: Das Bild langsam ein- oder ausblenden (Fade-Effekt)
+		//_ = ApplyFadeEffectAsync(pictureBoxBanner);
+
+		// Effekt 5: Das Bild in Graustufen umwandeln
+		//ApplyGrayscaleEffect(pictureBoxBanner);
+
+		// Effekt 6: Das Bild rotieren lassen
+		//_ = ApplyRotationEffectAsync(pictureBoxBanner);
+
+		// Effekt 7: Sepia (Altmodisch)
+		//ApplySepiaEffect(pictureBoxBanner);
+
+		// Effekt 8: Verpixeln (Retro 8-Bit)
+		//ApplyPixelateEffect(pictureBoxBanner);
+
+		// Effekt 9: Weichzeichner (Blur)
+		//ApplyBlurEffect(pictureBoxBanner);
+
+		// Effekt 10: Roter Farbstich (Alarm)
+		//ApplyRedTintEffect(pictureBoxBanner);
+
+		// Effekt 11: Kurzes Aufblitzen (Flash)
+		//_ = ApplyFlashEffectAsync(pictureBoxBanner);
+
+		// Effekt 12: Pulsieren (Zoom in / out)
+		//_ = ApplyPulseEffectAsync(pictureBoxBanner);
+
+		// Effekt 13: Hüpfen (Bounce)
+		//_ = ApplyBounceEffectAsync(pictureBoxBanner);
+
+		// Effekt 14: 3D-Karten-Flip (Breite wird zu 0 und wieder breit)
+		//_ = ApplyFlip3DEffectAsync(pictureBoxBanner);
+
+		// Effekt 15: Glitch (Zufälliges, starkes Ruckeln mit Farbwechsel)
+		//_ = ApplyGlitchEffectAsync(pictureBoxBanner);
+
+		// Effekt 16: Herausfallen und von oben zurückkehren (Drop)
+		//_ = ApplyDropEffectAsync(pictureBoxBanner);
+
+		// Effekt 17: Blauer Farbstich
+		//ApplyBlueTintEffect(pictureBoxBanner);
+
+		// Effekt 18: Grüner Farbstich
+		//ApplyGreenTintEffect(pictureBoxBanner);
+
+		// Effekt 19: Hoher Kontrast
+		//ApplyHighContrastEffect(pictureBoxBanner);
+
+		// Effekt 20: Ausgewaschene Farben
+		//ApplyWashedOutEffect(pictureBoxBanner);
+
+		// Effekt 21: Nach links wischen und zurück
+		//_ = ApplySlideLeftReturnAsync(pictureBoxBanner);
+
+		// Effekt 22: Nach rechts wischen und zurück
+		//_ = ApplySlideRightReturnAsync(pictureBoxBanner);
+
+		// Effekt 23: Zusammenquetschen (Vertikal)
+		//_ = ApplySqueezeEffectAsync(pictureBoxBanner);
+
+		// Effekt 24: Strecken (Horizontal)
+		//_ = ApplyStretchEffectAsync(pictureBoxBanner);
+
+		// Effekt 25: Wellenbewegung
+		//_ = ApplyWaveMovementAsync(pictureBoxBanner);
+
+		// Effekt 26: Herzschlag-Pulsieren
+		//_ = ApplyHeartbeatPulseAsync(pictureBoxBanner);
+
+		// Effekt 27: Zittern (Jiggle)
+		//_ = ApplyJiggleEffectAsync(pictureBoxBanner);
+
+		// Effekt 28: Schnelle Vibration
+		//_ = ApplyVibrationEffectAsync(pictureBoxBanner);
+
+		// Effekt 29: Vertikaler 3D-Flip
+		//_ = ApplySpinX3DEffectAsync(pictureBoxBanner);
+
+		// Effekt 30: Schreibmaschinen-Reveal
+		//_ = ApplyTypewriterRevealAsync(pictureBoxBanner);
+
+		// Effekt 31: Regenbogen-Farbdurchlauf
+		//_ = ApplyColorRainbowAsync(pictureBoxBanner);
+
+		// Effekt 32: Statisches Rauschen (Noise)
+		//ApplyNoiseStaticEffect(pictureBoxBanner);
+
+		// Effekt 33: Geister-Effekt (Ghosting)
+		//ApplyGhostingEffect(pictureBoxBanner);
+
+		// Effekt 34: Rauszoomen und Drehen
+		//_ = ApplyZoomSpinAsync(pictureBoxBanner);
+
+		// Effekt 35: Fallen und Zurückfedern
+		//_ = ApplyDropAndBounceAsync(pictureBoxBanner);
+
+		// Effekt 36: Zu Weiß ausblenden und zurück
+		//_ = ApplyFadeToWhiteAsync(pictureBoxBanner);
+
+		// Effekt 37: CRT-Bildschirm (Scanlines)
+		//ApplyCrtScanlinesEffect(pictureBoxBanner);
+
+		// Effekt 38: 3D-Brille (Anaglyph-Glitch)
+		//ApplyAnaglyph3DEffect(pictureBoxBanner);
+
+		// Effekt 39: Posterisieren (Farben reduzieren)
+		//ApplyPosterizeEffect(pictureBoxBanner);
+
+		// Effekt 40: Farb-Invertierung mit Wackeln (Blitz-Schock)
+		//_ = ApplyInvertAndShakeAsync(pictureBoxBanner);
+
+		// Effekt 41: Horizontal spiegeln
+		//ApplyFlipHorizontalEffect(pictureBoxBanner);
+
+		// Effekt 42: Vertikal spiegeln
+		//ApplyFlipVerticalEffect(pictureBoxBanner);
+
+		// Effekt 43: Verrückt drehen (Karusell)
+		//_ = ApplyCarouselSpinAsync(pictureBoxBanner);
+
+		// Effekt 44: Schmelzen (Farben tropfen nach unten)
+		//_ = ApplyMeltingEffectAsync(pictureBoxBanner);
+
+		// Effekt 45: Zoom hinein und verblassen (Geist geht weg)
+		//_ = ApplyZoomAndFadeOutAsync(pictureBoxBanner);
+
+		// Effekt 46: Pop! (kurz und hart vergrößern)
+		//_ = ApplyPopEffectAsync(pictureBoxBanner);
+
+		// Effekt 47: Pendeln (Swaying)
+		//_ = ApplySwayEffectAsync(pictureBoxBanner);
+
+		// Effekt 48: Schwarz-Weiß mit starkem Rauschen (Alt-TV)
+		//ApplyVintageTvEffect(pictureBoxBanner);
+
+		// Effekt 49: Neon-Cyberpunk-Tönung
+		//ApplyNeonCyberpunkEffect(pictureBoxBanner);
+
+		// Effekt 50: VHS-Tracking-Glitch
+		//_ = ApplyVhsTrackingGlitchAsync(pictureBoxBanner);
+
+		// Effekt 51: Wackelpudding (Wobble)
+		//_ = ApplyWobbleEffectAsync(pictureBoxBanner);
+
+		// Effekt 52: Gummiband (Zusammenziehen und Federn)
+		//_ = ApplyRubberBandAsync(pictureBoxBanner);
+
+		// Effekt 53: Rolladen (von oben nach unten schließen und öffnen)
+		//_ = ApplyRollerBlindAsync(pictureBoxBanner);
+
+		// Effekt 54: Regenbogen-Flackern
+		//_ = ApplyRainbowFlashAsync(pictureBoxBanner);
+
+		// Effekt 55: Matrix-Grün-Filter
+		//ApplyMatrixGreenEffect(pictureBoxBanner);
+
+		// Effekt 56: Erdbeben (Heftiges und schnelles Ruckeln)
+		//_ = ApplyEarthquakeAsync(pictureBoxBanner);
+
+		// Effekt 57: Blinzeln (Blink)
+		//_ = ApplyBlinkAsync(pictureBoxBanner);
+
+		// Effekt 58: Geisterhaftes Schweben (Ghost floating)
+		//_ = ApplyFloatingAsync(pictureBoxBanner);
+
+		// Effekt 59: Horizontaler 3D-Flip
+		//_ = ApplySpinY3DEffectAsync(pictureBoxBanner);
+
+		// Effekt 60: Kamera-Verschluss (Shutter)
+		//_ = ApplyCameraShutterAsync(pictureBoxBanner);
+
+		// Effekt 61: Zickzack-Fahrt
+		//_ = ApplyZigZagAsync(pictureBoxBanner);
+
+		// Effekt 62: Schwarzblende (Fade to Black)
+		//_ = ApplyFadeToBlackAsync(pictureBoxBanner);
+
+		// Effekt 63: Von Bildschirm fallen (Drop and Spin)
+		//_ = ApplyFallAndRotateAsync(pictureBoxBanner);
+
+		// Effekt 64: Einfliegen von rechts
+		//_ = ApplyFlyInRightAsync(pictureBoxBanner);
+
+		// Effekt 65: Alarm (Rot blinken und wackeln)
+		//_ = ApplyAlarmAsync(pictureBoxBanner);
+
+		// Effekt 66: Gestreift (Jede 2. Zeile schwarz)
+		//ApplyStripesEffect(pictureBoxBanner);
+
+		// Effekt 67: Farbkanaltausch (RGB -> GBR)
+		//ApplyColorChannelSwap(pictureBoxBanner);
+
+		// Effekt 68: Extremer Kontrast (Comic-Stil)
+		//ApplyExtremeContrast(pictureBoxBanner);
+
+		// Effekt 69: Skew (Scherung horizontal simuliert)
+		//_ = ApplySkewFakeAsync(pictureBoxBanner);
+
+		// Effekt 70: Breit ziehen
+		//_ = ApplyElasticWidthAsync(pictureBoxBanner);
+
+		// Effekt 71: Lang ziehen
+		//_ = ApplyElasticHeightAsync(pictureBoxBanner);
+
+		// Effekt 72: Windschaukeln (horizontale Wellen)
+		//_ = ApplyWindSwayAsync(pictureBoxBanner);
+
+		// Effekt 73: Tick-Tack (wie eine Uhr springen)
+		//_ = ApplyTickTockAsync(pictureBoxBanner);
+
+		// Effekt 74: Heftiges Schütteln
+		//_ = ApplyHeavyShakeAsync(pictureBoxBanner);
+
+		// Effekt 75: Aufblähen
+		//_ = ApplyBlowUpAsync(pictureBoxBanner);
+
+		// Effekt 76: Implodieren
+		//_ = ApplyImplodeAsync(pictureBoxBanner);
+
+		// Effekt 77: Zufälliges Ausradieren
+		//_ = ApplyEraserNoiseAsync(pictureBoxBanner);
+
+		// Effekt 78: RGB-Farbverschiebung (Glitch)
+		//ApplyRgbSplitGlitch(pictureBoxBanner);
+
+		// Effekt 79: Wirbel-Rückzug (Schrumpfen und wegdrehen)
+		//_ = ApplySpiralVanishAsync(pictureBoxBanner);
+
+		// Effekt 80: Mehrfach-Schatten-Glitch
+		//_ = ApplyShadowGlitchAsync(pictureBoxBanner);
+
+		// Effekt 81: Gelbstich (Gold/Sepia Mix)
+		//ApplyGoldTintEffect(pictureBoxBanner);
+
+		// Effekt 82: Röntgen (Röntgenblick)
+		//ApplyXRayEffect(pictureBoxBanner);
+
+		// Effekt 83: Wärmebild (Falschfarben)
+		//ApplyThermalVisionEffect(pictureBoxBanner);
+
+		// Effekt 84: Glühen (Überstrahlen)
+		//ApplyOverexposeGlow(pictureBoxBanner);
+
+		// Effekt 85: Herzklopfen extrem (schnelles Pochen)
+		//_ = ApplyFastHeartbeatAsync(pictureBoxBanner);
+
+		// Effekt 86: Konfetti-Farbfragmente
+		//_ = ApplyConfettiEffectAsync(pictureBoxBanner);
+
+		// Effekt 87: Rauf und runter schweben (Hover Hover)
+		//_ = ApplySmoothHoverAsync(pictureBoxBanner);
+
+		// Effekt 88: Dreifach-Klonen (Cloning)
+		//ApplyCloneTripletsEffect(pictureBoxBanner);
+
+		// Effekt 89: 8-Bit-Farbpalette
+		//Apply8BitColorEffect(pictureBoxBanner);
+
+		// Effekt 90: Zomm In & Fade Out (Ghostly Exit)
+		//_ = ApplyGhostDropAsync(pictureBoxBanner);
+
+		// Effekt 91: Matrix-Regen-Linien (Simuliert)
+		//_ = ApplyMatrixRainAsync(pictureBoxBanner);
+
+		// Effekt 92: Papier zerknüllen (Crush/Scale down and shake)
+		//_ = ApplyCrushPaperAsync(pictureBoxBanner);
+
+		// Effekt 93: Schwarzweiß-Puls
+		//_ = ApplyBWPulseAsync(pictureBoxBanner);
+
+		// Effekt 94: Bild Rauschen reduzieren (Weich plus Kanten - Fake)
+		//ApplyFakeDenoiseEffect(pictureBoxBanner);
+
+		// Effekt 95: Wackeln und Verschwimmen
+		//_ = ApplyShakeAndBlurAsync(pictureBoxBanner);
+
+		// Effekt 96: Regenbogen-Schattenwurf
+		//ApplyRainbowShadows(pictureBoxBanner);
+
+		// Effekt 97: Spiraldrehung nach außen
+		//_ = ApplySpiralOutAsync(pictureBoxBanner);
+
+		// Effekt 98: Schattenschnitt (Silhouette)
+		//ApplySilhouetteEffect(pictureBoxBanner);
+
+		// Effekt 99: Laser-Einschuss (Kurzer weißer Balken durchs Bild)
+		//_ = ApplyLaserStrikeAsync(pictureBoxBanner);
+
+		// Effekt 100: Fernseher ausschalten (TV Turn Off)
+		//_ = ApplyTvTurnOffAsync(pictureBoxBanner);
+
+		// Effekt 101: Gummiband vertikal
+		//_ = ApplyRubberBandVerticalAsync(pictureBoxBanner);
+
+		// Effekt 102: Aufrollen nach oben (Roll Up)
+		//_ = ApplyRollUpAsync(pictureBoxBanner);
+
+		// Effekt 103: Herzschlag mit Farbwechsel
+		//_ = ApplyHeartbeatWithColorChangeAsync(pictureBoxBanner);
+
+		// Effekt 104: Erdbeben mit Sepia
+		//_ = ApplySepiaEarthquakeAsync(pictureBoxBanner);
+
+		// Effekt 105: Glitch und Fade-Schleife
+		//_ = ApplyGlitchFadeLoopAsync(pictureBoxBanner);
+
+		// Effekt 106: Hypno-Drehen (Schnell und flackernd)
+		//_ = ApplyHypnoSpinAsync(pictureBoxBanner);
+
+		// Effekt 107: Fliegender Teppich (Wellenbewegung mit Rotation simuliert)
+		//_ = ApplyMagicCarpetAsync(pictureBoxBanner);
+
+		// Effekt 108: Ein- und Ausatmen (sanftes Zoomen)
+		//_ = ApplyBreathingAsync(pictureBoxBanner);
+
+		// Effekt 109: Radar (Grüner Sweep über das Bild)
+		//_ = ApplyRadarSweepAsync(pictureBoxBanner);
+
+		// Effekt 110: VHS-Spulfunktion (Schnelles horizontales Ruckeln mit Rauschen)
+		//_ = ApplyVhsFastForwardAsync(pictureBoxBanner);
+
+		// Effekt 111: Zerbröseln (Bild fällt in Streifen auseinander in Y-Richtung)
+		//_ = ApplyCrumbleAsync(pictureBoxBanner);
+
+		// Effekt 112: Neon-Rand glühen lassen
+		//_ = ApplyNeonBorderGlowAsync(pictureBoxBanner);
+
+		// Effekt 113: Scanner (vertikale Linie wandert hoch und runter)
+		//_ = ApplyVerticalScannerAsync(pictureBoxBanner);
+
+		// Effekt 114: Farb-Explosion (zufällige Kanäle hochdrehen)
+		//ApplyColorExplosion(pictureBoxBanner);
+
+		// Effekt 115: Vergrößern und Rauswerfen (Pop & Fly Out)
+		//_ = ApplyPopAndFlyOutAsync(pictureBoxBanner);
+
+		// Effekt 116: Magnetisch (wird zum Mauszeiger gezogen simuliert / Zentrum)
+		//_ = ApplyMagneticPullAsync(pictureBoxBanner);
+
+		// Effekt 117: Kreistanz (auf einer Kreisbahn rotieren)
+		//_ = ApplyCircleDanceAsync(pictureBoxBanner);
+
+		// Effekt 118: Diashow-Wechsel (altes Bild wischt weg, neues kommt)
+		//_ = ApplySlideShowTransitionAsync(pictureBoxBanner);
+
+		// Effekt 119: Wassertropfen (kleine wackelige Vergrößerung in der Mitte simuliert)
+		//_ = ApplyWaterDropAsync(pictureBoxBanner);
+
+		// Effekt 120: Kalt zu Warm (Farbtemperatur verschieben)
+		//_ = ApplyColdToWarmAsync(pictureBoxBanner);
+
+		// Effekt 121: Warm zu Kalt
+		//_ = ApplyWarmToColdAsync(pictureBoxBanner);
+
+		// Effekt 122: Schredder (vertikale Streifen entfernen)
+		//_ = ApplyShredderAsync(pictureBoxBanner);
+
+		// Effekt 123: Aufzoomen und Verpixeln (Censored Pop)
+		_ = ApplyZoomAndPixelateAsync(pictureBoxBanner);
+
+		// Effekt 124: Doppel-Vision-Schütteln (Betrunkenheits-Effekt)
+		//_ = ApplyDrunkVisionAsync(pictureBoxBanner);
+
+		// Effekt 125: Taschenlampe im Dunkeln (Spotlight in Mitte)
+		//_ = ApplySpotlightAsync(pictureBoxBanner);
+
+		// Effekt 126: Supernova (Extrem hell werden und verstreuen)
+		//_ = ApplySupernovaAsync(pictureBoxBanner);
+
+		// Effekt 127: Schneefall (Snowfall)
+		//_ = ApplySnowfallAsync(pictureBoxBanner);
+
+		// Effekt 128: Wackelpudding extrem (Jelly)
+		//_ = ApplyJellyAsync(pictureBoxBanner);
+
+		// Effekt 129: Farbzyklus (Color Cycle)
+		//_ = ApplyColorCycleAsync(pictureBoxBanner);
+
+		// Effekt 130: CRT-Flackern (CRT Flicker)
+		//_ = ApplyCrtFlickerAsync(pictureBoxBanner);
+
+		// Effekt 131: Schwingen (Swing)
+		//_ = ApplySwingAsync(pictureBoxBanner);
+
+		// Effekt 132: Zucken (Twitch)
+		//_ = ApplyTwitchAsync(pictureBoxBanner);
+
+		// Effekt 133: Herzschlag-Vignette (Heartbeat Vignette)
+		//_ = ApplyHeartbeatVignetteAsync(pictureBoxBanner);
+
+		// Effekt 134: Filmkorn (Film Grain)
+		//_ = ApplyFilmGrainAsync(pictureBoxBanner);
+
+		// Effekt 135: Barcode-Scanner
+		//_ = ApplyBarcodeScanAsync(pictureBoxBanner);
+
+		// Effekt 136: Zufällige Blöcke (Random Blocks)
+		//_ = ApplyRandomBlocksAsync(pictureBoxBanner);
+
+		// Effekt 137: Lupe (Magnifying Glass)
+		//_ = ApplyMagnifyingGlassAsync(pictureBoxBanner);
+
+		// Effekt 138: Geister-Spuren (Ghost Trails)
+		//_ = ApplyGhostTrailsAsync(pictureBoxBanner);
+
+		// Effekt 139: Neon-Puls (Neon Pulse)
+		//_ = ApplyNeonPulseAsync(pictureBoxBanner);
+
+		// Effekt 140: Wasserwellen (Ripple)
+		//_ = ApplyRippleEffectAsync(pictureBoxBanner);
+
+		// Effekt 141: Scheibenwischer (Windshield Wiper)
+		//_ = ApplyWindshieldWiperAsync(pictureBoxBanner);
+
+		// Effekt 142: Sonar-Sweep (Radar Sweep Circle)
+		//_ = ApplySonarSweepAsync(pictureBoxBanner);
+
+		// Effekt 143: Zusammenkneifen (Pinch)
+		//_ = ApplyPinchAsync(pictureBoxBanner);
+
+		// Effekt 144: Aufblähen (Bulge)
+		//_ = ApplyBulgeAsync(pictureBoxBanner);
+
+		// Effekt 145: VHS invertiert (Invert + VHS)
+		//_ = ApplyColorInvertVhsAsync(pictureBoxBanner);
+
+		// Effekt 146: Glitch RGB Shift (Schnelles Zucken + RGB)
+		//_ = ApplyGlitchRGBShiftAsync(pictureBoxBanner);
+
+		// Effekt 147: Sternenfeld (Starfield)
+		//_ = ApplyStarfieldAsync(pictureBoxBanner);
+
+		// Effekt 148: Akkordeon-Flip (X/Y-Flip schnell)
+		//_ = ApplyAccordionFlipAsync(pictureBoxBanner);
+
+		// Effekt 149: Schmelzen ins Schwarze
+		//_ = ApplyMeltToBlackAsync(pictureBoxBanner);
+
+		// Effekt 150: Invertierter Puls
+		//_ = ApplyInvertPulseAsync(pictureBoxBanner);
+
+		// Effekt 151: Feuerwerk (Fireworks)
+		//_ = ApplyFireworksAsync(pictureBoxBanner);
+
+		// Effekt 152: Schwebender Geist (Float Fade)
+		//_ = ApplyFloatFadeAsync(pictureBoxBanner);
+
+		// Effekt 153: Taschenlampen Wanderung (Flashlight Wander)
+		//_ = ApplyFlashlightWanderAsync(pictureBoxBanner);
+
+		// Effekt 154: Spirale nach innen (Spiral In)
+		//_ = ApplySpiralInAsync(pictureBoxBanner);
+
+		// Effekt 155: Radar-Ping (Radar Ping)
+		//_ = ApplyRadarPingAsync(pictureBoxBanner);
+
+		// Effekt 156: Horizontale Welle (Horizontal Wave)
+		//_ = ApplyHorizontalWaveAsync(pictureBoxBanner);
+
+		// Effekt 157: Vertikale Welle (Vertical Wave)
+		//_ = ApplyVerticalWaveAsync(pictureBoxBanner);
+
+		// Effekt 158: Zufälliger Pixel-Tausch (Random Pixel Swap)
+		//_ = ApplyRandomPixelSwapAsync(pictureBoxBanner);
+
+		// Effekt 159: Prägung (Emboss)
+		//ApplyEmbossEffect(pictureBoxBanner);
+
+		// Effekt 160: Kantenerkennung (Edge Detection)
+		//ApplyEdgeDetectionEffect(pictureBoxBanner);
+
+		// Effekt 161: Blöcke auflösen (Block Dissolve)
+		//_ = ApplyBlockDissolveAsync(pictureBoxBanner);
+
+		// Effekt 162: Wasser-Ringe (Ripple Ring)
+		//_ = ApplyRippleRingAsync(pictureBoxBanner);
+
+		// Effekt 163: Flimmern (Shimmer)
+		//_ = ApplyShimmerAsync(pictureBoxBanner);
+
+		// Effekt 164: Statische Blöcke (Static Glitch Blocks)
+		//_ = ApplyStaticBlocksAsync(pictureBoxBanner);
+
+		// Effekt 165: Jalousien (Horizontal Blinds)
+		//_ = ApplyHorizontalBlindsAsync(pictureBoxBanner);
+
+		// Effekt 166: Zoom-Unschärfe-Fake (Zoom Blur Fake)
+		//_ = ApplyZoomBlurFakeAsync(pictureBoxBanner);
+
+		// Effekt 167: Feuer von unten (Fire Bottom)
+		//_ = ApplyFireBottomAsync(pictureBoxBanner);
+
+		// Effekt 168: Regenbogen abwärts (Rainbow Sweep)
+		//_ = ApplyRainbowSweepAsync(pictureBoxBanner);
+
+		// Effekt 169: Aufploppen und federn (Pop-In Bounce)
+		//_ = ApplyPopInBounceAsync(pictureBoxBanner);
+
+		// Effekt 170: Farb-Trennung (Color Separation)
+		//_ = ApplyColorSeparationAsync(pictureBoxBanner);
+
+		// Effekt 171: Brutzeln (Sizzle)
+		//_ = ApplySizzleAsync(pictureBoxBanner);
+
+		// Effekt 172: Schwarzes Loch (Black Hole)
+		//_ = ApplyBlackHoleAsync(pictureBoxBanner);
+
+		// Effekt 173: Konfetti-Fall (Confetti Fall)
+		//_ = ApplyConfettiFallAsync(pictureBoxBanner);
+
+		// Effekt 174: Scanner-Gitter (Scanner Grid)
+		//_ = ApplyScannerGridAsync(pictureBoxBanner);
+
+		// Effekt 175: Hologramm (Hologram)
+		//_ = ApplyHologramAsync(pictureBoxBanner);
+
+		// Effekt 176: Spiegel-Aufklappen (Mirror Split)
+		//_ = ApplyMirrorSplitAsync(pictureBoxBanner);
+
+		// Effekt 177: Mosaik-Übergang (Mosaic Wipe)
+		//_ = ApplyMosaicWipeAsync(pictureBoxBanner);
+
+		// Effekt 178: Schockwelle (Shockwave)
+		//_ = ApplyShockwaveAsync(pictureBoxBanner);
+
+		// Effekt 179: Schielen (Cross-Eyed)
+		//_ = ApplyCrossEyedAsync(pictureBoxBanner);
+
+		// Effekt 180: Wischen nach rechts (Wipe Right)
+		//_ = ApplyWipeRightAsync(pictureBoxBanner);
+
+		// Effekt 181: Wischen nach links (Wipe Left)
+		//_ = ApplyWipeLeftAsync(pictureBoxBanner);
+
+		// Effekt 182: Wischen nach oben (Wipe Up)
+		//_ = ApplyWipeUpAsync(pictureBoxBanner);
+
+		// Effekt 183: Wischen nach unten (Wipe Down)
+		//_ = ApplyWipeDownAsync(pictureBoxBanner);
+
+		// Effekt 184: Karo-Mosaik (Checkerboard Wipe)
+		//_ = ApplyCheckerboardWipeAsync(pictureBoxBanner);
+
+		// Effekt 185: Kreis-Enthüllung (Circle Reveal)
+		//_ = ApplyCircleRevealAsync(pictureBoxBanner);
+
+		// Effekt 186: Diagonales Wischen (Diagonal Wipe)
+		//_ = ApplyDiagonalWipeAsync(pictureBoxBanner);
+
+		// Effekt 187: Blur Zoom-Out (Blur Zoom Out)
+		//_ = ApplyBlurZoomOutAsync(pictureBoxBanner);
+
+		// Effekt 188: Schwarz-Weiß-Flimmern (BW Flicker)
+		//_ = ApplyBWFlickerAsync(pictureBoxBanner);
+
+		// Effekt 189: Horizontal-Linien-Glitch (Horizontal Line Glitch)
+		//_ = ApplyHorizontalLineGlitchAsync(pictureBoxBanner);
+
+		// Effekt 190: Vertikal-Linien-Glitch (Vertical Line Glitch)
+		//_ = ApplyVerticalLineGlitchAsync(pictureBoxBanner);
+
+		// Effekt 191: Rotations-Zoom (Rotation Zoom)
+		//_ = ApplyRotationZoomAsync(pictureBoxBanner);
+
+		// Effekt 192: Einfacher Fokus-Puls (Focus Pulse)
+		//_ = ApplyFocusPulseAsync(pictureBoxBanner);
+
+		// Effekt 193: Zufällige Farb-Tönung (Random Tint)
+		//_ = ApplyRandomTintAsync(pictureBoxBanner);
+
+		// Effekt 194: Flimmernder Neon-Rand (Flicker Neon Edge)
+		//_ = ApplyFlickerNeonEdgeAsync(pictureBoxBanner);
+
+		// Effekt 195: Glitch-Boxen (Glitch Boxes)
+		//_ = ApplyGlitchBoxesAsync(pictureBoxBanner);
+
+		// Effekt 196: Gummi-Wurf (Rubber Drop)
+		//_ = ApplyRubberDropAsync(pictureBoxBanner);
+
+		// Effekt 197: Wellen-Zoom (Wave Zoom)
+		//_ = ApplyWaveZoomAsync(pictureBoxBanner);
+
+		// Effekt 198: Matrix-Flackern (Matrix Flicker)
+		//_ = ApplyMatrixFlickerAsync(pictureBoxBanner);
+
+		// Effekt 199: Geister-Zoom (Ghost Zoom)
+		//_ = ApplyGhostZoomAsync(pictureBoxBanner);
+
+		// Effekt 200: Spiegel-Verzerrung (Mirror Distortion)
+		//_ = ApplyMirrorDistortionAsync(pictureBoxBanner);
+
+		// Effekt 201: Farb-Atmung (Color Breathing)
+		//_ = ApplyColorBreathingAsync(pictureBoxBanner);
+
+		// Effekt 202: Sternschnuppe (Shooting Star)
+		//_ = ApplyShootingStarAsync(pictureBoxBanner);
+
+		// Effekt 203: Einfaches Verblassen nach Oben (Fade Up)
+		//_ = ApplyFadeUpAsync(pictureBoxBanner);
+
+		// Effekt 204: Springendes Bild (Jumping Image)
+		//_ = ApplyJumpingImageAsync(pictureBoxBanner);
+
+		// Effekt 205: Zitternder Regenbogen (Jittering Rainbow)
+		//_ = ApplyJitteringRainbowAsync(pictureBoxBanner);
+
+		// Effekt 206: Horizontales Schmelzen (Horizontal Melt)
+		//_ = ApplyHorizontalMeltAsync(pictureBoxBanner);
+
+		// Effekt 207: Bildausschnitt-Wanderung (Viewport Wander)
+		//_ = ApplyViewportWanderAsync(pictureBoxBanner);
+
+		// Effekt 208: Flackern und Invertieren (Flicker Invert)
+		//_ = ApplyFlickerInvertAsync(pictureBoxBanner);
+
+		// Effekt 209: Bild-Spaltung (Image Split)
+		//_ = ApplyImageSplitAsync(pictureBoxBanner);
+
+		// Effekt 210: Herz-Pulsierend-Soft (Soft Heartbeat)
+		//_ = ApplySoftHeartbeatAsync(pictureBoxBanner);
+
+		// Effekt 211: Scanner-Störung (Scanner Glitch)
+		//_ = ApplyScannerGlitchAsync(pictureBoxBanner);
+
+		// Effekt 212: Farbrauschen (Color Noise)
+		//_ = ApplyColorNoiseAsync(pictureBoxBanner);
+
+		// Effekt 213: Starke Weichzeichnung (Heavy Blur)
+		//_ = ApplyHeavyBlurAsync(pictureBoxBanner);
+
+		// Effekt 214: Tropfen-Sog (Drop Suck)
+		//_ = ApplyDropSuckAsync(pictureBoxBanner);
+
+		// Effekt 215: Wischender Pfeil (Arrow Wipe)
+		//_ = ApplyArrowWipeAsync(pictureBoxBanner);
+
+		// Effekt 216: VHS-Rauschen-Vertikal (VHS Noise Vertical)
+		//_ = ApplyVhsNoiseVerticalAsync(pictureBoxBanner);
+
+		// Effekt 217: Spiral-Geist (Spiral Ghost)
+		//_ = ApplySpiralGhostAsync(pictureBoxBanner);
+
+		// Effekt 218: Skalierungs-Bounce (Scale Bounce)
+		//_ = ApplyScaleBounceAsync(pictureBoxBanner);
+
+		// Effekt 219: Rotierender Geist (Rotating Ghost)
+		//_ = ApplyRotatingGhostAsync(pictureBoxBanner);
+
+		// Effekt 220: Falscher 3D Raum (Fake 3D Room)
+		//_ = ApplyFake3DRoomAsync(pictureBoxBanner);
+
+		// Effekt 221: Explodierende Pixel (Exploding Pixels)
+		//_ = ApplyExplodingPixelsAsync(pictureBoxBanner);
+
+		// Effekt 222: Bounce In
+		//_ = ApplyBounceInAsync(pictureBoxBanner);
+
+		// Effekt 223: Slide Up
+		//_ = ApplySlideUpAsync(pictureBoxBanner);
+
+		// Effekt 224: Slide Down
+		//_ = ApplySlideDownAsync(pictureBoxBanner);
+
+		// Effekt 225: Slide Left
+		//_ = ApplySlideLeftAsync(pictureBoxBanner);
+
+		// Effekt 226: Slide Right
+		//_ = ApplySlideRightAsync(pictureBoxBanner);
+
+		// Effekt 227: Color Wipe Red
+		//_ = ApplyColorWipeRedAsync(pictureBoxBanner);
+
+		// Effekt 228: Color Wipe Green
+		//_ = ApplyColorWipeGreenAsync(pictureBoxBanner);
+
+		// Effekt 229: Color Wipe Blue
+		//_ = ApplyColorWipeBlueAsync(pictureBoxBanner);
+
+		// Effekt 230: Expand Width Fast
+		//_ = ApplyExpandWidthFastAsync(pictureBoxBanner);
+
+		// Effekt 231: Expand Height Fast
+		//_ = ApplyExpandHeightFastAsync(pictureBoxBanner);
+
+		// Effekt 232: Pulse Red
+		//_ = ApplyPulseRedAsync(pictureBoxBanner);
+
+		// Effekt 233: Pulse Green
+		//_ = ApplyPulseGreenAsync(pictureBoxBanner);
+
+		// Effekt 234: Pulse Blue
+		//_ = ApplyPulseBlueAsync(pictureBoxBanner);
+
+		// Effekt 235: Shift Up
+		//_ = ApplyShiftUpAsync(pictureBoxBanner);
+
+		// Effekt 236: Shift Down
+		//_ = ApplyShiftDownAsync(pictureBoxBanner);
+
+		// Effekt 237: Shift Left
+		//_ = ApplyShiftLeftAsync(pictureBoxBanner);
+
+		// Effekt 238: Shift Right
+		//_ = ApplyShiftRightAsync(pictureBoxBanner);
+
+		// Effekt 239: Vignette Pulse
+		//_ = ApplyVignettePulseAsync(pictureBoxBanner);
+
+		// Effekt 240: Neon Lines
+		//_ = ApplyNeonLinesAsync(pictureBoxBanner);
+
+		// Effekt 241: Matrix Text
+		//_ = ApplyMatrixTextAsync(pictureBoxBanner);
+
+		// Effekt 242: Sonar Circles
+		//_ = ApplySonarCirclesAsync(pictureBoxBanner);
+
+		// Effekt 243: Hexagon Mosaic Fake
+		//_ = ApplyHexagonMosaicAsync(pictureBoxBanner);
+
+		// Effekt 244: Raindrops
+		//_ = ApplyRaindropsAsync(pictureBoxBanner);
+
+		// Effekt 245: Lightning
+		//_ = ApplyLightningAsync(pictureBoxBanner);
+
+		// Effekt 246: Fireflies
+		//_ = ApplyFirefliesAsync(pictureBoxBanner);
+
+		// Effekt 247: Bubbles
+		//_ = ApplyBubblesAsync(pictureBoxBanner);
+
+		// Effekt 248: Fog
+		//_ = ApplyFogAsync(pictureBoxBanner);
+
+		// Effekt 249: Snowstorm
+		//_ = ApplySnowstormAsync(pictureBoxBanner);
+
+		// Effekt 250: Meteor Shower
+		//_ = ApplyMeteorShowerAsync(pictureBoxBanner);
+
+		// Effekt 251: Strobe Light
+		//_ = ApplyStrobeLightAsync(pictureBoxBanner);
+
+		// Effekt 252: Police Lights
+		//_ = ApplyPoliceLightsAsync(pictureBoxBanner);
+
+		// Effekt 253: Party Lights
+		//_ = ApplyPartyLightsAsync(pictureBoxBanner);
+
+		// Effekt 254: Laser Pulse
+		//_ = ApplyLaserPulseAsync(pictureBoxBanner);
+
+		// Effekt 255: Energy Shield
+		//_ = ApplyEnergyShieldAsync(pictureBoxBanner);
+
+		// Effekt 256: Black And White Noise
+		//_ = ApplyBlackAndWhiteNoiseAsync(pictureBoxBanner);
+
+		// Effekt 257: Alien Vision
+		//_ = ApplyAlienVisionAsync(pictureBoxBanner);
+
+		// Effekt 258: Terminator Vision
+		//_ = ApplyTerminatorVisionAsync(pictureBoxBanner);
+
+		// Effekt 259: Glitch Color Random
+		//_ = ApplyGlitchColorAsync(pictureBoxBanner);
+
+		// Effekt 260: Fly In Bottom
+		//_ = ApplyFlyInBottomAsync(pictureBoxBanner);
+
+		// Effekt 261: Fly In Top
+		//_ = ApplyFlyInTopAsync(pictureBoxBanner);
+
+
+
+// --- Hilfsmethoden für die Effekte ---
+
+	private async Task ApplyFadeEffectAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image originalImage = pb.Image;
+		Bitmap currentImage = new(originalImage);
+
+		// Fade-out
+		for (float alpha = 1.0f; alpha >= 0.0f; alpha -= 0.1f)
+		{
+			pb.Image = SetImageOpacity(currentImage, alpha);
+			await Task.Delay(30);
+		}
+
+		// Fade-in
+		for (float alpha = 0.0f; alpha <= 1.0f; alpha += 0.1f)
+		{
+			pb.Image = SetImageOpacity(currentImage, alpha);
+			await Task.Delay(30);
+		}
+
+		pb.Image = originalImage;
+	}
+
+	private static Bitmap SetImageOpacity(Image image, float opacity)
+	{
+		Bitmap bmp = new(image.Width, image.Height);
+		using Graphics g = Graphics.FromImage(bmp);
+		ColorMatrix matrix = new() { Matrix33 = opacity };
+		using ImageAttributes attributes = new();
+		attributes.SetColorMatrix(matrix, ColorMatrixFlag.Default, ColorAdjustType.Bitmap);
+		g.DrawImage(image, new Rectangle(0, 0, bmp.Width, bmp.Height), 0, 0, image.Width, image.Height, GraphicsUnit.Pixel, attributes);
+		return bmp;
+	}
+
+	private void ApplyGrayscaleEffect(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Bitmap bmp = new(pb.Image.Width, pb.Image.Height);
+		using Graphics g = Graphics.FromImage(bmp);
+
+		// ColorMatrix für Graustufen
+		ColorMatrix colorMatrix = new(
+		[
+			[0.3f, 0.3f, 0.3f, 0, 0],
+			[0.59f, 0.59f, 0.59f, 0, 0],
+			[0.11f, 0.11f, 0.11f, 0, 0],
+			[0, 0, 0, 1, 0],
+			[0, 0, 0, 0, 1]
+		]);
+
+		using ImageAttributes attributes = new();
+		attributes.SetColorMatrix(colorMatrix);
+
+		g.DrawImage(pb.Image, new Rectangle(0, 0, bmp.Width, bmp.Height),
+					0, 0, pb.Image.Width, pb.Image.Height, GraphicsUnit.Pixel, attributes);
+
+		Image oldImage = pb.Image;
+		pb.Image = bmp;
+		oldImage.Dispose();
+	}
+
+	private async Task ApplyRotationEffectAsync(Control control)
+	{
+		Point originalLocation = control.Location;
+		Size originalSize = control.Size;
+
+		int centerX = originalLocation.X + (originalSize.Width / 2);
+		int centerY = originalLocation.Y + (originalSize.Height / 2);
+		int radius = 10;
+
+		for (int angle = 0; angle <= 360; angle += 20)
+		{
+			double radians = angle * Math.PI / 180.0;
+			int x = centerX + (int)(radius * Math.Cos(radians)) - (originalSize.Width / 2);
+			int y = centerY + (int)(radius * Math.Sin(radians)) - (originalSize.Height / 2);
+
+			control.Location = new Point(x, y);
+			await Task.Delay(20);
+		}
+
+		control.Location = originalLocation;
+	}
+
+	private async Task ApplyPushEffectAsync(Control control)
+	{
+		Point originalLocation = control.Location;
+		control.Location = new Point(originalLocation.X + 2, originalLocation.Y + 2);
+		await Task.Delay(100); // 100 Millisekunden warten
+		control.Location = originalLocation;
+	}
+
+	private async Task ApplyShakeEffectAsync(Control control)
+	{
+		Point originalLocation = control.Location;
+		int[] offsets = [-5, 5, -4, 4, -3, 3, -2, 2, -1, 1, 0];
+
+		foreach (int offset in offsets)
+		{
+			control.Location = new Point(originalLocation.X + offset, originalLocation.Y);
+			await Task.Delay(20);
+		}
+	}
+
+	private void ApplyInvertEffect(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Bitmap bmp = new(pb.Image.Width, pb.Image.Height);
+		using Graphics g = Graphics.FromImage(bmp);
+
+		// ColorMatrix für Invertierung (Negativ)
+		ColorMatrix colorMatrix = new(
+		[
+			[-1,  0,  0,  0, 0],
+			[ 0, -1,  0,  0, 0],
+			[ 0,  0, -1,  0, 0],
+			[ 0,  0,  0,  1, 0],
+			[ 1,  1,  1,  0, 1]
+		]);
+
+		using ImageAttributes attributes = new();
+		attributes.SetColorMatrix(colorMatrix);
+
+		// Geändertes Bild zeichnen
+		g.DrawImage(pb.Image, new Rectangle(0, 0, bmp.Width, bmp.Height),
+					0, 0, pb.Image.Width, pb.Image.Height, GraphicsUnit.Pixel, attributes);
+
+		// Altes Bild ersetzen (oder nach kurzem Task.Delay wieder zurücktauschen)
+		Image oldImage = pb.Image;
+		pb.Image = bmp;
+		oldImage.Dispose();
+	}
+
+	private void ApplySepiaEffect(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Bitmap bmp = new(pb.Image.Width, pb.Image.Height);
+		using Graphics g = Graphics.FromImage(bmp);
+		ColorMatrix colorMatrix = new(
+		[
+			[0.393f, 0.349f, 0.272f, 0, 0],
+			[0.769f, 0.686f, 0.534f, 0, 0],
+			[0.189f, 0.168f, 0.131f, 0, 0],
+			[     0,      0,      0, 1, 0],
+			[     0,      0,      0, 0, 1]
+		]);
+		using ImageAttributes attrs = new();
+		attrs.SetColorMatrix(colorMatrix);
+		g.DrawImage(pb.Image, new Rectangle(0, 0, bmp.Width, bmp.Height), 0, 0, pb.Image.Width, pb.Image.Height, GraphicsUnit.Pixel, attrs);
+		Image old = pb.Image;
+		pb.Image = bmp;
+		old.Dispose();
+	}
+
+	private void ApplyPixelateEffect(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		int pixelSize = 8;
+		Bitmap small = new(pb.Image.Width / pixelSize, pb.Image.Height / pixelSize);
+		if (small.Width == 0 || small.Height == 0)
+		{
+			return;
+		}
+
+		using (Graphics g1 = Graphics.FromImage(small))
+		{
+			g1.InterpolationMode = System.Drawing.Drawing2D.InterpolationMode.HighQualityBicubic;
+			g1.DrawImage(pb.Image, 0, 0, small.Width, small.Height);
+		}
+		Bitmap pixelated = new(pb.Image.Width, pb.Image.Height);
+		using (Graphics g2 = Graphics.FromImage(pixelated))
+		{
+			g2.InterpolationMode = System.Drawing.Drawing2D.InterpolationMode.NearestNeighbor;
+			g2.DrawImage(small, 0, 0, pixelated.Width, pixelated.Height);
+		}
+		Image old = pb.Image;
+		pb.Image = pixelated;
+		old.Dispose();
+		small.Dispose();
+	}
+
+	private void ApplyBlurEffect(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		int blurFactor = 5;
+		Bitmap small = new(pb.Image.Width / blurFactor, pb.Image.Height / blurFactor);
+		if (small.Width == 0 || small.Height == 0)
+		{
+			return;
+		}
+
+		using (Graphics g1 = Graphics.FromImage(small))
+		{
+			g1.InterpolationMode = System.Drawing.Drawing2D.InterpolationMode.HighQualityBicubic;
+			g1.DrawImage(pb.Image, 0, 0, small.Width, small.Height);
+		}
+		Bitmap blurred = new(pb.Image.Width, pb.Image.Height);
+		using (Graphics g2 = Graphics.FromImage(blurred))
+		{
+			g2.InterpolationMode = System.Drawing.Drawing2D.InterpolationMode.HighQualityBicubic;
+			g2.DrawImage(small, 0, 0, blurred.Width, blurred.Height);
+		}
+		Image old = pb.Image;
+		pb.Image = blurred;
+		old.Dispose();
+		small.Dispose();
+	}
+
+	private void ApplyRedTintEffect(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Bitmap bmp = new(pb.Image.Width, pb.Image.Height);
+		using Graphics g = Graphics.FromImage(bmp);
+		ColorMatrix colorMatrix = new(
+		[
+			[1.3f, 0, 0, 0, 0],
+			[0, 0.7f, 0, 0, 0],
+			[0, 0, 0.7f, 0, 0],
+			[0, 0, 0, 1, 0],
+			[0, 0, 0, 0, 1]
+		]);
+		using ImageAttributes attrs = new();
+		attrs.SetColorMatrix(colorMatrix);
+		g.DrawImage(pb.Image, new Rectangle(0, 0, bmp.Width, bmp.Height), 0, 0, pb.Image.Width, pb.Image.Height, GraphicsUnit.Pixel, attrs);
+		Image old = pb.Image;
+		pb.Image = bmp;
+		old.Dispose();
+	}
+
+	private async Task ApplyFlashEffectAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image originalImage = pb.Image;
+		Bitmap bmp = new(originalImage.Width, originalImage.Height);
+		using Graphics g = Graphics.FromImage(bmp);
+		ColorMatrix cm = new(
+		[
+			[1.5f, 0, 0, 0, 0],
+			[0, 1.5f, 0, 0, 0],
+			[0, 0, 1.5f, 0, 0],
+			[0, 0, 0, 1, 0],
+			[0.3f, 0.3f, 0.3f, 0, 1]
+		]);
+		using ImageAttributes attrs = new();
+		attrs.SetColorMatrix(cm);
+		g.DrawImage(originalImage, new Rectangle(0, 0, bmp.Width, bmp.Height), 0, 0, originalImage.Width, originalImage.Height, GraphicsUnit.Pixel, attrs);
+
+		pb.Image = bmp;
+		await Task.Delay(150);
+		pb.Image = originalImage;
+		bmp.Dispose();
+	}
+
+	private async Task ApplyPulseEffectAsync(Control control)
+	{
+		Size origSize = control.Size;
+		Point origLoc = control.Location;
+		int steps = 6;
+		int growth = 4;
+
+		for (int i = 1; i <= steps; i++)
+		{
+			control.Size = new Size(origSize.Width + (i * growth), origSize.Height + (i * growth));
+			control.Location = new Point(origLoc.X - (i * (growth / 2)), origLoc.Y - (i * (growth / 2)));
+			await Task.Delay(20);
+		}
+		for (int i = steps; i >= 0; i--)
+		{
+			control.Size = new Size(origSize.Width + (i * growth), origSize.Height + (i * growth));
+			control.Location = new Point(origLoc.X - (i * (growth / 2)), origLoc.Y - (i * (growth / 2)));
+			await Task.Delay(20);
+		}
+		control.Size = origSize;
+		control.Location = origLoc;
+	}
+
+	private async Task ApplyBounceEffectAsync(Control control)
+	{
+		Point orig = control.Location;
+		int[] bounceOffsets = [-20, -15, -10, -5, 0, -10, -5, 0, -4, 0];
+		foreach (int yOff in bounceOffsets)
+		{
+			control.Location = new Point(orig.X, orig.Y + yOff);
+			await Task.Delay(30);
+		}
+		control.Location = orig;
+	}
+
+	private async Task ApplyFlip3DEffectAsync(Control control)
+	{
+		Size origSize = control.Size;
+		Point origLoc = control.Location;
+		int steps = 10;
+
+		for (int i = 0; i <= steps; i++)
+		{
+			float scale = 1.0f - ((float)i / steps);
+			int w = Math.Max(1, (int)(origSize.Width * scale));
+			control.Size = new Size(w, origSize.Height);
+			control.Location = new Point(origLoc.X + ((origSize.Width - w) / 2), origLoc.Y);
+			await Task.Delay(15);
+		}
+		for (int i = steps; i >= 0; i--)
+		{
+			float scale = 1.0f - ((float)i / steps);
+			int w = Math.Max(1, (int)(origSize.Width * scale));
+			control.Size = new Size(w, origSize.Height);
+			control.Location = new Point(origLoc.X + ((origSize.Width - w) / 2), origLoc.Y);
+			await Task.Delay(15);
+		}
+
+		control.Size = origSize;
+		control.Location = origLoc;
+	}
+
+	private async Task ApplyGlitchEffectAsync(Control control)
+	{
+		Point origLoc = control.Location;
+		Color origColor = control.BackColor;
+		Random rnd = new();
+
+		for (int i = 0; i < 15; i++)
+		{
+			control.Location = new Point(origLoc.X + rnd.Next(-15, 16), origLoc.Y + rnd.Next(-5, 6));
+			control.BackColor = i % 3 == 0 ? Color.FromArgb(100, Color.Cyan) : i % 3 == 1 ? Color.FromArgb(100, Color.Magenta) : origColor;
+
+			await Task.Delay(rnd.Next(10, 40));
+		}
+
+		control.Location = origLoc;
+		control.BackColor = origColor;
+	}
+
+	private async Task ApplyDropEffectAsync(Control control)
+	{
+		Point origLoc = control.Location;
+
+		for (int i = 1; i < 15; i++)
+		{
+			control.Location = new Point(origLoc.X, origLoc.Y + (i * i));
+			await Task.Delay(15);
+		}
+		control.Visible = false;
+		await Task.Delay(200);
+
+		control.Location = new Point(origLoc.X, origLoc.Y - 150);
+		control.Visible = true;
+
+		for (int i = 12; i >= 0; i--)
+		{
+			control.Location = new Point(origLoc.X, origLoc.Y - (i * i));
+			await Task.Delay(15);
+		}
+
+		control.Location = origLoc;
+	}
+
+	private void ApplyBlueTintEffect(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Bitmap bmp = new(pb.Image.Width, pb.Image.Height);
+		using Graphics g = Graphics.FromImage(bmp);
+		ColorMatrix cm = new([
+			[0.7f, 0, 0, 0, 0],
+			[0, 0.7f, 0, 0, 0],
+			[0, 0, 1.3f, 0, 0],
+			[0, 0, 0, 1, 0],
+			[0, 0, 0, 0, 1]
+		]);
+		using ImageAttributes attrs = new();
+		attrs.SetColorMatrix(cm);
+		g.DrawImage(pb.Image, new Rectangle(0, 0, bmp.Width, bmp.Height), 0, 0, pb.Image.Width, pb.Image.Height, GraphicsUnit.Pixel, attrs);
+		Image old = pb.Image;
+		pb.Image = bmp;
+		old.Dispose();
+	}
+
+	private void ApplyGreenTintEffect(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Bitmap bmp = new(pb.Image.Width, pb.Image.Height);
+		using Graphics g = Graphics.FromImage(bmp);
+		ColorMatrix cm = new([
+			[0.7f, 0, 0, 0, 0],
+			[0, 1.3f, 0, 0, 0],
+			[0, 0, 0.7f, 0, 0],
+			[0, 0, 0, 1, 0],
+			[0, 0, 0, 0, 1]
+		]);
+		using ImageAttributes attrs = new();
+		attrs.SetColorMatrix(cm);
+		g.DrawImage(pb.Image, new Rectangle(0, 0, bmp.Width, bmp.Height), 0, 0, pb.Image.Width, pb.Image.Height, GraphicsUnit.Pixel, attrs);
+		Image old = pb.Image;
+		pb.Image = bmp;
+		old.Dispose();
+	}
+
+	private void ApplyHighContrastEffect(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Bitmap bmp = new(pb.Image.Width, pb.Image.Height);
+		using Graphics g = Graphics.FromImage(bmp);
+		ColorMatrix cm = new([
+			[2.0f, 0, 0, 0, 0],
+			[0, 2.0f, 0, 0, 0],
+			[0, 0, 2.0f, 0, 0],
+			[0, 0, 0, 1, 0],
+			[-0.5f, -0.5f, -0.5f, 0, 1]
+		]);
+		using ImageAttributes attrs = new();
+		attrs.SetColorMatrix(cm);
+		g.DrawImage(pb.Image, new Rectangle(0, 0, bmp.Width, bmp.Height), 0, 0, pb.Image.Width, pb.Image.Height, GraphicsUnit.Pixel, attrs);
+		Image old = pb.Image;
+		pb.Image = bmp;
+		old.Dispose();
+	}
+
+	private void ApplyWashedOutEffect(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Bitmap bmp = new(pb.Image.Width, pb.Image.Height);
+		using Graphics g = Graphics.FromImage(bmp);
+		ColorMatrix cm = new([
+			[0.5f, 0, 0, 0, 0],
+			[0, 0.5f, 0, 0, 0],
+			[0, 0, 0.5f, 0, 0],
+			[0, 0, 0, 1, 0],
+			[0.25f, 0.25f, 0.25f, 0, 1]
+		]);
+		using ImageAttributes attrs = new();
+		attrs.SetColorMatrix(cm);
+		g.DrawImage(pb.Image, new Rectangle(0, 0, bmp.Width, bmp.Height), 0, 0, pb.Image.Width, pb.Image.Height, GraphicsUnit.Pixel, attrs);
+		Image old = pb.Image;
+		pb.Image = bmp;
+		old.Dispose();
+	}
+
+	private async Task ApplySlideLeftReturnAsync(Control control)
+	{
+		Point origLoc = control.Location;
+		int distance = 50;
+		for (int i = 0; i <= distance; i += 5)
+		{
+			control.Location = new Point(origLoc.X - i, origLoc.Y);
+			await Task.Delay(15);
+		}
+		for (int i = distance; i >= 0; i -= 5)
+		{
+			control.Location = new Point(origLoc.X - i, origLoc.Y);
+			await Task.Delay(15);
+		}
+		control.Location = origLoc;
+	}
+
+	private async Task ApplySlideRightReturnAsync(Control control)
+	{
+		Point origLoc = control.Location;
+		int distance = 50;
+		for (int i = 0; i <= distance; i += 5)
+		{
+			control.Location = new Point(origLoc.X + i, origLoc.Y);
+			await Task.Delay(15);
+		}
+		for (int i = distance; i >= 0; i -= 5)
+		{
+			control.Location = new Point(origLoc.X + i, origLoc.Y);
+			await Task.Delay(15);
+		}
+		control.Location = origLoc;
+	}
+
+	private async Task ApplySqueezeEffectAsync(Control control)
+	{
+		Size origSize = control.Size;
+		Point origLoc = control.Location;
+		int squeeze = 20;
+		for (int i = 0; i <= squeeze; i += 2)
+		{
+			control.Size = new Size(origSize.Width + (i * 2), origSize.Height - (i * 2));
+			control.Location = new Point(origLoc.X - i, origLoc.Y + i);
+			await Task.Delay(15);
+		}
+		for (int i = squeeze; i >= 0; i -= 2)
+		{
+			control.Size = new Size(origSize.Width + (i * 2), origSize.Height - (i * 2));
+			control.Location = new Point(origLoc.X - i, origLoc.Y + i);
+			await Task.Delay(15);
+		}
+		control.Size = origSize;
+		control.Location = origLoc;
+	}
+
+	private async Task ApplyStretchEffectAsync(Control control)
+	{
+		Size origSize = control.Size;
+		Point origLoc = control.Location;
+		int stretch = 20;
+		for (int i = 0; i <= stretch; i += 2)
+		{
+			control.Size = new Size(origSize.Width - (i * 2), origSize.Height + (i * 2));
+			control.Location = new Point(origLoc.X + i, origLoc.Y - i);
+			await Task.Delay(15);
+		}
+		for (int i = stretch; i >= 0; i -= 2)
+		{
+			control.Size = new Size(origSize.Width - (i * 2), origSize.Height + (i * 2));
+			control.Location = new Point(origLoc.X + i, origLoc.Y - i);
+			await Task.Delay(15);
+		}
+		control.Size = origSize;
+		control.Location = origLoc;
+	}
+
+	private async Task ApplyWaveMovementAsync(Control control)
+	{
+		Point origLoc = control.Location;
+		for (int i = 0; i < 360; i += 15)
+		{
+			double rad = i * Math.PI / 180.0;
+			int xOff = (int)(Math.Sin(rad) * 20);
+			int yOff = (int)(Math.Cos(rad * 2) * 10);
+			control.Location = new Point(origLoc.X + xOff, origLoc.Y + yOff);
+			await Task.Delay(15);
+		}
+		control.Location = origLoc;
+	}
+
+	private async Task ApplyHeartbeatPulseAsync(Control control)
+	{
+		Size origSize = control.Size;
+		Point origLoc = control.Location;
+		int[] pulse = [0, 5, 10, 5, 0, 0, 7, 14, 7, 0];
+		foreach (int p in pulse)
+		{
+			control.Size = new Size(origSize.Width + (p * 2), origSize.Height + (p * 2));
+			control.Location = new Point(origLoc.X - p, origLoc.Y - p);
+			await Task.Delay(30);
+		}
+		control.Size = origSize;
+		control.Location = origLoc;
+	}
+
+	private async Task ApplyJiggleEffectAsync(Control control)
+	{
+		Point origLoc = control.Location;
+		Random rnd = new();
+		for (int i = 0; i < 20; i++)
+		{
+			control.Location = new Point(origLoc.X + rnd.Next(-3, 4), origLoc.Y + rnd.Next(-3, 4));
+			await Task.Delay(20);
+		}
+		control.Location = origLoc;
+	}
+
+	private async Task ApplyVibrationEffectAsync(Control control)
+	{
+		Point origLoc = control.Location;
+		for (int i = 0; i < 30; i++)
+		{
+			int offset = (i % 2 == 0) ? 2 : -2;
+			control.Location = new Point(origLoc.X + offset, origLoc.Y);
+			await Task.Delay(10);
+		}
+		control.Location = origLoc;
+	}
+
+	private async Task ApplySpinX3DEffectAsync(Control control)
+	{
+		Size origSize = control.Size;
+		Point origLoc = control.Location;
+		int steps = 10;
+		for (int i = 0; i <= steps; i++)
+		{
+			float scale = 1.0f - ((float)i / steps);
+			int h = Math.Max(1, (int)(origSize.Height * scale));
+			control.Size = new Size(origSize.Width, h);
+			control.Location = new Point(origLoc.X, origLoc.Y + ((origSize.Height - h) / 2));
+			await Task.Delay(15);
+		}
+		for (int i = steps; i >= 0; i--)
+		{
+			float scale = 1.0f - ((float)i / steps);
+			int h = Math.Max(1, (int)(origSize.Height * scale));
+			control.Size = new Size(origSize.Width, h);
+			control.Location = new Point(origLoc.X, origLoc.Y + ((origSize.Height - h) / 2));
+			await Task.Delay(15);
+		}
+		control.Size = origSize;
+		control.Location = origLoc;
+	}
+
+	private async Task ApplyTypewriterRevealAsync(Control control)
+	{
+		Size origSize = control.Size;
+		int steps = 20;
+		control.Width = 0;
+		control.Visible = true;
+		for (int i = 0; i <= steps; i++)
+		{
+			control.Width = (int)(origSize.Width * ((float)i / steps));
+			await Task.Delay(20);
+		}
+		control.Size = origSize;
+	}
+
+	private async Task ApplyColorRainbowAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image origImage = pb.Image;
+		for (int i = 0; i < 360; i += 30)
+		{
+			double rad = i * Math.PI / 180.0;
+			float r = (float)((Math.Sin(rad) * 0.5) + 0.5) + 0.5f;
+			float g = (float)((Math.Sin(rad + 2.0) * 0.5) + 0.5) + 0.5f;
+			float b = (float)((Math.Sin(rad + 4.0) * 0.5) + 0.5) + 0.5f;
+
+			Bitmap bmp = new(origImage.Width, origImage.Height);
+			using Graphics gr = Graphics.FromImage(bmp);
+			ColorMatrix cm = new([
+				[r, 0, 0, 0, 0],
+				[0, g, 0, 0, 0],
+				[0, 0, b, 0, 0],
+				[0, 0, 0, 1, 0],
+				[0, 0, 0, 0, 1]
+			]);
+			using ImageAttributes attrs = new();
+			attrs.SetColorMatrix(cm);
+			gr.DrawImage(origImage, new Rectangle(0, 0, bmp.Width, bmp.Height), 0, 0, origImage.Width, origImage.Height, GraphicsUnit.Pixel, attrs);
+			Image old = pb.Image;
+			pb.Image = bmp;
+			if (old != origImage)
+			{
+				old.Dispose();
+			}
+
+			await Task.Delay(40);
+		}
+		Image last = pb.Image;
+		pb.Image = origImage;
+		if (last != origImage)
+		{
+			last.Dispose();
+		}
+	}
+
+	private void ApplyNoiseStaticEffect(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Bitmap bmp = new(pb.Image);
+		Random rnd = new();
+		int noiseAmount = 5000;
+		for (int i = 0; i < noiseAmount; i++)
+		{
+			int x = rnd.Next(bmp.Width);
+			int y = rnd.Next(bmp.Height);
+			Color c = rnd.Next(2) == 0 ? Color.White : Color.Black;
+			bmp.SetPixel(x, y, c);
+		}
+		Image old = pb.Image;
+		pb.Image = bmp;
+		old.Dispose();
+	}
+
+	private void ApplyGhostingEffect(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Bitmap bmp = new(pb.Image.Width, pb.Image.Height);
+		using Graphics g = Graphics.FromImage(bmp);
+
+		ColorMatrix matrix = new() { Matrix33 = 0.5f };
+		using ImageAttributes attrs = new();
+		attrs.SetColorMatrix(matrix, ColorMatrixFlag.Default, ColorAdjustType.Bitmap);
+
+		g.DrawImage(pb.Image, 0, 0, pb.Image.Width, pb.Image.Height);
+		g.DrawImage(pb.Image, new Rectangle(10, 10, pb.Image.Width, pb.Image.Height), 0, 0, pb.Image.Width, pb.Image.Height, GraphicsUnit.Pixel, attrs);
+		g.DrawImage(pb.Image, new Rectangle(-10, -10, pb.Image.Width, pb.Image.Height), 0, 0, pb.Image.Width, pb.Image.Height, GraphicsUnit.Pixel, attrs);
+
+		Image old = pb.Image;
+		pb.Image = bmp;
+		old.Dispose();
+	}
+
+	private async Task ApplyZoomSpinAsync(Control control)
+	{
+		Size origSize = control.Size;
+		Point origLoc = control.Location;
+		int steps = 15;
+		int centerX = origLoc.X + (origSize.Width / 2);
+		int centerY = origLoc.Y + (origSize.Height / 2);
+
+		for (int i = 0; i <= steps; i++)
+		{
+			float scale = 1.0f - ((float)i / steps * 0.8f);
+			int w = (int)(origSize.Width * scale);
+			int h = (int)(origSize.Height * scale);
+
+			double rad = i * 24 * Math.PI / 180.0;
+			int xOff = (int)(Math.Sin(rad) * 20);
+			int yOff = (int)(Math.Cos(rad) * 20);
+
+			control.Size = new Size(Math.Max(1, w), Math.Max(1, h));
+			control.Location = new Point(centerX - (w / 2) + xOff, centerY - (h / 2) + yOff);
+			await Task.Delay(20);
+		}
+		for (int i = steps; i >= 0; i--)
+		{
+			float scale = 1.0f - ((float)i / steps * 0.8f);
+			int w = (int)(origSize.Width * scale);
+			int h = (int)(origSize.Height * scale);
+			control.Size = new Size(Math.Max(1, w), Math.Max(1, h));
+			control.Location = new Point(centerX - (w / 2), centerY - (h / 2));
+			await Task.Delay(20);
+		}
+		control.Size = origSize;
+		control.Location = origLoc;
+	}
+
+	private async Task ApplyDropAndBounceAsync(Control control)
+	{
+		Point origLoc = control.Location;
+		int[] drops = [0, 5, 15, 30, 50, 75, 105, 140, 180, 140, 110, 90, 110, 140, 160, 140, 130];
+		foreach (int d in drops)
+		{
+			control.Location = new Point(origLoc.X, origLoc.Y + d);
+			await Task.Delay(20);
+		}
+		// Reset slowly
+		for (int y = control.Location.Y; y >= origLoc.Y; y -= 5)
+		{
+			control.Location = new Point(origLoc.X, y);
+			await Task.Delay(10);
+		}
+		control.Location = origLoc;
+	}
+
+	private async Task ApplyFadeToWhiteAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image origImage = pb.Image;
+		for (float f = 0; f <= 1.0f; f += 0.1f)
+		{
+			Bitmap bmp = new(origImage.Width, origImage.Height);
+			using Graphics g = Graphics.FromImage(bmp);
+			ColorMatrix cm = new([
+				[1, 0, 0, 0, 0],
+				[0, 1, 0, 0, 0],
+				[0, 0, 1, 0, 0],
+				[0, 0, 0, 1, 0],
+				[f, f, f, 0, 1]
+			]);
+			using ImageAttributes attrs = new();
+			attrs.SetColorMatrix(cm);
+			g.DrawImage(origImage, new Rectangle(0, 0, bmp.Width, bmp.Height), 0, 0, origImage.Width, origImage.Height, GraphicsUnit.Pixel, attrs);
+			Image old = pb.Image;
+			pb.Image = bmp;
+			if (old != origImage)
+			{
+				old.Dispose();
+			}
+
+			await Task.Delay(30);
+		}
+		for (float f = 1.0f; f >= 0.0f; f -= 0.1f)
+		{
+			Bitmap bmp = new(origImage.Width, origImage.Height);
+			using Graphics g = Graphics.FromImage(bmp);
+			ColorMatrix cm = new([
+				[1, 0, 0, 0, 0],
+				[0, 1, 0, 0, 0],
+				[0, 0, 1, 0, 0],
+				[0, 0, 0, 1, 0],
+				[f, f, f, 0, 1]
+			]);
+			using ImageAttributes attrs = new();
+			attrs.SetColorMatrix(cm);
+			g.DrawImage(origImage, new Rectangle(0, 0, bmp.Width, bmp.Height), 0, 0, origImage.Width, origImage.Height, GraphicsUnit.Pixel, attrs);
+			Image old = pb.Image;
+			pb.Image = bmp;
+			if (old != origImage)
+			{
+				old.Dispose();
+			}
+
+			await Task.Delay(30);
+		}
+		Image last = pb.Image;
+		pb.Image = origImage;
+		if (last != origImage)
+		{
+			last.Dispose();
+		}
+	}
+
+	private void ApplyCrtScanlinesEffect(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Bitmap bmp = new(pb.Image);
+		using Graphics g = Graphics.FromImage(bmp);
+		using Pen p = new(Color.FromArgb(80, 0, 0, 0), 1);
+		for (int y = 0; y < bmp.Height; y += 3)
+		{
+			g.DrawLine(p, 0, y, bmp.Width, y);
+		}
+		Image old = pb.Image;
+		pb.Image = bmp;
+		old.Dispose();
+	}
+
+	private void ApplyAnaglyph3DEffect(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Bitmap bmp = new(pb.Image.Width, pb.Image.Height);
+		using Graphics g = Graphics.FromImage(bmp);
+
+		ColorMatrix cyanMatrix = new([
+			[0, 0, 0, 0, 0],
+			[0, 1, 0, 0, 0],
+			[0, 0, 1, 0, 0],
+			[0, 0, 0, 0.5f, 0],
+			[0, 0, 0, 0, 1]
+		]);
+		ColorMatrix redMatrix = new([
+			[1, 0, 0, 0, 0],
+			[0, 0, 0, 0, 0],
+			[0, 0, 0, 0, 0],
+			[0, 0, 0, 0.5f, 0],
+			[0, 0, 0, 0, 1]
+		]);
+
+		using ImageAttributes attrCyan = new();
+		attrCyan.SetColorMatrix(cyanMatrix);
+		using ImageAttributes attrRed = new();
+		attrRed.SetColorMatrix(redMatrix);
+
+		g.DrawImage(pb.Image, new Rectangle(-3, 0, bmp.Width, bmp.Height), 0, 0, pb.Image.Width, pb.Image.Height, GraphicsUnit.Pixel, attrRed);
+		g.DrawImage(pb.Image, new Rectangle(3, 0, bmp.Width, bmp.Height), 0, 0, pb.Image.Width, pb.Image.Height, GraphicsUnit.Pixel, attrCyan);
+
+		Image old = pb.Image;
+		pb.Image = bmp;
+		old.Dispose();
+	}
+
+	private void ApplyPosterizeEffect(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Bitmap bmp = new(pb.Image);
+		for (int y = 0; y < bmp.Height; y++)
+		{
+			for (int x = 0; x < bmp.Width; x++)
+			{
+				Color c = bmp.GetPixel(x, y);
+				bmp.SetPixel(x, y, Color.FromArgb(c.A, c.R / 64 * 64, c.G / 64 * 64, c.B / 64 * 64));
+			}
+		}
+		Image old = pb.Image;
+		pb.Image = bmp;
+		old.Dispose();
+	}
+
+	private async Task ApplyInvertAndShakeAsync(PictureBox pb)
+	{
+		ApplyInvertEffect(pb);
+		await ApplyEarthquakeAsync(pb);
+		ApplyInvertEffect(pb);
+	}
+
+	private void ApplyFlipHorizontalEffect(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Bitmap bmp = new(pb.Image);
+		bmp.RotateFlip(RotateFlipType.RotateNoneFlipX);
+		Image old = pb.Image;
+		pb.Image = bmp;
+		old.Dispose();
+	}
+
+	private void ApplyFlipVerticalEffect(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Bitmap bmp = new(pb.Image);
+		bmp.RotateFlip(RotateFlipType.RotateNoneFlipY);
+		Image old = pb.Image;
+		pb.Image = bmp;
+		old.Dispose();
+	}
+
+	private async Task ApplyCarouselSpinAsync(Control control)
+	{
+		Point orig = control.Location;
+		Size origSize = control.Size;
+		int centerX = orig.X + (origSize.Width / 2);
+
+		for (int i = 0; i <= 360; i += 20)
+		{
+			double rad = i * Math.PI / 180.0;
+			float scale = (float)Math.Cos(rad);
+			int newW = Math.Max(1, (int)(origSize.Width * Math.Abs(scale)));
+
+			control.Size = new Size(newW, origSize.Height);
+			control.Location = new Point(centerX - (newW / 2), orig.Y);
+
+			if (scale < 0)
+			{
+				control.BackColor = Color.Gray; // Simulation of backside
+			}
+			else
+			{
+				control.BackColor = Color.Transparent;
+			}
+
+			await Task.Delay(15);
+		}
+		control.Size = origSize;
+		control.Location = orig;
+		control.BackColor = Color.Transparent;
+	}
+
+	private async Task ApplyMeltingEffectAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		Bitmap bmp = new(orig);
+		Random rnd = new();
+
+		for (int frame = 0; frame < 15; frame++)
+		{
+			for (int x = 0; x < bmp.Width; x += rnd.Next(2, 5))
+			{
+				int dropLen = rnd.Next(1, 10);
+				for (int y = bmp.Height - 1; y >= dropLen; y--)
+				{
+					bmp.SetPixel(x, y, bmp.GetPixel(x, y - dropLen));
+				}
+			}
+			pb.Image = bmp;
+			await Task.Delay(30);
+		}
+
+		await Task.Delay(500);
+		pb.Image = orig;
+		bmp.Dispose();
+	}
+
+	private async Task ApplyZoomAndFadeOutAsync(PictureBox pb)
+	{
+		Size origSize = pb.Size;
+		Point origLoc = pb.Location;
+
+		for (int i = 0; i <= 10; i++)
+		{
+			int expand = i * 4;
+			pb.Size = new Size(origSize.Width + expand, origSize.Height + expand);
+			pb.Location = new Point(origLoc.X - (expand / 2), origLoc.Y - (expand / 2));
+			pb.Image = SetImageOpacity(pb.Image!, 1.0f - (i * 0.1f));
+			await Task.Delay(20);
+		}
+
+		await Task.Delay(200);
+
+		// Reset
+		pb.Size = origSize;
+		pb.Location = origLoc;
+		// Load UI again to fix image
+		AppInfoForm_Load(this, EventArgs.Empty);
+	}
+
+	private async Task ApplyPopEffectAsync(Control control)
+	{
+		Size origSize = control.Size;
+		Point origLoc = control.Location;
+
+		int pop = 20;
+		control.Size = new Size(origSize.Width + (pop * 2), origSize.Height + (pop * 2));
+		control.Location = new Point(origLoc.X - pop, origLoc.Y - pop);
+		await Task.Delay(50);
+
+		control.Size = origSize;
+		control.Location = origLoc;
+	}
+
+	private async Task ApplySwayEffectAsync(Control control)
+	{
+		Point orig = control.Location;
+		int[] sway = [0, 10, 20, 10, 0, -10, -20, -10, 0];
+		for (int times = 0; times < 2; times++)
+		{
+			foreach (int x in sway)
+			{
+				control.Location = new Point(orig.X + x, orig.Y + (Math.Abs(x) / 4));
+				await Task.Delay(20);
+			}
+		}
+		control.Location = orig;
+	}
+
+	private void ApplyVintageTvEffect(PictureBox pb)
+	{
+		ApplyGrayscaleEffect(pb);
+		ApplyNoiseStaticEffect(pb);
+		ApplyCrtScanlinesEffect(pb);
+	}
+
+	private void ApplyNeonCyberpunkEffect(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Bitmap bmp = new(pb.Image.Width, pb.Image.Height);
+		using Graphics g = Graphics.FromImage(bmp);
+		ColorMatrix cm = new([
+			[1.5f, 0, 1.0f, 0, 0],   // More Red and Blue (Magenta)
+			[0, 1.0f, 1.2f, 0, 0],   // More Blue and Green (Cyan)
+			[0.5f, 0, 1.5f, 0, 0],
+			[0, 0, 0, 1, 0],
+			[0, 0, 0, 0, 1]
+		]);
+		using ImageAttributes attrs = new();
+		attrs.SetColorMatrix(cm);
+		g.DrawImage(pb.Image, new Rectangle(0, 0, bmp.Width, bmp.Height), 0, 0, pb.Image.Width, pb.Image.Height, GraphicsUnit.Pixel, attrs);
+		Image old = pb.Image;
+		pb.Image = bmp;
+		old.Dispose();
+	}
+
+	private async Task ApplyVhsTrackingGlitchAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		Random rnd = new();
+
+		for (int i = 0; i < 10; i++)
+		{
+			Bitmap bmp = new(orig);
+			using Graphics g = Graphics.FromImage(bmp);
+			int glitchY = rnd.Next(bmp.Height / 2);
+			int glitchHeight = rnd.Next(10, 30);
+			int offset = rnd.Next(-15, 15);
+
+			g.DrawImage(orig, new Rectangle(offset, glitchY, bmp.Width, glitchHeight), new Rectangle(0, glitchY, bmp.Width, glitchHeight), GraphicsUnit.Pixel);
+
+			pb.Image = bmp;
+			await Task.Delay(30);
+		}
+		pb.Image = orig;
+	}
+
+	private async Task ApplyWobbleEffectAsync(Control control)
+	{
+		Size origSize = control.Size;
+		Point origLoc = control.Location;
+
+		for (int i = 0; i < 3; i++)
+		{
+			control.Size = new Size(origSize.Width + 10, origSize.Height - 10);
+			control.Location = new Point(origLoc.X - 5, origLoc.Y + 5);
+			await Task.Delay(30);
+
+			control.Size = new Size(origSize.Width - 10, origSize.Height + 10);
+			control.Location = new Point(origLoc.X + 5, origLoc.Y - 5);
+			await Task.Delay(30);
+		}
+		control.Size = origSize;
+		control.Location = origLoc;
+	}
+
+	private async Task ApplyRubberBandAsync(Control control)
+	{
+		Point origLoc = control.Location;
+		for (int i = 1; i <= 20; i += 2)
+		{
+			control.Location = new Point(origLoc.X - i, origLoc.Y);
+			await Task.Delay(10);
+		}
+		// Snap back fast
+		control.Location = new Point(origLoc.X + 15, origLoc.Y);
+		await Task.Delay(20);
+		control.Location = new Point(origLoc.X - 5, origLoc.Y);
+		await Task.Delay(20);
+		control.Location = origLoc;
+	}
+
+	private async Task ApplyRollerBlindAsync(Control control)
+	{
+		int origHeight = control.Height;
+
+		for (int h = origHeight; h >= 0; h -= 10)
+		{
+			control.Height = h;
+			await Task.Delay(15);
+		}
+		for (int h = 0; h <= origHeight; h += 10)
+		{
+			control.Height = h;
+			await Task.Delay(15);
+		}
+		control.Height = origHeight;
+	}
+
+	private async Task ApplyRainbowFlashAsync(PictureBox pb)
+	{
+		for (int i = 0; i < 6; i++)
+		{
+			Color[] colors = [Color.Red, Color.Yellow, Color.Lime, Color.Cyan, Color.Blue, Color.Magenta];
+			pb.BackColor = colors[i];
+			await Task.Delay(40);
+		}
+		pb.BackColor = Color.Transparent;
+	}
+
+	private void ApplyMatrixGreenEffect(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Bitmap bmp = new(pb.Image.Width, pb.Image.Height);
+		using Graphics g = Graphics.FromImage(bmp);
+		ColorMatrix cm = new([
+			[0, 0, 0, 0, 0],
+			[0.2f, 1.5f, 0.2f, 0, 0],
+			[0, 0, 0, 0, 0],
+			[0, 0, 0, 1, 0],
+			[0, -0.2f, 0, 0, 1]
+		]);
+		using ImageAttributes attrs = new();
+		attrs.SetColorMatrix(cm);
+		g.DrawImage(pb.Image, new Rectangle(0, 0, bmp.Width, bmp.Height), 0, 0, pb.Image.Width, pb.Image.Height, GraphicsUnit.Pixel, attrs);
+		Image old = pb.Image;
+		pb.Image = bmp;
+		old.Dispose();
+	}
+
+	private async Task ApplyEarthquakeAsync(Control control)
+	{
+		Point origLoc = control.Location;
+		Random rnd = new();
+		for (int i = 0; i < 40; i++)
+		{
+			control.Location = new Point(origLoc.X + rnd.Next(-7, 8), origLoc.Y + rnd.Next(-7, 8));
+			await Task.Delay(10);
+		}
+		control.Location = origLoc;
+	}
+
+	private async Task ApplyBlinkAsync(Control control)
+	{
+		for (int i = 0; i < 5; i++)
+		{
+			control.Visible = false;
+			await Task.Delay(100);
+			control.Visible = true;
+			await Task.Delay(100);
+		}
+	}
+
+	private async Task ApplyFloatingAsync(Control control)
+	{
+		Point origLoc = control.Location;
+		for (int i = 0; i < 720; i += 10)
+		{
+			double rad = i * Math.PI / 180.0;
+			int yOff = (int)(Math.Sin(rad) * 10);
+			control.Location = new Point(origLoc.X, origLoc.Y + yOff);
+			await Task.Delay(20);
+		}
+		control.Location = origLoc;
+	}
+
+	private async Task ApplySpinY3DEffectAsync(Control control)
+	{
+		Size origSize = control.Size;
+		Point origLoc = control.Location;
+		int steps = 10;
+		for (int i = 0; i <= steps; i++)
+		{
+			float scale = 1.0f - ((float)i / steps);
+			int w = Math.Max(1, (int)(origSize.Width * scale));
+			control.Size = new Size(w, origSize.Height);
+			control.Location = new Point(origLoc.X + ((origSize.Width - w) / 2), origLoc.Y);
+			await Task.Delay(15);
+		}
+		for (int i = steps; i >= 0; i--)
+		{
+			float scale = 1.0f - ((float)i / steps);
+			int w = Math.Max(1, (int)(origSize.Width * scale));
+			control.Size = new Size(w, origSize.Height);
+			control.Location = new Point(origLoc.X + ((origSize.Width - w) / 2), origLoc.Y);
+			await Task.Delay(15);
+		}
+		control.Size = origSize;
+		control.Location = origLoc;
+	}
+
+	private async Task ApplyCameraShutterAsync(Control control)
+	{
+		int origHeight = control.Height;
+		Point origLoc = control.Location;
+		for (int h = origHeight; h >= 0; h -= 15)
+		{
+			control.Height = h;
+			control.Location = new Point(origLoc.X, origLoc.Y + ((origHeight - h) / 2));
+			await Task.Delay(10);
+		}
+		await Task.Delay(100);
+		for (int h = 0; h <= origHeight; h += 15)
+		{
+			control.Height = h;
+			control.Location = new Point(origLoc.X, origLoc.Y + ((origHeight - h) / 2));
+			await Task.Delay(10);
+		}
+		control.Height = origHeight;
+		control.Location = origLoc;
+	}
+
+	private async Task ApplyZigZagAsync(Control control)
+	{
+		Point origLoc = control.Location;
+		for (int i = 0; i < 4; i++)
+		{
+			control.Location = new Point(origLoc.X + 20, origLoc.Y - 20);
+			await Task.Delay(40);
+			control.Location = new Point(origLoc.X - 20, origLoc.Y + 20);
+			await Task.Delay(40);
+		}
+		control.Location = origLoc;
+	}
+
+	private async Task ApplyFadeToBlackAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image origImage = pb.Image;
+		for (float f = 1.0f; f >= 0.0f; f -= 0.1f)
+		{
+			Bitmap bmp = new(origImage.Width, origImage.Height);
+			using Graphics g = Graphics.FromImage(bmp);
+			ColorMatrix cm = new([
+				[f, 0, 0, 0, 0],
+				[0, f, 0, 0, 0],
+				[0, 0, f, 0, 0],
+				[0, 0, 0, 1, 0],
+				[0, 0, 0, 0, 1]
+			]);
+			using ImageAttributes attrs = new();
+			attrs.SetColorMatrix(cm);
+			g.DrawImage(origImage, new Rectangle(0, 0, bmp.Width, bmp.Height), 0, 0, origImage.Width, origImage.Height, GraphicsUnit.Pixel, attrs);
+			Image old = pb.Image;
+			pb.Image = bmp;
+			if (old != origImage)
+			{
+				old.Dispose();
+			}
+
+			await Task.Delay(30);
+		}
+		await Task.Delay(200);
+		for (float f = 0.0f; f <= 1.0f; f += 0.1f)
+		{
+			Bitmap bmp = new(origImage.Width, origImage.Height);
+			using Graphics g = Graphics.FromImage(bmp);
+			ColorMatrix cm = new([
+				[f, 0, 0, 0, 0],
+				[0, f, 0, 0, 0],
+				[0, 0, f, 0, 0],
+				[0, 0, 0, 1, 0],
+				[0, 0, 0, 0, 1]
+			]);
+			using ImageAttributes attrs = new();
+			attrs.SetColorMatrix(cm);
+			g.DrawImage(origImage, new Rectangle(0, 0, bmp.Width, bmp.Height), 0, 0, origImage.Width, origImage.Height, GraphicsUnit.Pixel, attrs);
+			Image old = pb.Image;
+			pb.Image = bmp;
+			if (old != origImage)
+			{
+				old.Dispose();
+			}
+
+			await Task.Delay(30);
+		}
+		Image last = pb.Image;
+		pb.Image = origImage;
+		if (last != origImage)
+		{
+			last.Dispose();
+		}
+	}
+
+	private async Task ApplyFallAndRotateAsync(Control control)
+	{
+		Point origLoc = control.Location;
+		for (int i = 0; i < 20; i++)
+		{
+			control.Location = new Point(origLoc.X + (i * 2), origLoc.Y + (i * i));
+			await Task.Delay(20);
+		}
+		control.Visible = false;
+		await Task.Delay(200);
+		control.Location = origLoc;
+		control.Visible = true;
+	}
+
+	private async Task ApplyFlyInRightAsync(Control control)
+	{
+		Point origLoc = control.Location;
+		control.Location = new Point(origLoc.X + 300, origLoc.Y);
+		control.Visible = false;
+		await Task.Delay(50);
+		control.Visible = true;
+		for (int x = control.Location.X; x >= origLoc.X; x -= 25)
+		{
+			control.Location = new Point(x, origLoc.Y);
+			await Task.Delay(10);
+		}
+		control.Location = origLoc;
+	}
+
+	private async Task ApplyAlarmAsync(PictureBox pb)
+	{
+		await Task.WhenAll(
+			ApplyHeavyShakeAsync(pb),
+			ApplyColorBlipAsync(pb, Color.Red, 5)
+		);
+	}
+
+	private async Task ApplyColorBlipAsync(Control c, Color bg, int times)
+	{
+		Color oldBg = c.BackColor;
+		for (int i = 0; i < times; i++)
+		{
+			c.BackColor = bg;
+			await Task.Delay(80);
+			c.BackColor = oldBg;
+			await Task.Delay(80);
+		}
+		c.BackColor = oldBg;
+	}
+
+	private void ApplyStripesEffect(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Bitmap bmp = new(pb.Image);
+		using Graphics g = Graphics.FromImage(bmp);
+		using Pen p = new(Color.Black, 1);
+		for (int y = 0; y < bmp.Height; y += 2)
+		{
+			g.DrawLine(p, 0, y, bmp.Width, y);
+		}
+		Image old = pb.Image;
+		pb.Image = bmp;
+		old.Dispose();
+	}
+
+	private void ApplyColorChannelSwap(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Bitmap bmp = new(pb.Image.Width, pb.Image.Height);
+		using Graphics g = Graphics.FromImage(bmp);
+		ColorMatrix cm = new([
+			[0, 1, 0, 0, 0],
+			[0, 0, 1, 0, 0],
+			[1, 0, 0, 0, 0],
+			[0, 0, 0, 1, 0],
+			[0, 0, 0, 0, 1]
+		]);
+		using ImageAttributes attrs = new();
+		attrs.SetColorMatrix(cm);
+		g.DrawImage(pb.Image, new Rectangle(0, 0, bmp.Width, bmp.Height), 0, 0, pb.Image.Width, pb.Image.Height, GraphicsUnit.Pixel, attrs);
+		Image old = pb.Image;
+		pb.Image = bmp;
+		old.Dispose();
+	}
+
+	private void ApplyExtremeContrast(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Bitmap bmp = new(pb.Image.Width, pb.Image.Height);
+		using Graphics g = Graphics.FromImage(bmp);
+		ColorMatrix cm = new([
+			[4.0f, 0, 0, 0, 0],
+			[0, 4.0f, 0, 0, 0],
+			[0, 0, 4.0f, 0, 0],
+			[0, 0, 0, 1, 0],
+			[-1.5f, -1.5f, -1.5f, 0, 1]
+		]);
+		using ImageAttributes attrs = new();
+		attrs.SetColorMatrix(cm);
+		g.DrawImage(pb.Image, new Rectangle(0, 0, bmp.Width, bmp.Height), 0, 0, pb.Image.Width, pb.Image.Height, GraphicsUnit.Pixel, attrs);
+		Image old = pb.Image;
+		pb.Image = bmp;
+		old.Dispose();
+	}
+
+	private async Task ApplySkewFakeAsync(Control control)
+	{
+		Point origLoc = control.Location;
+		for (int i = 0; i < 15; i++)
+		{
+			control.Location = new Point(origLoc.X + (i * 2), origLoc.Y);
+			await Task.Delay(10);
+		}
+		for (int i = 15; i >= -15; i--)
+		{
+			control.Location = new Point(origLoc.X + (i * 2), origLoc.Y);
+			await Task.Delay(10);
+		}
+		for (int i = -15; i <= 0; i++)
+		{
+			control.Location = new Point(origLoc.X + (i * 2), origLoc.Y);
+			await Task.Delay(10);
+		}
+		control.Location = origLoc;
+	}
+
+	private async Task ApplyElasticWidthAsync(Control control)
+	{
+		Size origSize = control.Size;
+		int expand = 50;
+		for (int i = 0; i < expand; i += 5)
+		{
+			control.Width = origSize.Width + i;
+			await Task.Delay(10);
+		}
+		for (int i = expand; i >= -20; i -= 5)
+		{
+			control.Width = origSize.Width + i;
+			await Task.Delay(10);
+		}
+		control.Width = origSize.Width;
+	}
+
+	private async Task ApplyElasticHeightAsync(Control control)
+	{
+		Size origSize = control.Size;
+		int expand = 50;
+		for (int i = 0; i < expand; i += 5)
+		{
+			control.Height = origSize.Height + i;
+			await Task.Delay(10);
+		}
+		for (int i = expand; i >= -20; i -= 5)
+		{
+			control.Height = origSize.Height + i;
+			await Task.Delay(10);
+		}
+		control.Height = origSize.Height;
+	}
+
+	private async Task ApplyWindSwayAsync(Control control)
+	{
+		Point origLoc = control.Location;
+		for (int i = 0; i < 360; i += 20)
+		{
+			int off = (int)(Math.Sin(i * Math.PI / 180.0) * 15);
+			control.Location = new Point(origLoc.X + off, origLoc.Y);
+			await Task.Delay(20);
+		}
+		control.Location = origLoc;
+	}
+
+	private async Task ApplyTickTockAsync(Control control)
+	{
+		Point origLoc = control.Location;
+		control.Location = new Point(origLoc.X - 10, origLoc.Y);
+		await Task.Delay(200);
+		control.Location = new Point(origLoc.X + 10, origLoc.Y);
+		await Task.Delay(200);
+		control.Location = new Point(origLoc.X - 10, origLoc.Y);
+		await Task.Delay(200);
+		control.Location = origLoc;
+	}
+
+	private async Task ApplyHeavyShakeAsync(Control control)
+	{
+		Point origLoc = control.Location;
+		Random rnd = new();
+		for (int i = 0; i < 20; i++)
+		{
+			control.Location = new Point(origLoc.X + rnd.Next(-10, 11), origLoc.Y + rnd.Next(-10, 11));
+			await Task.Delay(15);
+		}
+		control.Location = origLoc;
+	}
+
+	private async Task ApplyBlowUpAsync(Control control)
+	{
+		Size origSize = control.Size;
+		Point origLoc = control.Location;
+		for (int i = 0; i < 30; i += 3)
+		{
+			control.Size = new Size(origSize.Width + i, origSize.Height + i);
+			control.Location = new Point(origLoc.X - (i / 2), origLoc.Y - (i / 2));
+			await Task.Delay(15);
+		}
+		await Task.Delay(100);
+		control.Size = origSize;
+		control.Location = origLoc;
+	}
+
+	private async Task ApplyImplodeAsync(Control control)
+	{
+		Size origSize = control.Size;
+		Point origLoc = control.Location;
+		for (int i = 0; i < Math.Min(origSize.Width, origSize.Height) - 10; i += 8)
+		{
+			control.Size = new Size(origSize.Width - i, origSize.Height - i);
+			control.Location = new Point(origLoc.X + (i / 2), origLoc.Y + (i / 2));
+			await Task.Delay(15);
+		}
+		control.Size = origSize;
+		control.Location = origLoc;
+	}
+
+	private async Task ApplyEraserNoiseAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		Bitmap bmp = new(orig);
+		Random rnd = new();
+		using Graphics g = Graphics.FromImage(bmp);
+		for (int i = 0; i < 100; i++)
+		{
+			int w = rnd.Next(10, 30);
+			int h = rnd.Next(10, 30);
+			int x = rnd.Next(bmp.Width);
+			int y = rnd.Next(bmp.Height);
+			g.FillRectangle(Brushes.Transparent, x, y, w, h);
+			pb.Image = bmp;
+			await Task.Delay(10);
+		}
+		await Task.Delay(400);
+		pb.Image = orig;
+		bmp.Dispose();
+	}
+
+	private void ApplyRgbSplitGlitch(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Bitmap bmp = new(pb.Image.Width, pb.Image.Height);
+		using Graphics g = Graphics.FromImage(bmp);
+
+		ColorMatrix redMatrix = new([
+			[1, 0, 0, 0, 0],
+			[0, 0, 0, 0, 0],
+			[0, 0, 0, 0, 0],
+			[0, 0, 0, 1, 0],
+			[0, 0, 0, 0, 1]
+		]);
+		ColorMatrix gbMatrix = new([
+			[0, 0, 0, 0, 0],
+			[0, 1, 0, 0, 0],
+			[0, 0, 1, 0, 0],
+			[0, 0, 0, 0.5f, 0],
+			[0, 0, 0, 0, 1]
+		]);
+
+		using ImageAttributes atrRed = new();
+		atrRed.SetColorMatrix(redMatrix);
+		using ImageAttributes atrGb = new();
+		atrGb.SetColorMatrix(gbMatrix);
+
+		g.DrawImage(pb.Image, new Rectangle(-5, 5, bmp.Width, bmp.Height), 0, 0, pb.Image.Width, pb.Image.Height, GraphicsUnit.Pixel, atrRed);
+		g.DrawImage(pb.Image, new Rectangle(5, -5, bmp.Width, bmp.Height), 0, 0, pb.Image.Width, pb.Image.Height, GraphicsUnit.Pixel, atrGb);
+
+		Image old = pb.Image;
+		pb.Image = bmp;
+		old.Dispose();
+	}
+
+	private async Task ApplySpiralVanishAsync(Control control)
+	{
+		Size origSize = control.Size;
+		Point origLoc = control.Location;
+		int cx = origLoc.X + (origSize.Width / 2);
+		int cy = origLoc.Y + (origSize.Height / 2);
+
+		for (int i = 0; i < 360; i += 15)
+		{
+			double rad = i * Math.PI / 180.0;
+			float scale = Math.Max(0, 1.0f - (i / 360f));
+			int w = Math.Max(1, (int)(origSize.Width * scale));
+			int h = Math.Max(1, (int)(origSize.Height * scale));
+			int xOff = (int)(Math.Sin(rad) * 20 * scale);
+			int yOff = (int)(Math.Cos(rad) * 20 * scale);
+
+			control.Size = new Size(w, h);
+			control.Location = new Point(cx - (w / 2) + xOff, cy - (h / 2) + yOff);
+			await Task.Delay(15);
+		}
+
+		control.Size = origSize;
+		control.Location = origLoc;
+	}
+
+	private async Task ApplyShadowGlitchAsync(Control control)
+	{
+		Point origLoc = control.Location;
+		Color origBg = control.BackColor;
+		for (int i = 0; i < 8; i++)
+		{
+			control.Location = new Point(origLoc.X + (i * 2), origLoc.Y + (i * 2));
+			control.BackColor = Color.FromArgb(50, Color.Gray);
+			await Task.Delay(40);
+		}
+		control.Location = origLoc;
+		control.BackColor = origBg;
+	}
+
+	private void ApplyGoldTintEffect(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Bitmap bmp = new(pb.Image.Width, pb.Image.Height);
+		using Graphics g = Graphics.FromImage(bmp);
+		ColorMatrix cm = new([
+			[1.2f, 0, 0, 0, 0],
+			[0, 1.1f, 0, 0, 0],
+			[0, 0, 0.4f, 0, 0],
+			[0, 0, 0, 1, 0],
+			[0, 0, 0, 0, 1]
+		]);
+		using ImageAttributes attrs = new();
+		attrs.SetColorMatrix(cm);
+		g.DrawImage(pb.Image, new Rectangle(0, 0, bmp.Width, bmp.Height), 0, 0, pb.Image.Width, pb.Image.Height, GraphicsUnit.Pixel, attrs);
+		Image old = pb.Image;
+		pb.Image = bmp;
+		old.Dispose();
+	}
+
+	private void ApplyXRayEffect(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Bitmap bmp = new(pb.Image.Width, pb.Image.Height);
+		using Graphics g = Graphics.FromImage(bmp);
+		ColorMatrix cm = new([
+			[-0.5f, 0, 0, 0, 0],
+			[0, -0.5f, 0, 0, 0],
+			[0, 0, -1.0f, 0, 0],
+			[0, 0, 0, 1, 0],
+			[1, 1, 1, 0, 1]
+		]);
+		using ImageAttributes attrs = new();
+		attrs.SetColorMatrix(cm);
+		g.DrawImage(pb.Image, new Rectangle(0, 0, bmp.Width, bmp.Height), 0, 0, pb.Image.Width, pb.Image.Height, GraphicsUnit.Pixel, attrs);
+		Image old = pb.Image;
+		pb.Image = bmp;
+		old.Dispose();
+	}
+
+	private void ApplyThermalVisionEffect(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Bitmap bmp = new(pb.Image.Width, pb.Image.Height);
+		using Graphics g = Graphics.FromImage(bmp);
+		ColorMatrix cm = new([
+			[1.5f, 0, 0, 0, 0],
+			[0, 0.5f, 0, 0, 0],
+			[0, 0, -0.5f, 0, 0],
+			[0, 0, 0, 1, 0],
+			[0, 0, 0.3f, 0, 1]
+		]);
+		using ImageAttributes attrs = new();
+		attrs.SetColorMatrix(cm);
+		g.DrawImage(pb.Image, new Rectangle(0, 0, bmp.Width, bmp.Height), 0, 0, pb.Image.Width, pb.Image.Height, GraphicsUnit.Pixel, attrs);
+		Image old = pb.Image;
+		pb.Image = bmp;
+		old.Dispose();
+	}
+
+	private void ApplyOverexposeGlow(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Bitmap bmp = new(pb.Image.Width, pb.Image.Height);
+		using Graphics g = Graphics.FromImage(bmp);
+		ColorMatrix cm = new([
+			[1.0f, 0, 0, 0, 0],
+			[0, 1.0f, 0, 0, 0],
+			[0, 0, 1.0f, 0, 0],
+			[0, 0, 0, 1, 0],
+			[0.5f, 0.5f, 0.5f, 0, 1]
+		]);
+		using ImageAttributes attrs = new();
+		attrs.SetColorMatrix(cm);
+		g.DrawImage(pb.Image, new Rectangle(0, 0, bmp.Width, bmp.Height), 0, 0, pb.Image.Width, pb.Image.Height, GraphicsUnit.Pixel, attrs);
+		Image old = pb.Image;
+		pb.Image = bmp;
+		old.Dispose();
+	}
+
+	private async Task ApplyFastHeartbeatAsync(Control control)
+	{
+		Size origSize = control.Size;
+		Point origLoc = control.Location;
+		for (int i = 0; i < 5; i++)
+		{
+			control.Size = new Size(origSize.Width + 10, origSize.Height + 10);
+			control.Location = new Point(origLoc.X - 5, origLoc.Y - 5);
+			await Task.Delay(40);
+			control.Size = origSize;
+			control.Location = origLoc;
+			await Task.Delay(40);
+			control.Size = new Size(origSize.Width + 20, origSize.Height + 20);
+			control.Location = new Point(origLoc.X - 10, origLoc.Y - 10);
+			await Task.Delay(50);
+			control.Size = origSize;
+			control.Location = origLoc;
+			await Task.Delay(150);
+		}
+	}
+
+	private async Task ApplyConfettiEffectAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		Bitmap bmp = new(orig);
+		Random rnd = new();
+		using Graphics g = Graphics.FromImage(bmp);
+		Brush[] brushes = [Brushes.Red, Brushes.Lime, Brushes.Blue, Brushes.Yellow, Brushes.Magenta, Brushes.Cyan];
+
+		for (int i = 0; i < 15; i++)
+		{
+			for (int c = 0; c < 20; c++)
+			{
+				int x = rnd.Next(bmp.Width);
+				int y = rnd.Next(bmp.Height);
+				int s = rnd.Next(3, 8);
+				g.FillRectangle(brushes[rnd.Next(brushes.Length)], x, y, s, s);
+			}
+			pb.Image = bmp;
+			await Task.Delay(30);
+		}
+
+		await Task.Delay(300);
+		pb.Image = orig;
+		bmp.Dispose();
+	}
+
+	private async Task ApplySmoothHoverAsync(Control control)
+	{
+		Point origLoc = control.Location;
+		for (int i = 0; i <= 360; i += 10)
+		{
+			double rad = i * Math.PI / 180.0;
+			int yOff = (int)(Math.Sin(rad) * 15);
+			control.Location = new Point(origLoc.X, origLoc.Y + yOff);
+			await Task.Delay(20);
+		}
+		control.Location = origLoc;
+	}
+
+	private void ApplyCloneTripletsEffect(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Bitmap bmp = new(pb.Image.Width, pb.Image.Height);
+		using Graphics g = Graphics.FromImage(bmp);
+		ColorMatrix cm1 = new() { Matrix33 = 0.5f };
+		using ImageAttributes attr = new();
+		attr.SetColorMatrix(cm1);
+
+		g.DrawImage(pb.Image, new Rectangle(-20, 0, pb.Image.Width, pb.Image.Height), 0, 0, pb.Image.Width, pb.Image.Height, GraphicsUnit.Pixel, attr);
+		g.DrawImage(pb.Image, new Rectangle(0, 0, pb.Image.Width, pb.Image.Height));
+		g.DrawImage(pb.Image, new Rectangle(20, 0, pb.Image.Width, pb.Image.Height), 0, 0, pb.Image.Width, pb.Image.Height, GraphicsUnit.Pixel, attr);
+
+		Image old = pb.Image;
+		pb.Image = bmp;
+		old.Dispose();
+	}
+
+	private void Apply8BitColorEffect(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Bitmap bmp = new(pb.Image);
+		for (int y = 0; y < bmp.Height; y++)
+		{
+			for (int x = 0; x < bmp.Width; x++)
+			{
+				Color c = bmp.GetPixel(x, y);
+				int r = c.R < 128 ? 0 : 255;
+				int g = c.G < 128 ? 0 : 255;
+				int b = c.B < 128 ? 0 : 255;
+				bmp.SetPixel(x, y, Color.FromArgb(c.A, r, g, b));
+			}
+		}
+		Image old = pb.Image;
+		pb.Image = bmp;
+		old.Dispose();
+	}
+
+	private async Task ApplyGhostDropAsync(PictureBox pb)
+	{
+		Size origSize = pb.Size;
+		Point origLoc = pb.Location;
+		for (int i = 0; i < 15; i++)
+		{
+			int exp = i * 3;
+			pb.Size = new Size(origSize.Width + exp, origSize.Height + exp);
+			pb.Location = new Point(origLoc.X - (exp / 2), origLoc.Y + (i * 5));
+			pb.Image = SetImageOpacity(pb.Image!, Math.Max(0, 1.0f - (i / 15f)));
+			await Task.Delay(25);
+		}
+		pb.Visible = false;
+		await Task.Delay(200);
+		pb.Size = origSize;
+		pb.Location = origLoc;
+		pb.Visible = true;
+		AppInfoForm_Load(this, EventArgs.Empty);
+	}
+
+	private async Task ApplyMatrixRainAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		Bitmap bmp = new(orig);
+		using Graphics g = Graphics.FromImage(bmp);
+		Random rnd = new();
+		using SolidBrush greenBrush = new(Color.FromArgb(150, 0, 255, 0));
+
+		for (int f = 0; f < 15; f++)
+		{
+			g.DrawImage(orig, 0, 0);
+			for (int l = 0; l < 20; l++)
+			{
+				int x = rnd.Next(bmp.Width);
+				int y = rnd.Next(bmp.Height);
+				g.FillRectangle(greenBrush, x, y, 4, rnd.Next(10, 40));
+			}
+			pb.Image = bmp;
+			await Task.Delay(30);
+		}
+		pb.Image = orig;
+		bmp.Dispose();
+	}
+
+	private async Task ApplyCrushPaperAsync(Control control)
+	{
+		Size origSize = control.Size;
+		Point origLoc = control.Location;
+		Random rnd = new();
+
+		for (int i = 1; i < 15; i++)
+		{
+			int squishX = i * 4;
+			int squishY = i * 3;
+			control.Size = new Size(origSize.Width - squishX, origSize.Height - squishY);
+			control.Location = new Point(
+				origLoc.X + (squishX / 2) + rnd.Next(-5, 6),
+				origLoc.Y + (squishY / 2) + rnd.Next(-5, 6)
+			);
+			await Task.Delay(20);
+		}
+		await Task.Delay(100);
+		control.Size = origSize;
+		control.Location = origLoc;
+	}
+
+	private async Task ApplyBWPulseAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		for (int i = 0; i < 3; i++)
+		{
+			ApplyGrayscaleEffect(pb);
+			await ApplyPulseEffectAsync(pb);
+
+			Image old = pb.Image;
+			pb.Image = new Bitmap(orig);
+			if (old != orig)
+			{
+				old.Dispose();
+			}
+
+			await Task.Delay(100);
+		}
+		pb.Image = orig;
+	}
+
+	private void ApplyFakeDenoiseEffect(PictureBox pb)
+	{
+		// just blur slightly to fake a denoise
+		ApplyBlurEffect(pb);
+	}
+
+	private async Task ApplyShakeAndBlurAsync(PictureBox pb)
+	{
+		Image orig = pb.Image!;
+		ApplyBlurEffect(pb);
+		await ApplyEarthquakeAsync(pb);
+		Image old = pb.Image!;
+		pb.Image = orig;
+		if (old != orig)
+		{
+			old.Dispose();
+		}
+	}
+
+	private void ApplyRainbowShadows(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Bitmap bmp = new(pb.Image.Width, pb.Image.Height);
+		using Graphics g = Graphics.FromImage(bmp);
+		ColorMatrix alphaMatrix = new() { Matrix33 = 0.3f };
+		using ImageAttributes attr = new();
+		attr.SetColorMatrix(alphaMatrix);
+
+		// R, G, B offsets
+		g.DrawImage(pb.Image, new Rectangle(-5, -5, pb.Image.Width, pb.Image.Height), 0, 0, pb.Image.Width, pb.Image.Height, GraphicsUnit.Pixel, attr);
+		g.DrawImage(pb.Image, new Rectangle(5, 5, pb.Image.Width, pb.Image.Height), 0, 0, pb.Image.Width, pb.Image.Height, GraphicsUnit.Pixel, attr);
+		g.DrawImage(pb.Image, new Rectangle(0, 0, pb.Image.Width, pb.Image.Height));
+
+		Image old = pb.Image;
+		pb.Image = bmp;
+		old.Dispose();
+	}
+
+	private async Task ApplySpiralOutAsync(Control control)
+	{
+		Point origLoc = control.Location;
+		int cx = origLoc.X;
+		int cy = origLoc.Y;
+
+		for (int i = 0; i < 500; i += 25)
+		{
+			double rad = i * Math.PI / 180.0;
+			int r = i / 10;
+			control.Location = new Point(cx + (int)(Math.Cos(rad) * r), cy + (int)(Math.Sin(rad) * r));
+			await Task.Delay(15);
+		}
+		control.Location = origLoc;
+	}
+
+	private void ApplySilhouetteEffect(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Bitmap bmp = new(pb.Image.Width, pb.Image.Height);
+		using Graphics g = Graphics.FromImage(bmp);
+		ColorMatrix cm = new([
+			[0, 0, 0, 0, 0],
+			[0, 0, 0, 0, 0],
+			[0, 0, 0, 0, 0],
+			[0, 0, 0, 1, 0],
+			[0, 0, 0, 0, 1]
+		]);
+		using ImageAttributes attr = new();
+		attr.SetColorMatrix(cm);
+		g.DrawImage(pb.Image, new Rectangle(0, 0, bmp.Width, bmp.Height), 0, 0, pb.Image.Width, pb.Image.Height, GraphicsUnit.Pixel, attr);
+		Image old = pb.Image;
+		pb.Image = bmp;
+		old.Dispose();
+	}
+
+	private async Task ApplyLaserStrikeAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		Bitmap bmp = new(orig);
+		using Graphics g = Graphics.FromImage(bmp);
+		using Pen laser = new(Color.White, 4);
+
+		for (int y = 0; y < bmp.Height; y += 10)
+		{
+			g.DrawImage(orig, 0, 0);
+			g.DrawLine(laser, 0, y, bmp.Width, y);
+			pb.Image = bmp;
+			await Task.Delay(15);
+		}
+		pb.Image = orig;
+		bmp.Dispose();
+	}
+
+	private async Task ApplyTvTurnOffAsync(Control control)
+	{
+		Size origSize = control.Size;
+		Point origLoc = control.Location;
+
+		// Squeeze vertical
+		for (int h = origSize.Height; h > 2; h -= 10)
+		{
+			control.Height = h;
+			control.Location = new Point(origLoc.X, origLoc.Y + ((origSize.Height - h) / 2));
+			await Task.Delay(10);
+		}
+
+		// Squeeze horizontal
+		for (int w = origSize.Width; w > 0; w -= 20)
+		{
+			control.Width = w;
+			control.Location = new Point(origLoc.X + ((origSize.Width - w) / 2), control.Location.Y);
+			await Task.Delay(10);
+		}
+
+		control.Visible = false;
+		await Task.Delay(400);
+
+		control.Size = origSize;
+		control.Location = origLoc;
+		control.Visible = true;
+	}
+
+	private async Task ApplyRubberBandVerticalAsync(Control control)
+	{
+		Point origLoc = control.Location;
+		for (int i = 1; i <= 20; i += 2)
+		{
+			control.Location = new Point(origLoc.X, origLoc.Y - i);
+			await Task.Delay(10);
+		}
+		control.Location = new Point(origLoc.X, origLoc.Y + 15);
+		await Task.Delay(20);
+		control.Location = new Point(origLoc.X, origLoc.Y - 5);
+		await Task.Delay(20);
+		control.Location = origLoc;
+	}
+
+	private async Task ApplyRollUpAsync(Control control)
+	{
+		int origH = control.Height;
+		Point origL = control.Location;
+
+		for (int i = origH; i >= 0; i -= 8)
+		{
+			control.Height = i;
+			await Task.Delay(15);
+		}
+		control.Height = origH;
+		control.Location = origL;
+	}
+
+	private async Task ApplyHeartbeatWithColorChangeAsync(PictureBox pb)
+	{
+		ApplyRedTintEffect(pb);
+		await ApplyFastHeartbeatAsync(pb);
+		// Reset colors via Load logic, simpliest way
+		AppInfoForm_Load(this, EventArgs.Empty);
+	}
+
+	private async Task ApplySepiaEarthquakeAsync(PictureBox pb)
+	{
+		ApplySepiaEffect(pb);
+		await ApplyEarthquakeAsync(pb);
+		AppInfoForm_Load(this, EventArgs.Empty);
+	}
+
+	private async Task ApplyGlitchFadeLoopAsync(PictureBox pb)
+	{
+		for (int i = 0; i < 3; i++)
+		{
+			await ApplyGlitchEffectAsync(pb);
+			await ApplyFadeEffectAsync(pb);
+		}
+	}
+
+	private async Task ApplyHypnoSpinAsync(Control control)
+	{
+		Point origLoc = control.Location;
+		Size origSize = control.Size;
+		int cx = origLoc.X + (origSize.Width / 2);
+		int cy = origLoc.Y + (origSize.Height / 2);
+
+		for (int i = 0; i < 720; i += 30) // Fast 2 spins
+		{
+			double rad = i * Math.PI / 180.0;
+			int xOff = (int)(Math.Sin(rad) * 10);
+			int yOff = (int)(Math.Cos(rad) * 10);
+			control.Location = new Point(origLoc.X + xOff, origLoc.Y + yOff);
+			control.BackColor = i / 30 % 2 == 0 ? Color.Cyan : Color.Magenta;
+			await Task.Delay(20);
+		}
+		control.Location = origLoc;
+		control.BackColor = Color.Transparent;
+	}
+
+	private async Task ApplyMagicCarpetAsync(Control control)
+	{
+		Point origLoc = control.Location;
+		for (int i = 0; i < 720; i += 15)
+		{
+			double rad = i * Math.PI / 180.0;
+			int xOff = (int)(Math.Sin(rad * 2) * 20);
+			int yOff = (int)(Math.Cos(rad) * 15);
+			control.Location = new Point(origLoc.X + xOff, origLoc.Y + yOff);
+			await Task.Delay(20);
+		}
+		control.Location = origLoc;
+	}
+
+	private async Task ApplyBreathingAsync(Control control)
+	{
+		Size origSize = control.Size;
+		Point origLoc = control.Location;
+
+		for (int cycle = 0; cycle < 3; cycle++)
+		{
+			// Einatmen (Vergrößern)
+			for (int i = 0; i < 15; i++)
+			{
+				control.Size = new Size(origSize.Width + (i * 2), origSize.Height + (i * 2));
+				control.Location = new Point(origLoc.X - i, origLoc.Y - i);
+				await Task.Delay(30);
+			}
+
+			// Ausatmen (Verkleinern)
+			for (int i = 15; i >= 0; i--)
+			{
+				control.Size = new Size(origSize.Width + (i * 2), origSize.Height + (i * 2));
+				control.Location = new Point(origLoc.X - i, origLoc.Y - i);
+				await Task.Delay(30);
+			}
+		}
+
+		control.Size = origSize;
+		control.Location = origLoc;
+	}
+
+	private async Task ApplyRadarSweepAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		Bitmap bmp = new(orig);
+		using Graphics g = Graphics.FromImage(bmp);
+		using SolidBrush radarBrush = new(Color.FromArgb(100, 0, 255, 0));
+
+		for (int i = 0; i < bmp.Width; i += 10)
+		{
+			g.DrawImage(orig, 0, 0);
+			g.FillRectangle(radarBrush, i, 0, 20, bmp.Height);
+			pb.Image = bmp;
+			await Task.Delay(30);
+		}
+
+		pb.Image = orig;
+		bmp.Dispose();
+	}
+
+	private async Task ApplyVhsFastForwardAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		Random rnd = new();
+
+		for (int i = 0; i < 30; i++)
+		{
+			Bitmap bmp = new(orig);
+			using Graphics g = Graphics.FromImage(bmp);
+
+			// Horizontale Verschiebung
+			int offset = rnd.Next(-30, 30);
+			g.DrawImage(orig, new Rectangle(offset, 0, bmp.Width, bmp.Height), new Rectangle(0, 0, bmp.Width, bmp.Height), GraphicsUnit.Pixel);
+
+			// Rausch-Linien
+			using Pen noisePen = new(Color.FromArgb(150, 255, 255, 255), 2);
+			for (int lines = 0; lines < 5; lines++)
+			{
+				int y = rnd.Next(bmp.Height);
+				g.DrawLine(noisePen, 0, y, bmp.Width, y);
+			}
+
+			pb.Image = bmp;
+			await Task.Delay(30);
+		}
+
+		pb.Image = orig;
+	}
+
+	private async Task ApplyCrumbleAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		Bitmap current = new(orig);
+		Random rnd = new();
+
+		for (int i = 0; i < 20; i++)
+		{
+			Bitmap next = new(current.Width, current.Height);
+			using Graphics g = Graphics.FromImage(next);
+			g.Clear(Color.Transparent);
+
+			// Bild in vertikalen Streifen zerteilen und nach unten fallen lassen
+			for (int x = 0; x < current.Width; x += 10)
+			{
+				int drop = rnd.Next(5, 20);
+				g.DrawImage(current, new Rectangle(x, drop, 10, current.Height), new Rectangle(x, 0, 10, current.Height), GraphicsUnit.Pixel);
+			}
+
+			pb.Image = next;
+			current.Dispose();
+			current = next;
+
+			await Task.Delay(40);
+		}
+
+		await Task.Delay(200);
+		pb.Image = orig;
+		current.Dispose();
+	}
+
+	private async Task ApplyNeonBorderGlowAsync(Control control)
+	{
+		Color[] glowColors = [Color.Cyan, Color.Magenta, Color.Lime, Color.Yellow, Color.Red];
+
+		for (int i = 0; i < glowColors.Length * 2; i++)
+		{
+			Color c = glowColors[i % glowColors.Length];
+			control.BackColor = Color.FromArgb(100, c);
+			control.Padding = new Padding(3);
+			await Task.Delay(100);
+		}
+
+		control.BackColor = Color.Transparent;
+		control.Padding = new Padding(0);
+	}
+
+	private async Task ApplyVerticalScannerAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		Bitmap bmp = new(orig);
+		using Graphics g = Graphics.FromImage(bmp);
+		using Pen scanPen = new(Color.FromArgb(200, 255, 0, 0), 4);
+
+		for (int y = 0; y < bmp.Height; y += 8)
+		{
+			g.DrawImage(orig, 0, 0);
+			g.DrawLine(scanPen, 0, y, bmp.Width, y);
+			pb.Image = bmp;
+			await Task.Delay(20);
+		}
+
+		for (int y = bmp.Height; y >= 0; y -= 8)
+		{
+			g.DrawImage(orig, 0, 0);
+			g.DrawLine(scanPen, 0, y, bmp.Width, y);
+			pb.Image = bmp;
+			await Task.Delay(20);
+		}
+
+		pb.Image = orig;
+		bmp.Dispose();
+	}
+
+	private void ApplyColorExplosion(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Bitmap bmp = new(pb.Image.Width, pb.Image.Height);
+		using Graphics g = Graphics.FromImage(bmp);
+		Random rnd = new();
+
+		float r = (float)((rnd.NextDouble() * 2) + 0.5);
+		float gCh = (float)((rnd.NextDouble() * 2) + 0.5);
+		float b = (float)((rnd.NextDouble() * 2) + 0.5);
+
+		ColorMatrix cm = new([
+			[r, 0, 0, 0, 0],
+			[0, gCh, 0, 0, 0],
+			[0, 0, b, 0, 0],
+			[0, 0, 0, 1, 0],
+			[0, 0, 0, 0, 1]
+		]);
+		using ImageAttributes attrs = new();
+		attrs.SetColorMatrix(cm);
+		g.DrawImage(pb.Image, new Rectangle(0, 0, bmp.Width, bmp.Height), 0, 0, pb.Image.Width, pb.Image.Height, GraphicsUnit.Pixel, attrs);
+
+		Image old = pb.Image;
+		pb.Image = bmp;
+		old.Dispose();
+	}
+
+	private async Task ApplyPopAndFlyOutAsync(Control control)
+	{
+		Size origSize = control.Size;
+		Point origLoc = control.Location;
+
+		// Pop in
+		for (int i = 0; i < 15; i += 3)
+		{
+			control.Size = new Size(origSize.Width + (i * 2), origSize.Height + (i * 2));
+			control.Location = new Point(origLoc.X - i, origLoc.Y - i);
+			await Task.Delay(15);
+		}
+
+		// Fly out up
+		for (int i = 0; i < 30; i++)
+		{
+			control.Location = new Point(control.Location.X, control.Location.Y - (i * 2));
+			await Task.Delay(15);
+		}
+
+		control.Visible = false;
+		await Task.Delay(300);
+
+		control.Size = origSize;
+		control.Location = origLoc;
+		control.Visible = true;
+	}
+
+	private async Task ApplyMagneticPullAsync(Control control)
+	{
+		Point origLoc = control.Location;
+		int centerX = origLoc.X;
+		int centerY = origLoc.Y;
+
+		// Simulate pulling top-left corner
+		for (int i = 0; i < 20; i++)
+		{
+			control.Location = new Point(centerX - (i * 2), centerY - i);
+			await Task.Delay(20);
+		}
+
+		// Snap back
+		control.Location = origLoc;
+		await Task.Delay(50);
+
+		// Simulate pulling bottom-right corner
+		for (int i = 0; i < 20; i++)
+		{
+			control.Location = new Point(centerX + (i * 2), centerY + i);
+			await Task.Delay(20);
+		}
+
+		control.Location = origLoc;
+	}
+
+	private async Task ApplyCircleDanceAsync(Control control)
+	{
+		Point origLoc = control.Location;
+		int radius = 30;
+		int cx = origLoc.X;
+		int cy = origLoc.Y - radius;
+
+		for (int i = 90; i <= 360 + 90; i += 15)
+		{
+			double rad = i * Math.PI / 180.0;
+			int x = cx + (int)(Math.Cos(rad) * radius);
+			int y = cy + (int)(Math.Sin(rad) * radius);
+			control.Location = new Point(x, y);
+			await Task.Delay(20);
+		}
+
+		control.Location = origLoc;
+	}
+
+	private async Task ApplySlideShowTransitionAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		Bitmap current = new(orig);
+
+		// Slide to left, fade to blank
+		for (int x = 0; x <= pb.Width; x += 15)
+		{
+			Bitmap bmp = new(pb.Width, pb.Height);
+			using Graphics g = Graphics.FromImage(bmp);
+			g.Clear(Color.Transparent);
+			g.DrawImage(orig, new Rectangle(-x, 0, pb.Width, pb.Height), new Rectangle(0, 0, pb.Width, pb.Height), GraphicsUnit.Pixel);
+
+			pb.Image = bmp;
+			await Task.Delay(20);
+		}
+
+		await Task.Delay(100);
+
+		// Slide from right
+		for (int x = pb.Width; x >= 0; x -= 15)
+		{
+			Bitmap bmp = new(pb.Width, pb.Height);
+			using Graphics g = Graphics.FromImage(bmp);
+			g.Clear(Color.Transparent);
+			g.DrawImage(orig, new Rectangle(x, 0, pb.Width, pb.Height), new Rectangle(0, 0, pb.Width, pb.Height), GraphicsUnit.Pixel);
+
+			pb.Image = bmp;
+			await Task.Delay(20);
+		}
+
+		pb.Image = orig;
+		current.Dispose();
+	}
+
+	private async Task ApplyWaterDropAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+
+		for (int scale = 0; scale <= 20; scale += 2)
+		{
+			Bitmap bmp = new(orig.Width, orig.Height);
+			using Graphics g = Graphics.FromImage(bmp);
+			g.Clear(Color.Transparent);
+
+			// Draw borders slightly scaled up to simulate ripple distortion
+			Rectangle destRect = new(-scale, -scale, orig.Width + (scale * 2), orig.Height + (scale * 2));
+			g.DrawImage(orig, destRect);
+
+			pb.Image = bmp;
+			await Task.Delay(30);
+		}
+
+		for (int scale = 20; scale >= 0; scale -= 2)
+		{
+			Bitmap bmp = new(orig.Width, orig.Height);
+			using Graphics g = Graphics.FromImage(bmp);
+			g.Clear(Color.Transparent);
+
+			Rectangle destRect = new(-scale, -scale, orig.Width + (scale * 2), orig.Height + (scale * 2));
+			g.DrawImage(orig, destRect);
+
+			pb.Image = bmp;
+			await Task.Delay(30);
+		}
+
+		pb.Image = orig;
+	}
+
+	private async Task ApplyColdToWarmAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+
+		for (float f = 0.0f; f <= 1.0f; f += 0.1f)
+		{
+			Bitmap bmp = new(orig.Width, orig.Height);
+			using Graphics g = Graphics.FromImage(bmp);
+			ColorMatrix cm = new([
+				[1.0f + (f*0.3f), 0, 0, 0, 0],
+				[0, 1.0f, 0, 0, 0],
+				[0, 0, 1.0f - (f*0.3f), 0, 0],
+				[0, 0, 0, 1, 0],
+				[0, 0, 0, 0, 1]
+			]);
+			using ImageAttributes attrs = new();
+			attrs.SetColorMatrix(cm);
+			g.DrawImage(orig, new Rectangle(0, 0, bmp.Width, bmp.Height), 0, 0, orig.Width, orig.Height, GraphicsUnit.Pixel, attrs);
+			pb.Image = bmp;
+			await Task.Delay(40);
+		}
+
+		await Task.Delay(500);
+
+		// Revert
+		pb.Image = orig;
+	}
+
+	private async Task ApplyWarmToColdAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+
+		for (float f = 0.0f; f <= 1.0f; f += 0.1f)
+		{
+			Bitmap bmp = new(orig.Width, orig.Height);
+			using Graphics g = Graphics.FromImage(bmp);
+			ColorMatrix cm = new([
+				[1.0f - (f*0.3f), 0, 0, 0, 0],
+				[0, 1.0f, 0, 0, 0],
+				[1.0f + (f*0.5f), 0, 1.0f + (f*0.5f), 0, 0], // more blue push
+				[0, 0, 0, 1, 0],
+				[0, 0, 0, 0, 1]
+			]);
+			using ImageAttributes attrs = new();
+			attrs.SetColorMatrix(cm);
+			g.DrawImage(orig, new Rectangle(0, 0, bmp.Width, bmp.Height), 0, 0, orig.Width, orig.Height, GraphicsUnit.Pixel, attrs);
+			pb.Image = bmp;
+			await Task.Delay(40);
+		}
+
+		await Task.Delay(500);
+		pb.Image = orig;
+	}
+
+	private async Task ApplyShredderAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		Bitmap current = new(orig);
+
+		for (int h = 0; h < current.Height; h += 5)
+		{
+			Bitmap next = new(current.Width, current.Height);
+			using Graphics g = Graphics.FromImage(next);
+			g.Clear(Color.Transparent);
+
+			// Draw lower part still intact
+			g.DrawImage(orig, new Rectangle(0, h, current.Width, current.Height - h), new Rectangle(0, h, current.Width, current.Height - h), GraphicsUnit.Pixel);
+
+			// Draw upper part in falling strips
+			for (int x = 0; x < current.Width; x += 8)
+			{
+				g.DrawImage(orig, new Rectangle(x, h + (x % 3 * 10), 8, h), new Rectangle(x, 0, 8, h), GraphicsUnit.Pixel);
+			}
+
+			pb.Image = next;
+			current.Dispose();
+			current = next;
+
+			await Task.Delay(30);
+		}
+
+		await Task.Delay(300);
+		pb.Image = orig;
+		current.Dispose();
+	}
+
+	private async Task ApplyZoomAndPixelateAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+
+		for (int pixelSize = 1; pixelSize <= 16; pixelSize += 3)
+		{
+			Bitmap small = new(Math.Max(1, orig.Width / pixelSize), Math.Max(1, orig.Height / pixelSize));
+			using (Graphics g1 = Graphics.FromImage(small))
+			{
+				g1.InterpolationMode = System.Drawing.Drawing2D.InterpolationMode.HighQualityBicubic;
+				g1.DrawImage(orig, 0, 0, small.Width, small.Height);
+			}
+			Bitmap pixelated = new(orig.Width, orig.Height);
+			using (Graphics g2 = Graphics.FromImage(pixelated))
+			{
+				g2.InterpolationMode = System.Drawing.Drawing2D.InterpolationMode.NearestNeighbor;
+				g2.DrawImage(small, 0, 0, pixelated.Width, pixelated.Height);
+			}
+
+			pb.Image = pixelated;
+			small.Dispose();
+			await Task.Delay(50);
+		}
+
+		await Task.Delay(200);
+
+		for (int pixelSize = 16; pixelSize >= 1; pixelSize -= 3)
+		{
+			int s = Math.Max(1, pixelSize);
+			Bitmap small = new(Math.Max(1, orig.Width / s), Math.Max(1, orig.Height / s));
+			using (Graphics g1 = Graphics.FromImage(small))
+			{
+				g1.InterpolationMode = System.Drawing.Drawing2D.InterpolationMode.HighQualityBicubic;
+				g1.DrawImage(orig, 0, 0, small.Width, small.Height);
+			}
+			Bitmap pixelated = new(orig.Width, orig.Height);
+			using (Graphics g2 = Graphics.FromImage(pixelated))
+			{
+				g2.InterpolationMode = System.Drawing.Drawing2D.InterpolationMode.NearestNeighbor;
+				g2.DrawImage(small, 0, 0, pixelated.Width, pixelated.Height);
+			}
+
+			pb.Image = pixelated;
+			small.Dispose();
+			await Task.Delay(50);
+		}
+
+		pb.Image = orig;
+	}
+
+	private async Task ApplyDrunkVisionAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		Random rnd = new();
+
+		for (int i = 0; i < 20; i++)
+		{
+			Bitmap bmp = new(orig.Width, orig.Height);
+			using Graphics g = Graphics.FromImage(bmp);
+			ColorMatrix cm = new() { Matrix33 = 0.6f };
+			using ImageAttributes attr = new();
+			attr.SetColorMatrix(cm);
+
+			g.DrawImage(orig, new Rectangle(rnd.Next(-5, 6), rnd.Next(-5, 6), orig.Width, orig.Height), 0, 0, orig.Width, orig.Height, GraphicsUnit.Pixel, attr);
+			g.DrawImage(orig, new Rectangle(rnd.Next(-5, 6), rnd.Next(-5, 6), orig.Width, orig.Height), 0, 0, orig.Width, orig.Height, GraphicsUnit.Pixel, attr);
+
+			pb.Image = bmp;
+			await Task.Delay(50);
+		}
+
+		pb.Image = orig;
+	}
+
+	private async Task ApplySpotlightAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+
+		for (int radius = pb.Width; radius >= 20; radius -= 15)
+		{
+			Bitmap bmp = new(orig.Width, orig.Height);
+			using Graphics g = Graphics.FromImage(bmp);
+			g.Clear(Color.Black);
+
+			using System.Drawing.Drawing2D.GraphicsPath path = new();
+			path.AddEllipse((pb.Width / 2) - (radius / 2), (pb.Height / 2) - (radius / 2), radius, radius);
+			g.SetClip(path);
+			g.DrawImage(orig, 0, 0);
+
+			pb.Image = bmp;
+			await Task.Delay(30);
+		}
+
+		await Task.Delay(300);
+
+		for (int radius = 20; radius <= pb.Width * 1.5; radius += 15)
+		{
+			Bitmap bmp = new(orig.Width, orig.Height);
+			using Graphics g = Graphics.FromImage(bmp);
+			g.Clear(Color.Black);
+
+			using System.Drawing.Drawing2D.GraphicsPath path = new();
+			path.AddEllipse((pb.Width / 2) - (radius / 2), (pb.Height / 2) - (radius / 2), radius, radius);
+			g.SetClip(path);
+			g.DrawImage(orig, 0, 0);
+
+			pb.Image = bmp;
+			await Task.Delay(30);
+		}
+
+		pb.Image = orig;
+	}
+
+	private async Task ApplySupernovaAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+
+		// Extremely bright
+		for (float f = 0.0f; f <= 1.0f; f += 0.2f)
+		{
+			Bitmap bmp = new(orig.Width, orig.Height);
+			using Graphics g = Graphics.FromImage(bmp);
+			ColorMatrix cm = new([
+				[1.0f + f, 0, 0, 0, 0],
+				[0, 1.0f + f, 0, 0, 0],
+				[0, 0, 1.0f + f, 0, 0],
+				[0, 0, 0, 1, 0],
+				[0, 0, 0, 0, 1]
+			]);
+			using ImageAttributes attrs = new();
+			attrs.SetColorMatrix(cm);
+			g.DrawImage(orig, new Rectangle(0, 0, bmp.Width, bmp.Height), 0, 0, orig.Width, orig.Height, GraphicsUnit.Pixel, attrs);
+			pb.Image = bmp;
+			await Task.Delay(40);
+		}
+
+		// Expand scatter
+		for (int i = 0; i < 15; i++)
+		{
+			Bitmap bmp = new(orig.Width, orig.Height);
+			using Graphics g = Graphics.FromImage(bmp);
+			g.Clear(Color.White);
+			pb.Image = bmp;
+			pb.Size = new Size(pb.Width + 10, pb.Height + 10);
+			pb.Location = new Point(pb.Location.X - 5, pb.Location.Y - 5);
+			await Task.Delay(20);
+		}
+
+		pb.Visible = false;
+		await Task.Delay(300);
+
+		// Restore
+		pb.Image = orig;
+		AppInfoForm_Load(this, EventArgs.Empty);
+		pb.Visible = true;
+	}
+
+	private async Task ApplySnowfallAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		Random rnd = new();
+		List<(float x, float y, float speed, float size)> flakes = [];
+		for (int i = 0; i < 30; i++)
+		{
+			flakes.Add((rnd.Next(orig.Width), rnd.Next(orig.Height), rnd.Next(3, 8), rnd.Next(2, 5)));
+		}
+
+		for (int frame = 0; frame < 20; frame++)
+		{
+			Bitmap bmp = new(orig);
+			using Graphics g = Graphics.FromImage(bmp);
+			for (int i = 0; i < flakes.Count; i++)
+			{
+				var (x, y, speed, size) = flakes[i];
+				g.FillEllipse(Brushes.White, x, y, size, size);
+				flakes[i] = (x + rnd.Next(-2, 3), (y + speed) % orig.Height, speed, size);
+			}
+			pb.Image = bmp;
+			await Task.Delay(30);
+		}
+		pb.Image = orig;
+	}
+
+	private async Task ApplyJellyAsync(Control control)
+	{
+		Size origSize = control.Size;
+		Point origLoc = control.Location;
+		int[] stretches = [10, -5, 8, -4, 6, -3, 4, -2, 2, 0];
+		foreach (int s in stretches)
+		{
+			control.Size = new Size(origSize.Width + (s * 2), origSize.Height - (s * 2));
+			control.Location = new Point(origLoc.X - s, origLoc.Y + s);
+			await Task.Delay(40);
+		}
+		control.Size = origSize;
+		control.Location = origLoc;
+	}
+
+	private async Task ApplyColorCycleAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		for (float f = 0; f < Math.PI * 2; f += 0.4f)
+		{
+			Bitmap bmp = new(orig.Width, orig.Height);
+			using Graphics g = Graphics.FromImage(bmp);
+			float r = (float)((Math.Sin(f) * 0.5) + 0.5);
+			float gr = (float)((Math.Sin(f + 2) * 0.5) + 0.5);
+			float b = (float)((Math.Sin(f + 4) * 0.5) + 0.5);
+			ColorMatrix cm = new([
+				[r, 0, 0, 0, 0],
+				[0, gr, 0, 0, 0],
+				[0, 0, b, 0, 0],
+				[0, 0, 0, 1, 0],
+				[0, 0, 0, 0, 1]
+			]);
+			using ImageAttributes attrs = new();
+			attrs.SetColorMatrix(cm);
+			g.DrawImage(orig, new Rectangle(0, 0, bmp.Width, bmp.Height), 0, 0, orig.Width, orig.Height, GraphicsUnit.Pixel, attrs);
+			pb.Image = bmp;
+			await Task.Delay(30);
+		}
+		pb.Image = orig;
+	}
+
+	private async Task ApplyCrtFlickerAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		Random rnd = new();
+		for (int i = 0; i < 15; i++)
+		{
+			float f = rnd.NextDouble() > 0.5 ? 1.2f : 0.7f;
+			Bitmap bmp = new(orig.Width, orig.Height);
+			using Graphics g = Graphics.FromImage(bmp);
+			ColorMatrix cm = new([
+				[f, 0, 0, 0, 0],
+				[0, f, 0, 0, 0],
+				[0, 0, f, 0, 0],
+				[0, 0, 0, 1, 0],
+				[0, 0, 0, 0, 1]
+			]);
+			using ImageAttributes attrs = new();
+			attrs.SetColorMatrix(cm);
+			g.DrawImage(orig, new Rectangle(0, 0, bmp.Width, bmp.Height), 0, 0, orig.Width, orig.Height, GraphicsUnit.Pixel, attrs);
+			pb.Image = bmp;
+			await Task.Delay(rnd.Next(20, 60));
+		}
+		pb.Image = orig;
+	}
+
+	private async Task ApplySwingAsync(Control control)
+	{
+		Point origLoc = control.Location;
+		for (int i = 0; i < 360; i += 20)
+		{
+			double rad = i * Math.PI / 180.0;
+			int xOff = (int)(Math.Sin(rad) * 15);
+			control.Location = new Point(origLoc.X + xOff, origLoc.Y);
+			await Task.Delay(20);
+		}
+		control.Location = origLoc;
+	}
+
+	private async Task ApplyTwitchAsync(Control control)
+	{
+		Point origLoc = control.Location;
+		Random rnd = new();
+		for (int i = 0; i < 30; i++)
+		{
+			control.Location = rnd.Next(10) > 7 ? new Point(origLoc.X + rnd.Next(-20, 20), origLoc.Y + rnd.Next(-5, 5)) : origLoc;
+			await Task.Delay(30);
+		}
+		control.Location = origLoc;
+	}
+
+	private async Task ApplyHeartbeatVignetteAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		for (int pulse = 0; pulse < 3; pulse++)
+		{
+			for (int w = 0; w <= 30; w += 10)
+			{
+				Bitmap bmp = new(orig);
+				using Graphics g = Graphics.FromImage(bmp);
+				using Pen p = new(Color.FromArgb(100, 0, 0, 0), w);
+				g.DrawRectangle(p, 0, 0, bmp.Width, bmp.Height);
+				pb.Image = bmp;
+				await Task.Delay(40);
+			}
+			for (int w = 30; w >= 0; w -= 10)
+			{
+				Bitmap bmp = new(orig);
+				using Graphics g = Graphics.FromImage(bmp);
+				using Pen p = new(Color.FromArgb(100, 0, 0, 0), w);
+				g.DrawRectangle(p, 0, 0, bmp.Width, bmp.Height);
+				pb.Image = bmp;
+				await Task.Delay(40);
+			}
+		}
+		pb.Image = orig;
+	}
+
+	private async Task ApplyFilmGrainAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		Random rnd = new();
+		for (int i = 0; i < 15; i++)
+		{
+			Bitmap bmp = new(orig);
+			for (int n = 0; n < 2000; n++)
+			{
+				int x = rnd.Next(bmp.Width);
+				int y = rnd.Next(bmp.Height);
+				Color c = bmp.GetPixel(x, y);
+				int v = rnd.Next(-30, 30);
+				bmp.SetPixel(x, y, Color.FromArgb(c.A, Math.Clamp(c.R + v, 0, 255), Math.Clamp(c.G + v, 0, 255), Math.Clamp(c.B + v, 0, 255)));
+			}
+			pb.Image = bmp;
+			await Task.Delay(40);
+		}
+		pb.Image = orig;
+	}
+
+	private async Task ApplyBarcodeScanAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		using Pen laser = new(Color.FromArgb(200, 255, 0, 0), 4);
+		using SolidBrush trail = new(Color.FromArgb(50, 255, 0, 0));
+		for (int x = 0; x < pb.Width; x += 10)
+		{
+			Bitmap bmp = new(orig);
+			using Graphics g = Graphics.FromImage(bmp);
+			g.FillRectangle(trail, Math.Max(0, x - 20), 0, 20, bmp.Height);
+			g.DrawLine(laser, x, 0, x, bmp.Height);
+			pb.Image = bmp;
+			await Task.Delay(20);
+		}
+		pb.Image = orig;
+	}
+
+	private async Task ApplyRandomBlocksAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		Random rnd = new();
+		for (int i = 0; i < 15; i++)
+		{
+			Bitmap bmp = new(orig);
+			using Graphics g = Graphics.FromImage(bmp);
+			for (int b = 0; b < 10; b++)
+			{
+				int x = rnd.Next(bmp.Width);
+				int y = rnd.Next(bmp.Height);
+				int s = rnd.Next(20, 60);
+				g.DrawImage(orig, new Rectangle(x + rnd.Next(-10, 10), y + rnd.Next(-10, 10), s, s), new Rectangle(x, y, s, s), GraphicsUnit.Pixel);
+			}
+			pb.Image = bmp;
+			await Task.Delay(50);
+		}
+		pb.Image = orig;
+	}
+
+	private async Task ApplyMagnifyingGlassAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		int r = 60;
+		for (int x = 0; x < pb.Width + r; x += 15)
+		{
+			Bitmap bmp = new(orig);
+			using Graphics g = Graphics.FromImage(bmp);
+			int y = (pb.Height / 2) - (r / 2);
+			g.DrawImage(orig, new Rectangle(x - (r / 2), y - (r / 2), r * 2, r * 2), new Rectangle(x, y, r, r), GraphicsUnit.Pixel);
+			g.DrawEllipse(Pens.Black, x - (r / 2), y - (r / 2), r * 2, r * 2);
+			pb.Image = bmp;
+			await Task.Delay(30);
+		}
+		pb.Image = orig;
+	}
+
+	private async Task ApplyGhostTrailsAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		for (int i = 0; i < 15; i++)
+		{
+			Bitmap bmp = new(orig.Width, orig.Height);
+			using Graphics g = Graphics.FromImage(bmp);
+			ColorMatrix cm = new() { Matrix33 = 0.3f };
+			using ImageAttributes attrs = new();
+			attrs.SetColorMatrix(cm);
+			g.DrawImage(orig, new Rectangle(i * 5, 0, bmp.Width, bmp.Height), 0, 0, orig.Width, orig.Height, GraphicsUnit.Pixel, attrs);
+			g.DrawImage(orig, new Rectangle(-i * 5, 0, bmp.Width, bmp.Height), 0, 0, orig.Width, orig.Height, GraphicsUnit.Pixel, attrs);
+			g.DrawImage(orig, 0, 0);
+			pb.Image = bmp;
+			await Task.Delay(40);
+		}
+		pb.Image = orig;
+	}
+
+	private async Task ApplyNeonPulseAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		Color[] colors = [Color.Magenta, Color.Cyan, Color.Lime];
+		foreach (Color c in colors)
+		{
+			for (float f = 0.0f; f <= 1.0f; f += 0.2f)
+			{
+				Bitmap bmp = new(orig.Width, orig.Height);
+				using Graphics g = Graphics.FromImage(bmp);
+				using SolidBrush brush = new(Color.FromArgb((int)(100 * f), c));
+				g.DrawImage(orig, 0, 0);
+				g.FillRectangle(brush, 0, 0, bmp.Width, bmp.Height);
+				pb.Image = bmp;
+				await Task.Delay(30);
+			}
+			for (float f = 1.0f; f >= 0.0f; f -= 0.2f)
+			{
+				Bitmap bmp = new(orig.Width, orig.Height);
+				using Graphics g = Graphics.FromImage(bmp);
+				using SolidBrush brush = new(Color.FromArgb((int)(100 * f), c));
+				g.DrawImage(orig, 0, 0);
+				g.FillRectangle(brush, 0, 0, bmp.Width, bmp.Height);
+				pb.Image = bmp;
+				await Task.Delay(30);
+			}
+		}
+		pb.Image = orig;
+	}
+
+	private async Task ApplyRippleEffectAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		for (double phase = 0; phase < Math.PI * 4; phase += 0.5)
+		{
+			Bitmap bmp = new(orig.Width, orig.Height);
+			using Graphics g = Graphics.FromImage(bmp);
+			for (int y = 0; y < bmp.Height; y++)
+			{
+				int xOff = (int)(Math.Sin((y / 10.0) + phase) * 10);
+				g.DrawImage(orig, new Rectangle(xOff, y, orig.Width, 1), new Rectangle(0, y, orig.Width, 1), GraphicsUnit.Pixel);
+			}
+			pb.Image = bmp;
+			await Task.Delay(30);
+		}
+		pb.Image = orig;
+	}
+
+	private async Task ApplyWindshieldWiperAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		for (int angle = -90; angle <= 90; angle += 15)
+		{
+			Bitmap bmp = new(orig.Width, orig.Height);
+			using Graphics g = Graphics.FromImage(bmp);
+			g.Clear(Color.Black);
+			g.TranslateTransform(orig.Width / 2, orig.Height);
+			g.RotateTransform(angle);
+			g.TranslateTransform(-orig.Width / 2, -orig.Height);
+			g.DrawImage(orig, 0, 0);
+			g.ResetTransform();
+			pb.Image = bmp;
+			await Task.Delay(30);
+		}
+		for (int angle = 90; angle >= -90; angle -= 15)
+		{
+			Bitmap bmp = new(orig.Width, orig.Height);
+			using Graphics g = Graphics.FromImage(bmp);
+			g.Clear(Color.Black);
+			g.TranslateTransform(orig.Width / 2, orig.Height);
+			g.RotateTransform(angle);
+			g.TranslateTransform(-orig.Width / 2, -orig.Height);
+			g.DrawImage(orig, 0, 0);
+			g.ResetTransform();
+			pb.Image = bmp;
+			await Task.Delay(30);
+		}
+		pb.Image = orig;
+	}
+
+	private async Task ApplySonarSweepAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		for (int angle = 0; angle <= 360; angle += 15)
+		{
+			Bitmap bmp = new(orig);
+			using Graphics g = Graphics.FromImage(bmp);
+			using SolidBrush b = new(Color.FromArgb(100, 0, 255, 0));
+			g.FillPie(b, -orig.Width / 2, -orig.Height / 2, orig.Width * 2, orig.Height * 2, angle, 45);
+			pb.Image = bmp;
+			await Task.Delay(30);
+		}
+		pb.Image = orig;
+	}
+
+	private async Task ApplyPinchAsync(Control control)
+	{
+		Size oS = control.Size;
+		Point oL = control.Location;
+		for (int i = 0; i <= 20; i += 2)
+		{
+			control.Size = new Size(oS.Width - (i * 2), oS.Height + i);
+			control.Location = new Point(oL.X + i, oL.Y - (i / 2));
+			await Task.Delay(15);
+		}
+		for (int i = 20; i >= 0; i -= 2)
+		{
+			control.Size = new Size(oS.Width - (i * 2), oS.Height + i);
+			control.Location = new Point(oL.X + i, oL.Y - (i / 2));
+			await Task.Delay(15);
+		}
+		control.Size = oS;
+		control.Location = oL;
+	}
+
+	private async Task ApplyBulgeAsync(Control control)
+	{
+		Size oS = control.Size;
+		Point oL = control.Location;
+		for (int i = 0; i <= 20; i += 2)
+		{
+			control.Size = new Size(oS.Width + (i * 2), oS.Height - i);
+			control.Location = new Point(oL.X - i, oL.Y + (i / 2));
+			await Task.Delay(15);
+		}
+		for (int i = 20; i >= 0; i -= 2)
+		{
+			control.Size = new Size(oS.Width + (i * 2), oS.Height - i);
+			control.Location = new Point(oL.X - i, oL.Y + (i / 2));
+			await Task.Delay(15);
+		}
+		control.Size = oS;
+		control.Location = oL;
+	}
+
+	private async Task ApplyColorInvertVhsAsync(PictureBox pb)
+	{
+		ApplyInvertEffect(pb);
+		await ApplyVhsTrackingGlitchAsync(pb);
+		ApplyInvertEffect(pb);
+	}
+
+	private async Task ApplyGlitchRGBShiftAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		Random rnd = new();
+		for (int i = 0; i < 15; i++)
+		{
+			Bitmap bmp = new(orig.Width, orig.Height);
+			using Graphics g = Graphics.FromImage(bmp);
+			ColorMatrix cm1 = new([
+				[1, 0, 0, 0, 0],
+				[0, 0, 0, 0, 0],
+				[0, 0, 0, 0, 0],
+				[0, 0, 0, 1, 0],
+				[0, 0, 0, 0, 1]
+			]);
+			ColorMatrix cm2 = new([
+				[0, 0, 0, 0, 0],
+				[0, 1, 0, 0, 0],
+				[0, 0, 1, 0, 0],
+				[0, 0, 0, 0.5f, 0],
+				[0, 0, 0, 0, 1]
+			]);
+			using ImageAttributes a1 = new();
+			a1.SetColorMatrix(cm1);
+			using ImageAttributes a2 = new();
+			a2.SetColorMatrix(cm2);
+			g.DrawImage(orig, new Rectangle(rnd.Next(-10, 10), rnd.Next(-5, 5), bmp.Width, bmp.Height), 0, 0, bmp.Width, bmp.Height, GraphicsUnit.Pixel, a1);
+			g.DrawImage(orig, new Rectangle(rnd.Next(-10, 10), rnd.Next(-5, 5), bmp.Width, bmp.Height), 0, 0, bmp.Width, bmp.Height, GraphicsUnit.Pixel, a2);
+			pb.Image = bmp;
+			await Task.Delay(40);
+		}
+		pb.Image = orig;
+	}
+
+	private async Task ApplyStarfieldAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		Random rnd = new();
+		for (int i = 0; i < 20; i++)
+		{
+			Bitmap bmp = new(orig);
+			using Graphics g = Graphics.FromImage(bmp);
+			for (int s = 0; s < 40; s++)
+			{
+				int x = rnd.Next(bmp.Width);
+				int y = rnd.Next(bmp.Height);
+				g.FillRectangle(Brushes.White, x, y, rnd.Next(1, 4), rnd.Next(1, 4));
+			}
+			pb.Image = bmp;
+			await Task.Delay(30);
+		}
+		pb.Image = orig;
+	}
+
+	private async Task ApplyAccordionFlipAsync(Control control)
+	{
+		Size oS = control.Size;
+		Point oL = control.Location;
+		for (int i = 0; i <= 10; i++)
+		{
+			float scale = 1.0f - (i / 10f);
+			control.Size = new Size((int)(oS.Width * scale), oS.Height);
+			control.Location = new Point(oL.X + (int)(oS.Width * (1 - scale) / 2), oL.Y);
+			await Task.Delay(10);
+		}
+		for (int i = 10; i >= 0; i--)
+		{
+			float scale = 1.0f - (i / 10f);
+			control.Size = new Size((int)(oS.Width * scale), oS.Height);
+			control.Location = new Point(oL.X + (int)(oS.Width * (1 - scale) / 2), oL.Y);
+			await Task.Delay(10);
+		}
+		for (int i = 0; i <= 10; i++)
+		{
+			float scale = 1.0f - (i / 10f);
+			control.Size = new Size(oS.Width, (int)(oS.Height * scale));
+			control.Location = new Point(oL.X, oL.Y + (int)(oS.Height * (1 - scale) / 2));
+			await Task.Delay(10);
+		}
+		for (int i = 10; i >= 0; i--)
+		{
+			float scale = 1.0f - (i / 10f);
+			control.Size = new Size(oS.Width, (int)(oS.Height * scale));
+			control.Location = new Point(oL.X, oL.Y + (int)(oS.Height * (1 - scale) / 2));
+			await Task.Delay(10);
+		}
+		control.Size = oS;
+		control.Location = oL;
+	}
+
+	private async Task ApplyMeltToBlackAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		Bitmap current = new(orig);
+		Random rnd = new();
+		for (int iter = 0; iter < 20; iter++)
+		{
+			for (int x = 0; x < current.Width; x += rnd.Next(2, 6))
+			{
+				int drop = rnd.Next(1, 15);
+				for (int y = current.Height - 1; y >= drop; y--)
+				{
+					Color c = current.GetPixel(x, y - drop);
+					int dark = Math.Max(0, c.R - 10);
+					current.SetPixel(x, y, Color.FromArgb(c.A, dark, dark, dark));
+				}
+			}
+			pb.Image = current;
+			await Task.Delay(40);
+		}
+		await Task.Delay(300);
+		pb.Image = orig;
+		current.Dispose();
+	}
+
+	private async Task ApplyInvertPulseAsync(PictureBox pb)
+	{
+		ApplyInvertEffect(pb);
+		await ApplyPulseEffectAsync(pb);
+		AppInfoForm_Load(this, EventArgs.Empty);
+	}
+
+	private async Task ApplyFireworksAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		Random rnd = new();
+		for (int i = 0; i < 20; i++)
+		{
+			Bitmap bmp = new(orig);
+			using Graphics g = Graphics.FromImage(bmp);
+			for (int f = 0; f < 5; f++)
+			{
+				int cx = rnd.Next(bmp.Width);
+				int cy = rnd.Next(bmp.Height);
+				Color col = Color.FromArgb(rnd.Next(256), rnd.Next(256), rnd.Next(256));
+				using Pen p = new(col, 2);
+				for (int r = 5; r <= 30; r += 5)
+				{
+					g.DrawEllipse(p, cx - r, cy - r, r * 2, r * 2);
+				}
+			}
+			pb.Image = bmp;
+			await Task.Delay(40);
+		}
+		pb.Image = orig;
+	}
+
+	private async Task ApplyFloatFadeAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		Point origLoc = pb.Location;
+		for (int i = 0; i < 20; i++)
+		{
+			float alpha = 1.0f - (i / 40f);
+			pb.Image = SetImageOpacity(orig, alpha);
+			pb.Location = new Point(origLoc.X, origLoc.Y - i);
+			await Task.Delay(30);
+		}
+		for (int i = 20; i >= 0; i--)
+		{
+			float alpha = 1.0f - (i / 40f);
+			pb.Image = SetImageOpacity(orig, alpha);
+			pb.Location = new Point(origLoc.X, origLoc.Y - i);
+			await Task.Delay(30);
+		}
+		pb.Image = orig;
+		pb.Location = origLoc;
+	}
+
+	private async Task ApplyFlashlightWanderAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		for (int x = -50; x < pb.Width + 50; x += 15)
+		{
+			Bitmap bmp = new(orig.Width, orig.Height);
+			using Graphics g = Graphics.FromImage(bmp);
+			g.Clear(Color.Black);
+			using System.Drawing.Drawing2D.GraphicsPath path = new();
+			path.AddEllipse(x, (pb.Height / 2) - 50, 100, 100);
+			g.SetClip(path);
+			g.DrawImage(orig, 0, 0);
+			pb.Image = bmp;
+			await Task.Delay(30);
+		}
+		pb.Image = orig;
+	}
+
+	private async Task ApplySpiralInAsync(Control control)
+	{
+		Point origLoc = control.Location;
+		int cx = origLoc.X;
+		int cy = origLoc.Y;
+
+		for (int i = 500; i >= 0; i -= 25)
+		{
+			double rad = i * Math.PI / 180.0;
+			int r = i / 10;
+			control.Location = new Point(cx + (int)(Math.Cos(rad) * r), cy + (int)(Math.Sin(rad) * r));
+			await Task.Delay(15);
+		}
+		control.Location = origLoc;
+	}
+
+	private async Task ApplyRadarPingAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		for (int r = 0; r < pb.Width; r += 10)
+		{
+			Bitmap bmp = new(orig);
+			using Graphics g = Graphics.FromImage(bmp);
+			using Pen p = new(Color.FromArgb(150, 0, 255, 0), 3);
+			g.DrawEllipse(p, (pb.Width / 2) - r, (pb.Height / 2) - r, r * 2, r * 2);
+			pb.Image = bmp;
+			await Task.Delay(20);
+		}
+		pb.Image = orig;
+	}
+
+	private async Task ApplyHorizontalWaveAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		for (double phase = 0; phase < Math.PI * 4; phase += 0.5)
+		{
+			Bitmap bmp = new(orig.Width, orig.Height);
+			using Graphics g = Graphics.FromImage(bmp);
+			for (int y = 0; y < bmp.Height; y += 4)
+			{
+				int xOff = (int)(Math.Sin((y / 20.0) + phase) * 15);
+				g.DrawImage(orig, new Rectangle(xOff, y, orig.Width, 4), new Rectangle(0, y, orig.Width, 4), GraphicsUnit.Pixel);
+			}
+			pb.Image = bmp;
+			await Task.Delay(30);
+		}
+		pb.Image = orig;
+	}
+
+	private async Task ApplyVerticalWaveAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		for (double phase = 0; phase < Math.PI * 4; phase += 0.5)
+		{
+			Bitmap bmp = new(orig.Width, orig.Height);
+			using Graphics g = Graphics.FromImage(bmp);
+			for (int x = 0; x < bmp.Width; x += 4)
+			{
+				int yOff = (int)(Math.Sin((x / 20.0) + phase) * 15);
+				g.DrawImage(orig, new Rectangle(x, yOff, 4, orig.Height), new Rectangle(x, 0, 4, orig.Height), GraphicsUnit.Pixel);
+			}
+			pb.Image = bmp;
+			await Task.Delay(30);
+		}
+		pb.Image = orig;
+	}
+
+	private async Task ApplyRandomPixelSwapAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		Bitmap bmp = new(orig);
+		Random rnd = new();
+		for (int i = 0; i < 20; i++)
+		{
+			for (int j = 0; j < 500; j++)
+			{
+				int x1 = rnd.Next(bmp.Width);
+				int y1 = rnd.Next(bmp.Height);
+				int x2 = rnd.Next(bmp.Width);
+				int y2 = rnd.Next(bmp.Height);
+				Color c1 = bmp.GetPixel(x1, y1);
+				Color c2 = bmp.GetPixel(x2, y2);
+				bmp.SetPixel(x1, y1, c2);
+				bmp.SetPixel(x2, y2, c1);
+			}
+			pb.Image = bmp;
+			await Task.Delay(30);
+		}
+		pb.Image = orig;
+		bmp.Dispose();
+	}
+
+	private void ApplyEmbossEffect(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Bitmap bmp = new(pb.Image);
+		Bitmap result = new(bmp.Width, bmp.Height);
+		for (int y = 1; y < bmp.Height - 1; y++)
+		{
+			for (int x = 1; x < bmp.Width - 1; x++)
+			{
+				Color c1 = bmp.GetPixel(x, y);
+				Color c2 = bmp.GetPixel(x + 1, y + 1);
+				int r = Math.Min(255, Math.Max(0, c1.R - c2.R + 128));
+				int g = Math.Min(255, Math.Max(0, c1.G - c2.G + 128));
+				int b = Math.Min(255, Math.Max(0, c1.B - c2.B + 128));
+				result.SetPixel(x, y, Color.FromArgb(c1.A, r, g, b));
+			}
+		}
+		Image old = pb.Image;
+		pb.Image = result;
+		old.Dispose();
+	}
+
+	private void ApplyEdgeDetectionEffect(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Bitmap bmp = new(pb.Image);
+		Bitmap result = new(bmp.Width, bmp.Height);
+		for (int y = 1; y < bmp.Height - 1; y++)
+		{
+			for (int x = 1; x < bmp.Width - 1; x++)
+			{
+				Color c1 = bmp.GetPixel(x, y);
+				Color c2 = bmp.GetPixel(x + 1, y + 1);
+				int diff = Math.Abs(c1.R - c2.R) + Math.Abs(c1.G - c2.G) + Math.Abs(c1.B - c2.B);
+				int val = diff > 50 ? 255 : 0;
+				result.SetPixel(x, y, Color.FromArgb(c1.A, val, val, val));
+			}
+		}
+		Image old = pb.Image;
+		pb.Image = result;
+		old.Dispose();
+	}
+
+	private async Task ApplyBlockDissolveAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		Bitmap bmp = new(orig);
+		using Graphics g = Graphics.FromImage(bmp);
+		Random rnd = new();
+		for (int i = 0; i < 50; i++)
+		{
+			for (int j = 0; j < 10; j++)
+			{
+				int x = rnd.Next(bmp.Width);
+				int y = rnd.Next(bmp.Height);
+				int s = rnd.Next(10, 40);
+				g.FillRectangle(Brushes.Transparent, x, y, s, s);
+			}
+			pb.Image = bmp;
+			await Task.Delay(20);
+		}
+		await Task.Delay(300);
+		pb.Image = orig;
+		bmp.Dispose();
+	}
+
+	private async Task ApplyRippleRingAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		for (int r = 0; r < pb.Width; r += 5)
+		{
+			Bitmap bmp = new(orig);
+			using Graphics g = Graphics.FromImage(bmp);
+			using Pen p = new(Color.FromArgb(50, 255, 255, 255), 10);
+			g.DrawEllipse(p, (pb.Width / 2) - r, (pb.Height / 2) - r, r * 2, r * 2);
+			if (r > 30)
+			{
+				g.DrawEllipse(p, (pb.Width / 2) - (r - 30), (pb.Height / 2) - (r - 30), (r - 30) * 2, (r - 30) * 2);
+			}
+
+			pb.Image = bmp;
+			await Task.Delay(20);
+		}
+		pb.Image = orig;
+	}
+
+	private async Task ApplyShimmerAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		for (int i = 0; i < 20; i++)
+		{
+			Bitmap bmp = new(orig.Width, orig.Height);
+			using Graphics g = Graphics.FromImage(bmp);
+			float s = i % 2 == 0 ? 1.2f : 0.8f;
+			ColorMatrix cm = new([
+				[s, 0, 0, 0, 0],
+				[0, s, 0, 0, 0],
+				[0, 0, s, 0, 0],
+				[0, 0, 0, 1, 0],
+				[0, 0, 0, 0, 1]
+			]);
+			using ImageAttributes attrs = new();
+			attrs.SetColorMatrix(cm);
+			g.DrawImage(orig, new Rectangle(0, 0, bmp.Width, bmp.Height), 0, 0, orig.Width, orig.Height, GraphicsUnit.Pixel, attrs);
+			pb.Image = bmp;
+			await Task.Delay(30);
+		}
+		pb.Image = orig;
+	}
+
+	private async Task ApplyStaticBlocksAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		Random rnd = new();
+		for (int i = 0; i < 15; i++)
+		{
+			Bitmap bmp = new(orig);
+			using Graphics g = Graphics.FromImage(bmp);
+			for (int j = 0; j < 5; j++)
+			{
+				int x = rnd.Next(bmp.Width);
+				int y = rnd.Next(bmp.Height);
+				int w = rnd.Next(20, 100);
+				int h = rnd.Next(10, 30);
+				using SolidBrush b = new(Color.FromArgb(150, rnd.Next(256), rnd.Next(256), rnd.Next(256)));
+				g.FillRectangle(b, x, y, w, h);
+			}
+			pb.Image = bmp;
+			await Task.Delay(40);
+		}
+		pb.Image = orig;
+	}
+
+	private async Task ApplyHorizontalBlindsAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		for (int h = 0; h <= 20; h += 2)
+		{
+			Bitmap bmp = new(orig);
+			using Graphics g = Graphics.FromImage(bmp);
+			for (int y = 0; y < bmp.Height; y += 20)
+			{
+				g.FillRectangle(Brushes.Black, 0, y, bmp.Width, h);
+			}
+			pb.Image = bmp;
+			await Task.Delay(30);
+		}
+		for (int h = 20; h >= 0; h -= 2)
+		{
+			Bitmap bmp = new(orig);
+			using Graphics g = Graphics.FromImage(bmp);
+			for (int y = 0; y < bmp.Height; y += 20)
+			{
+				g.FillRectangle(Brushes.Black, 0, y, bmp.Width, h);
+			}
+			pb.Image = bmp;
+			await Task.Delay(30);
+		}
+		pb.Image = orig;
+	}
+
+	private async Task ApplyZoomBlurFakeAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		for (int i = 1; i <= 10; i++)
+		{
+			Bitmap bmp = new(orig.Width, orig.Height);
+			using Graphics g = Graphics.FromImage(bmp);
+			ColorMatrix cm = new() { Matrix33 = 0.2f };
+			using ImageAttributes attrs = new();
+			attrs.SetColorMatrix(cm);
+
+			g.DrawImage(orig, 0, 0, orig.Width, orig.Height);
+			for (int j = 1; j <= i; j++)
+			{
+				int inflate = j * 4;
+				g.DrawImage(orig, new Rectangle(-inflate, -inflate, orig.Width + (inflate * 2), orig.Height + (inflate * 2)), 0, 0, orig.Width, orig.Height, GraphicsUnit.Pixel, attrs);
+			}
+			pb.Image = bmp;
+			await Task.Delay(30);
+		}
+		pb.Image = orig;
+	}
+
+	private async Task ApplyFireBottomAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		Bitmap current = new(orig);
+		Random rnd = new();
+		Color[] fireColors = [Color.Red, Color.Orange, Color.Yellow, Color.FromArgb(100, 255, 0, 0)];
+
+		for (int i = 0; i < 20; i++)
+		{
+			for (int x = 0; x < current.Width; x += 2)
+			{
+				int height = rnd.Next(10, 40);
+				for (int y = current.Height - height; y < current.Height; y++)
+				{
+					if (y >= 0 && y < current.Height)
+					{
+						current.SetPixel(x, y, fireColors[rnd.Next(fireColors.Length)]);
+						if (x + 1 < current.Width)
+						{
+							current.SetPixel(x + 1, y, fireColors[rnd.Next(fireColors.Length)]);
+						}
+					}
+				}
+			}
+			pb.Image = current;
+			await Task.Delay(40);
+		}
+		await Task.Delay(300);
+		pb.Image = orig;
+		current.Dispose();
+	}
+
+	private async Task ApplyRainbowSweepAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		Color[] colors = [Color.Red, Color.Orange, Color.Yellow, Color.Green, Color.Blue, Color.Indigo, Color.Violet];
+		for (int scanY = 0; scanY < pb.Height; scanY += 10)
+		{
+			Bitmap bmp = new(orig);
+			using Graphics g = Graphics.FromImage(bmp);
+			for (int i = 0; i < colors.Length; i++)
+			{
+				using SolidBrush b = new(Color.FromArgb(100, colors[i]));
+				g.FillRectangle(b, 0, scanY - (i * 10), bmp.Width, 10);
+			}
+			pb.Image = bmp;
+			await Task.Delay(20);
+		}
+		pb.Image = orig;
+	}
+
+	private async Task ApplyPopInBounceAsync(Control control)
+	{
+		Size oS = control.Size;
+		Point oL = control.Location;
+		control.Size = new Size(0, 0);
+		control.Location = new Point(oL.X + (oS.Width / 2), oL.Y + (oS.Height / 2));
+
+		for (float scale = 0.1f; scale <= 1.2f; scale += 0.2f)
+		{
+			int w = (int)(oS.Width * scale);
+			int h = (int)(oS.Height * scale);
+			control.Size = new Size(w, h);
+			control.Location = new Point(oL.X + ((oS.Width - w) / 2), oL.Y + ((oS.Height - h) / 2));
+			await Task.Delay(20);
+		}
+		for (float scale = 1.2f; scale >= 1.0f; scale -= 0.1f)
+		{
+			int w = (int)(oS.Width * scale);
+			int h = (int)(oS.Height * scale);
+			control.Size = new Size(w, h);
+			control.Location = new Point(oL.X + ((oS.Width - w) / 2), oL.Y + ((oS.Height - h) / 2));
+			await Task.Delay(20);
+		}
+		control.Size = oS;
+		control.Location = oL;
+	}
+
+	private async Task ApplyColorSeparationAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		ColorMatrix rM = new([
+			[1, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 1, 0], [0, 0, 0, 0, 1]]);
+		ColorMatrix gM = new([
+			[0, 0, 0, 0, 0], [0, 1, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0.5f, 0], [0, 0, 0, 0, 1]]);
+		ColorMatrix bM = new([
+			[0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 1, 0, 0], [0, 0, 0, 0.5f, 0], [0, 0, 0, 0, 1]]);
+
+		using ImageAttributes attrR = new(); attrR.SetColorMatrix(rM);
+		using ImageAttributes attrG = new(); attrG.SetColorMatrix(gM);
+		using ImageAttributes attrB = new(); attrB.SetColorMatrix(bM);
+
+		for (int offset = 0; offset <= 15; offset += 3)
+		{
+			Bitmap bmp = new(orig.Width, orig.Height);
+			using Graphics g = Graphics.FromImage(bmp);
+			g.DrawImage(orig, new Rectangle(-offset, 0, orig.Width, orig.Height), 0, 0, orig.Width, orig.Height, GraphicsUnit.Pixel, attrR);
+			g.DrawImage(orig, new Rectangle(offset, 0, orig.Width, orig.Height), 0, 0, orig.Width, orig.Height, GraphicsUnit.Pixel, attrG);
+			g.DrawImage(orig, new Rectangle(0, offset, orig.Width, orig.Height), 0, 0, orig.Width, orig.Height, GraphicsUnit.Pixel, attrB);
+			pb.Image = bmp;
+			await Task.Delay(30);
+		}
+		for (int offset = 15; offset >= 0; offset -= 3)
+		{
+			Bitmap bmp = new(orig.Width, orig.Height);
+			using Graphics g = Graphics.FromImage(bmp);
+			g.DrawImage(orig, new Rectangle(-offset, 0, orig.Width, orig.Height), 0, 0, orig.Width, orig.Height, GraphicsUnit.Pixel, attrR);
+			g.DrawImage(orig, new Rectangle(offset, 0, orig.Width, orig.Height), 0, 0, orig.Width, orig.Height, GraphicsUnit.Pixel, attrG);
+			g.DrawImage(orig, new Rectangle(0, offset, orig.Width, orig.Height), 0, 0, orig.Width, orig.Height, GraphicsUnit.Pixel, attrB);
+			pb.Image = bmp;
+			await Task.Delay(30);
+		}
+		pb.Image = orig;
+	}
+
+	private async Task ApplySizzleAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		Random rnd = new();
+		for (int i = 0; i < 20; i++)
+		{
+			Bitmap bmp = new(orig);
+			using Graphics g = Graphics.FromImage(bmp);
+			for (int j = 0; j < 100; j++)
+			{
+				int x = rnd.Next(bmp.Width);
+				int y = rnd.Next(bmp.Height);
+				g.FillEllipse(Brushes.White, x, y, 3, 3);
+			}
+			pb.Image = bmp;
+			await Task.Delay(30);
+		}
+		pb.Image = orig;
+	}
+
+	private async Task ApplyBlackHoleAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		int cx = orig.Width / 2;
+		int cy = orig.Height / 2;
+
+		for (int i = 0; i < 20; i++)
+		{
+			Bitmap bmp = new(orig);
+			using Graphics g = Graphics.FromImage(bmp);
+			g.Clear(Color.Black);
+			float scale = 1.0f - (i / 20f);
+			int w = (int)(orig.Width * scale);
+			int h = (int)(orig.Height * scale);
+
+			// Draw distorted pulled center
+			g.DrawImage(orig, new Point[] {
+				new(cx - (w/2), cy - (h/2)),
+				new(cx + (w/2), cy - (h/2)),
+				new(cx - (w/2), cy + (h/2))
+			});
+			pb.Image = bmp;
+			await Task.Delay(30);
+		}
+		await Task.Delay(200);
+		pb.Image = orig;
+	}
+
+	private async Task ApplyConfettiFallAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		Random rnd = new();
+		List<(float x, float y, Color c)> particles = [];
+		for (int i = 0; i < 50; i++)
+		{
+			particles.Add((rnd.Next(orig.Width), rnd.Next(-orig.Height, 0), Color.FromArgb(rnd.Next(256), rnd.Next(256), rnd.Next(256))));
+		}
+
+		for (int frame = 0; frame < 30; frame++)
+		{
+			Bitmap bmp = new(orig);
+			using Graphics g = Graphics.FromImage(bmp);
+			for (int i = 0; i < particles.Count; i++)
+			{
+				var (x, y, c) = particles[i];
+				using SolidBrush b = new(c);
+				g.FillRectangle(b, x, y, 8, 8);
+				particles[i] = (x + rnd.Next(-2, 3), y + rnd.Next(5, 15), c);
+			}
+			pb.Image = bmp;
+			await Task.Delay(30);
+		}
+		pb.Image = orig;
+	}
+
+	private async Task ApplyScannerGridAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		for (int yOffset = 0; yOffset < 40; yOffset += 4)
+		{
+			Bitmap bmp = new(orig);
+			using Graphics g = Graphics.FromImage(bmp);
+			using Pen p = new(Color.FromArgb(100, 0, 255, 0), 1);
+			for (int y = yOffset; y < bmp.Height; y += 40)
+			{
+				g.DrawLine(p, 0, y, bmp.Width, y);
+			}
+			for (int x = 0; x < bmp.Width; x += 40)
+			{
+				g.DrawLine(p, x, 0, x, bmp.Height);
+			}
+			pb.Image = bmp;
+			await Task.Delay(40);
+		}
+		pb.Image = orig;
+	}
+
+	private async Task ApplyHologramAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		Random rnd = new();
+		for (int i = 0; i < 20; i++)
+		{
+			Bitmap bmp = new(orig.Width, orig.Height);
+			using Graphics g = Graphics.FromImage(bmp);
+			ColorMatrix cm = new([
+				[0.5f, 0, 0, 0, 0],
+				[0, 0.8f, 0, 0, 0],
+				[0, 0, 1.5f, 0, 0],
+				[0, 0, 0, 0.7f, 0],
+				[0, 0, 0, 0, 1]
+			]);
+			using ImageAttributes attrs = new();
+			attrs.SetColorMatrix(cm);
+
+			int yOffset = rnd.Next(-5, 5);
+			g.DrawImage(orig, new Rectangle(0, yOffset, orig.Width, orig.Height), 0, 0, orig.Width, orig.Height, GraphicsUnit.Pixel, attrs);
+
+			using Pen p = new(Color.FromArgb(50, 0, 0, 0), 2);
+			for (int y = 0; y < bmp.Height; y += 4)
+			{
+				g.DrawLine(p, 0, y, bmp.Width, y);
+			}
+			pb.Image = bmp;
+			await Task.Delay(40);
+		}
+		pb.Image = orig;
+	}
+
+	private async Task ApplyMirrorSplitAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		for (int i = 0; i <= orig.Width / 2; i += 10)
+		{
+			Bitmap bmp = new(orig.Width, orig.Height);
+			using Graphics g = Graphics.FromImage(bmp);
+			g.Clear(Color.Black);
+			g.DrawImage(orig, new Rectangle(0, 0, orig.Width / 2, orig.Height), new Rectangle(0, 0, orig.Width / 2, orig.Height), GraphicsUnit.Pixel);
+
+			// Draw flipped right half expanding
+			if (i > 0)
+			{
+				Rectangle dest = new(orig.Width / 2, 0, i, orig.Height);
+				Rectangle src = new((orig.Width / 2) - i, 0, i, orig.Height);
+				Bitmap temp = new(i, orig.Height);
+				using (Graphics gt = Graphics.FromImage(temp))
+				{
+					gt.DrawImage(orig, new Rectangle(0, 0, i, orig.Height), src, GraphicsUnit.Pixel);
+				}
+				temp.RotateFlip(RotateFlipType.RotateNoneFlipX);
+				g.DrawImage(temp, dest);
+				temp.Dispose();
+			}
+			pb.Image = bmp;
+			await Task.Delay(30);
+		}
+		await Task.Delay(300);
+		pb.Image = orig;
+	}
+
+	private async Task ApplyMosaicWipeAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		int sz = 20;
+		List<Point> blocks = [];
+		for (int y = 0; y < orig.Height; y += sz)
+		{
+			for (int x = 0; x < orig.Width; x += sz)
+			{
+				blocks.Add(new Point(x, y));
+			}
+		}
+
+		Random rnd = new();
+		blocks = [.. blocks.OrderBy(x => rnd.Next())];
+
+		Bitmap bmp = new(orig.Width, orig.Height);
+		using Graphics g = Graphics.FromImage(bmp);
+		g.Clear(SystemColors.Control);
+
+		int batch = blocks.Count / 15;
+		for (int i = 0; i < blocks.Count; i += batch)
+		{
+			for (int j = 0; j < batch && i + j < blocks.Count; j++)
+			{
+				Point p = blocks[i + j];
+				g.DrawImage(orig, new Rectangle(p.X, p.Y, sz, sz), new Rectangle(p.X, p.Y, sz, sz), GraphicsUnit.Pixel);
+			}
+			pb.Image = bmp;
+			await Task.Delay(20);
+		}
+		pb.Image = orig;
+	}
+
+	private async Task ApplyShockwaveAsync(Control control)
+	{
+		Size oS = control.Size;
+		Point oL = control.Location;
+
+		int pop = 40;
+		control.Size = new Size(oS.Width + (pop * 2), oS.Height + (pop * 2));
+		control.Location = new Point(oL.X - pop, oL.Y - pop);
+
+		for (float f = 0.5f; f <= 1.0f; f += 0.1f)
+		{
+			int w = (int)(oS.Width * f);
+			int h = (int)(oS.Height * f);
+			control.Size = new Size(w, h);
+			control.Location = new Point(oL.X + ((oS.Width - w) / 2), oL.Y + ((oS.Height - h) / 2));
+			await Task.Delay(20);
+		}
+
+		control.Size = oS;
+		control.Location = oL;
+	}
+
+	private async Task ApplyCrossEyedAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		for (int offset = 0; offset <= 20; offset += 2)
+		{
+			Bitmap bmp = new(orig.Width, orig.Height);
+			using Graphics g = Graphics.FromImage(bmp);
+			ColorMatrix cm = new() { Matrix33 = 0.5f };
+			using ImageAttributes attrs = new();
+			attrs.SetColorMatrix(cm);
+
+			g.DrawImage(orig, new Rectangle(-offset, 0, orig.Width, orig.Height), 0, 0, orig.Width, orig.Height, GraphicsUnit.Pixel, attrs);
+			g.DrawImage(orig, new Rectangle(offset, 0, orig.Width, orig.Height), 0, 0, orig.Width, orig.Height, GraphicsUnit.Pixel, attrs);
+			pb.Image = bmp;
+			await Task.Delay(20);
+		}
+		for (int offset = 20; offset >= 0; offset -= 2)
+		{
+			Bitmap bmp = new(orig.Width, orig.Height);
+			using Graphics g = Graphics.FromImage(bmp);
+			ColorMatrix cm = new() { Matrix33 = 0.5f };
+			using ImageAttributes attrs = new();
+			attrs.SetColorMatrix(cm);
+
+			g.DrawImage(orig, new Rectangle(-offset, 0, orig.Width, orig.Height), 0, 0, orig.Width, orig.Height, GraphicsUnit.Pixel, attrs);
+			g.DrawImage(orig, new Rectangle(offset, 0, orig.Width, orig.Height), 0, 0, orig.Width, orig.Height, GraphicsUnit.Pixel, attrs);
+			pb.Image = bmp;
+			await Task.Delay(20);
+		}
+		pb.Image = orig;
+	}
+
+	private async Task ApplyWipeRightAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		for (int w = 0; w <= pb.Width; w += 20)
+		{
+			Bitmap bmp = new(orig.Width, orig.Height);
+			using Graphics g = Graphics.FromImage(bmp);
+			g.Clear(SystemColors.Control);
+			// Draw from w to end
+			if (w < pb.Width)
+			{
+				g.DrawImage(orig, new Rectangle(w, 0, pb.Width - w, pb.Height), new Rectangle(w, 0, pb.Width - w, pb.Height), GraphicsUnit.Pixel);
+			}
+			pb.Image = bmp;
+			await Task.Delay(30);
+		}
+		await Task.Delay(200);
+		pb.Image = orig;
+	}
+
+	private async Task ApplyWipeLeftAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		for (int w = pb.Width; w >= 0; w -= 20)
+		{
+			Bitmap bmp = new(orig.Width, orig.Height);
+			using Graphics g = Graphics.FromImage(bmp);
+			g.Clear(SystemColors.Control);
+			// Draw from 0 to w
+			if (w > 0)
+			{
+				g.DrawImage(orig, new Rectangle(0, 0, w, pb.Height), new Rectangle(0, 0, w, pb.Height), GraphicsUnit.Pixel);
+			}
+			pb.Image = bmp;
+			await Task.Delay(30);
+		}
+		await Task.Delay(200);
+		pb.Image = orig;
+	}
+
+	private async Task ApplyWipeUpAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		for (int h = pb.Height; h >= 0; h -= 20)
+		{
+			Bitmap bmp = new(orig.Width, orig.Height);
+			using Graphics g = Graphics.FromImage(bmp);
+			g.Clear(SystemColors.Control);
+			if (h > 0)
+			{
+				g.DrawImage(orig, new Rectangle(0, pb.Height - h, pb.Width, h), new Rectangle(0, pb.Height - h, pb.Width, h), GraphicsUnit.Pixel);
+			}
+
+			pb.Image = bmp;
+			await Task.Delay(30);
+		}
+		await Task.Delay(200);
+		pb.Image = orig;
+	}
+
+	private async Task ApplyWipeDownAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		for (int h = 0; h <= pb.Height; h += 20)
+		{
+			Bitmap bmp = new(orig.Width, orig.Height);
+			using Graphics g = Graphics.FromImage(bmp);
+			g.Clear(SystemColors.Control);
+			if (h < pb.Height)
+			{
+				g.DrawImage(orig, new Rectangle(0, h, pb.Width, pb.Height - h), new Rectangle(0, h, pb.Width, pb.Height - h), GraphicsUnit.Pixel);
+			}
+
+			pb.Image = bmp;
+			await Task.Delay(30);
+		}
+		await Task.Delay(200);
+		pb.Image = orig;
+	}
+
+	private async Task ApplyCheckerboardWipeAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		int sz = 20;
+		List<Point> squares = [];
+		for (int y = 0; y < orig.Height; y += sz)
+		{
+			for (int x = 0; x < orig.Width; x += sz)
+			{
+				squares.Add(new Point(x, y));
+			}
+		}
+
+		Random rnd = new();
+		squares = [.. squares.OrderBy(x => rnd.Next())];
+		Bitmap current = new(orig);
+		using Graphics gc = Graphics.FromImage(current);
+
+		int batch = squares.Count / 10;
+		for (int i = 0; i < squares.Count; i += batch)
+		{
+			for (int j = 0; j < batch && i + j < squares.Count; j++)
+			{
+				Point p = squares[i + j];
+				gc.FillRectangle(SystemBrushes.Control, p.X, p.Y, sz, sz);
+			}
+			pb.Image = new Bitmap(current);
+			await Task.Delay(30);
+		}
+		await Task.Delay(200);
+		pb.Image = orig;
+		current.Dispose();
+	}
+
+	private async Task ApplyCircleRevealAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		int maxRadius = (int)Math.Sqrt((pb.Width * pb.Width) + (pb.Height * pb.Height));
+		for (int r = 0; r <= maxRadius; r += 20)
+		{
+			Bitmap bmp = new(orig.Width, orig.Height);
+			using Graphics g = Graphics.FromImage(bmp);
+			g.Clear(SystemColors.Control);
+			using System.Drawing.Drawing2D.GraphicsPath path = new();
+			path.AddEllipse((pb.Width / 2) - r, (pb.Height / 2) - r, r * 2, r * 2);
+			g.SetClip(path);
+			g.DrawImage(orig, 0, 0);
+			pb.Image = bmp;
+			await Task.Delay(20);
+		}
+		pb.Image = orig;
+	}
+
+	private async Task ApplyDiagonalWipeAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		using Pen p = new(SystemColors.Control, 40);
+		for (int d = 0; d < pb.Width + pb.Height; d += 20)
+		{
+			Bitmap bmp = new(orig.Width, orig.Height);
+			using Graphics g = Graphics.FromImage(bmp);
+			g.DrawImage(orig, 0, 0);
+			for (int i = 0; i <= d; i += 20)
+			{
+				g.DrawLine(p, 0, i, i, 0);
+			}
+
+			pb.Image = bmp;
+			await Task.Delay(20);
+		}
+		await Task.Delay(200);
+		pb.Image = orig;
+	}
+
+	private async Task ApplyBlurZoomOutAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		for (int i = 1; i <= 6; i++)
+		{
+			Bitmap bmp = new(orig.Width, orig.Height);
+			using Graphics g = Graphics.FromImage(bmp);
+			ColorMatrix cm = new() { Matrix33 = 1f / i };
+			using ImageAttributes attrs = new();
+			attrs.SetColorMatrix(cm);
+			for (int j = 1; j <= i; j++)
+			{
+				int shrink = j * 5;
+				g.DrawImage(orig, new Rectangle(shrink, shrink, orig.Width - (shrink * 2), orig.Height - (shrink * 2)), 0, 0, orig.Width, orig.Height, GraphicsUnit.Pixel, attrs);
+			}
+			pb.Image = bmp;
+			await Task.Delay(40);
+		}
+		await Task.Delay(200);
+		pb.Image = orig;
+	}
+
+	private async Task ApplyBWFlickerAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		Random rnd = new();
+		for (int i = 0; i < 15; i++)
+		{
+			if (rnd.NextDouble() > 0.5)
+			{
+				ApplyGrayscaleEffect(pb);
+			}
+			else
+			{
+				Bitmap b = new(orig);
+				pb.Image = b;
+			}
+			await Task.Delay(40);
+		}
+		pb.Image = orig;
+	}
+
+	private async Task ApplyHorizontalLineGlitchAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		Random rnd = new();
+		for (int i = 0; i < 15; i++)
+		{
+			Bitmap bmp = new(orig);
+			using Graphics g = Graphics.FromImage(bmp);
+			for (int lines = 0; lines < 8; lines++)
+			{
+				int y = rnd.Next(bmp.Height);
+				int h = rnd.Next(2, 10);
+				int off = rnd.Next(-20, 20);
+				g.DrawImage(orig, new Rectangle(off, y, bmp.Width, h), new Rectangle(0, y, bmp.Width, h), GraphicsUnit.Pixel);
+			}
+			pb.Image = bmp;
+			await Task.Delay(30);
+		}
+		pb.Image = orig;
+	}
+
+	private async Task ApplyVerticalLineGlitchAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		Random rnd = new();
+		for (int i = 0; i < 15; i++)
+		{
+			Bitmap bmp = new(orig);
+			using Graphics g = Graphics.FromImage(bmp);
+			for (int lines = 0; lines < 8; lines++)
+			{
+				int x = rnd.Next(bmp.Width);
+				int w = rnd.Next(2, 10);
+				int off = rnd.Next(-10, 10);
+				g.DrawImage(orig, new Rectangle(x, off, w, bmp.Height), new Rectangle(x, 0, w, bmp.Height), GraphicsUnit.Pixel);
+			}
+			pb.Image = bmp;
+			await Task.Delay(30);
+		}
+		pb.Image = orig;
+	}
+
+	private async Task ApplyRotationZoomAsync(Control control)
+	{
+		Size origSize = control.Size;
+		Point origLoc = control.Location;
+		int steps = 15;
+		int centerX = origLoc.X + (origSize.Width / 2);
+		int centerY = origLoc.Y + (origSize.Height / 2);
+
+		for (int i = 0; i <= steps; i++)
+		{
+			float scale = 1.0f + ((float)i / steps * 0.5f);
+			int w = (int)(origSize.Width * scale);
+			int h = (int)(origSize.Height * scale);
+
+			double rad = i * 15 * Math.PI / 180.0;
+			int xOff = (int)(Math.Sin(rad) * 10);
+			int yOff = (int)(Math.Cos(rad) * 10);
+
+			control.Size = new Size(w, h);
+			control.Location = new Point(centerX - (w / 2) + xOff, centerY - (h / 2) + yOff);
+			await Task.Delay(20);
+		}
+		for (int i = steps; i >= 0; i--)
+		{
+			float scale = 1.0f + ((float)i / steps * 0.5f);
+			int w = (int)(origSize.Width * scale);
+			int h = (int)(origSize.Height * scale);
+			control.Size = new Size(w, h);
+			control.Location = new Point(centerX - (w / 2), centerY - (h / 2));
+			await Task.Delay(20);
+		}
+		control.Size = origSize;
+		control.Location = origLoc;
+	}
+
+	private async Task ApplyFocusPulseAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		for (int i = 0; i < 2; i++)
+		{
+			ApplyBlurEffect(pb);
+			await Task.Delay(100);
+			pb.Image = new Bitmap(orig);
+			await Task.Delay(100);
+		}
+		pb.Image = orig;
+	}
+
+	private async Task ApplyRandomTintAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		Random rnd = new();
+		for (int i = 0; i < 5; i++)
+		{
+			Bitmap bmp = new(orig.Width, orig.Height);
+			using Graphics g = Graphics.FromImage(bmp);
+			float r = (float)(rnd.NextDouble() * 1.5);
+			float gr = (float)(rnd.NextDouble() * 1.5);
+			float b = (float)(rnd.NextDouble() * 1.5);
+			ColorMatrix cm = new([
+				[r, 0, 0, 0, 0],
+				[0, gr, 0, 0, 0],
+				[0, 0, b, 0, 0],
+				[0, 0, 0, 1, 0],
+				[0, 0, 0, 0, 1]
+			]);
+			using ImageAttributes attrs = new();
+			attrs.SetColorMatrix(cm);
+			g.DrawImage(orig, new Rectangle(0, 0, bmp.Width, bmp.Height), 0, 0, orig.Width, orig.Height, GraphicsUnit.Pixel, attrs);
+			pb.Image = bmp;
+			await Task.Delay(150);
+		}
+		pb.Image = orig;
+	}
+
+	private async Task ApplyFlickerNeonEdgeAsync(Control control)
+	{
+		Color[] glowColors = [Color.Cyan, Color.Transparent, Color.Cyan, Color.Transparent, Color.Magenta, Color.Transparent];
+		for (int i = 0; i < glowColors.Length * 2; i++)
+		{
+			Color c = glowColors[i % glowColors.Length];
+			if (c != Color.Transparent)
+			{
+				control.BackColor = Color.FromArgb(100, c);
+				control.Padding = new Padding(2);
+			}
+			else
+			{
+				control.BackColor = Color.Transparent;
+				control.Padding = new Padding(0);
+			}
+			await Task.Delay(50);
+		}
+		control.BackColor = Color.Transparent;
+		control.Padding = new Padding(0);
+	}
+
+	private async Task ApplyGlitchBoxesAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		Random rnd = new();
+		for (int i = 0; i < 20; i++)
+		{
+			Bitmap bmp = new(orig);
+			using Graphics g = Graphics.FromImage(bmp);
+			for (int j = 0; j < 6; j++)
+			{
+				int x = rnd.Next(bmp.Width);
+				int y = rnd.Next(bmp.Height);
+				int w = rnd.Next(20, 80);
+				int h = rnd.Next(20, 80);
+				int ox = rnd.Next(-20, 20);
+				int oy = rnd.Next(-20, 20);
+				g.DrawImage(orig, new Rectangle(x + ox, y + oy, w, h), new Rectangle(x, y, w, h), GraphicsUnit.Pixel);
+			}
+			pb.Image = bmp;
+			await Task.Delay(30);
+		}
+		pb.Image = orig;
+	}
+
+	private async Task ApplyRubberDropAsync(Control control)
+	{
+		Point origLoc = control.Location;
+		Size origSize = control.Size;
+		int drop = 100;
+		control.Location = new Point(origLoc.X, origLoc.Y - drop);
+		for (int i = drop; i >= 0; i -= 15)
+		{
+			control.Location = new Point(origLoc.X, origLoc.Y - i);
+			await Task.Delay(15);
+		}
+		control.Size = new Size(origSize.Width + 20, origSize.Height - 10);
+		control.Location = new Point(origLoc.X - 10, origLoc.Y + 10);
+		await Task.Delay(30);
+		control.Size = new Size(origSize.Width - 10, origSize.Height + 10);
+		control.Location = new Point(origLoc.X + 5, origLoc.Y - 10);
+		await Task.Delay(30);
+		control.Size = origSize;
+		control.Location = origLoc;
+	}
+
+	private async Task ApplyWaveZoomAsync(PictureBox pb)
+	{
+		Size origSize = pb.Size;
+		Point origLoc = pb.Location;
+		for (int i = 0; i < 360; i += 20)
+		{
+			double rad = i * Math.PI / 180.0;
+			int pop = (int)(Math.Sin(rad) * 15);
+			pb.Size = new Size(origSize.Width + (pop * 2), origSize.Height + (pop * 2));
+			pb.Location = new Point(origLoc.X - pop, origLoc.Y - pop);
+			await Task.Delay(20);
+		}
+		pb.Size = origSize;
+		pb.Location = origLoc;
+	}
+
+	private async Task ApplyMatrixFlickerAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		Random rnd = new();
+		for (int i = 0; i < 15; i++)
+		{
+			Bitmap bmp = new(orig);
+			using Graphics g = Graphics.FromImage(bmp);
+			for (int j = 0; j < 30; j++)
+			{
+				int x = rnd.Next(bmp.Width);
+				int y = rnd.Next(bmp.Height);
+				using SolidBrush b = new(Color.FromArgb(150, 0, 255, 0));
+				g.FillRectangle(b, x, y, 4, 10);
+			}
+			pb.Image = bmp;
+			await Task.Delay(30);
+		}
+		pb.Image = orig;
+	}
+
+	private async Task ApplyGhostZoomAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		for (int i = 0; i < 10; i++)
+		{
+			int expand = i * 5;
+			Bitmap bmp = new(orig.Width + (expand * 2), orig.Height + (expand * 2));
+			using Graphics g = Graphics.FromImage(bmp);
+			g.Clear(Color.Transparent);
+			ColorMatrix cm = new() { Matrix33 = 1.0f - (i * 0.1f) };
+			using ImageAttributes attrs = new();
+			attrs.SetColorMatrix(cm);
+			g.DrawImage(orig, new Rectangle(0, 0, bmp.Width, bmp.Height), 0, 0, orig.Width, orig.Height, GraphicsUnit.Pixel, attrs);
+			pb.Image = bmp;
+			pb.Size = bmp.Size;
+			pb.Location = new Point(pb.Location.X - 5, pb.Location.Y - 5);
+			await Task.Delay(30);
+		}
+		await Task.Delay(200);
+		AppInfoForm_Load(this, EventArgs.Empty);
+	}
+
+	private async Task ApplyMirrorDistortionAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		for (int y = 0; y < pb.Height / 2; y += 5)
+		{
+			Bitmap bmp = new(orig.Width, orig.Height);
+			using Graphics g = Graphics.FromImage(bmp);
+			g.DrawImage(orig, new Rectangle(0, 0, orig.Width, (orig.Height / 2) + y), new Rectangle(0, 0, orig.Width, (orig.Height / 2) + y), GraphicsUnit.Pixel);
+			Image flipped = new Bitmap(orig);
+			flipped.RotateFlip(RotateFlipType.RotateNoneFlipY);
+			g.DrawImage(flipped, new Rectangle(0, (orig.Height / 2) + y, orig.Width, (orig.Height / 2) - y), new Rectangle(0, 0, orig.Width, (orig.Height / 2) - y), GraphicsUnit.Pixel);
+			pb.Image = bmp;
+			await Task.Delay(20);
+		}
+		pb.Image = orig;
+	}
+
+	private async Task ApplyColorBreathingAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		for (float f = 0.0f; f < Math.PI * 2; f += 0.2f)
+		{
+			Bitmap bmp = new(orig.Width, orig.Height);
+			using Graphics g = Graphics.FromImage(bmp);
+			float s = (float)((Math.Sin(f) * 0.3) + 1.0);
+			ColorMatrix cm = new([
+				[s, 0, 0, 0, 0],
+				[0, s, 0, 0, 0],
+				[0, 0, s, 0, 0],
+				[0, 0, 0, 1, 0],
+				[0, 0, 0, 0, 1]
+			]);
+			using ImageAttributes attrs = new();
+			attrs.SetColorMatrix(cm);
+			g.DrawImage(orig, new Rectangle(0, 0, bmp.Width, bmp.Height), 0, 0, orig.Width, orig.Height, GraphicsUnit.Pixel, attrs);
+			pb.Image = bmp;
+			await Task.Delay(40);
+		}
+		pb.Image = orig;
+	}
+
+	private async Task ApplyShootingStarAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		using Pen star = new(Color.White, 3);
+		for (int i = 0; i < pb.Width + pb.Height; i += 20)
+		{
+			Bitmap bmp = new(orig);
+			using Graphics g = Graphics.FromImage(bmp);
+			g.DrawLine(star, i, 0, i - 40, 40);
+			pb.Image = bmp;
+			await Task.Delay(20);
+		}
+		pb.Image = orig;
+	}
+
+	private async Task ApplyFadeUpAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		Point origLoc = pb.Location;
+		for (int i = 0; i < 15; i++)
+		{
+			pb.Image = SetImageOpacity(orig, 1.0f - (i / 15f));
+			pb.Location = new Point(origLoc.X, origLoc.Y - (i * 2));
+			await Task.Delay(30);
+		}
+		await Task.Delay(200);
+		pb.Location = origLoc;
+		pb.Image = orig;
+	}
+
+	private async Task ApplyJumpingImageAsync(Control control)
+	{
+		Point origLoc = control.Location;
+		for (int j = 0; j < 3; j++)
+		{
+			for (int i = 0; i < 15; i += 3)
+			{
+				control.Location = new Point(origLoc.X, origLoc.Y - i);
+				await Task.Delay(15);
+			}
+			for (int i = 15; i >= 0; i -= 3)
+			{
+				control.Location = new Point(origLoc.X, origLoc.Y - i);
+				await Task.Delay(15);
+			}
+		}
+		control.Location = origLoc;
+	}
+
+	private async Task ApplyJitteringRainbowAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		Random rnd = new();
+		for (float f = 0; f < Math.PI * 2; f += 0.4f)
+		{
+			Bitmap bmp = new(orig.Width, orig.Height);
+			using Graphics g = Graphics.FromImage(bmp);
+			float r = (float)((Math.Sin(f) * 0.5) + 0.5);
+			float gr = (float)((Math.Sin(f + 2) * 0.5) + 0.5);
+			float b = (float)((Math.Sin(f + 4) * 0.5) + 0.5);
+			ColorMatrix cm = new([
+				[r, 0, 0, 0, 0], [0, gr, 0, 0, 0], [0, 0, b, 0, 0], [0, 0, 0, 1, 0], [0, 0, 0, 0, 1]
+			]);
+			using ImageAttributes attrs = new();
+			attrs.SetColorMatrix(cm);
+			int xOff = rnd.Next(-5, 5);
+			int yOff = rnd.Next(-5, 5);
+			g.DrawImage(orig, new Rectangle(xOff, yOff, bmp.Width, bmp.Height), 0, 0, orig.Width, orig.Height, GraphicsUnit.Pixel, attrs);
+			pb.Image = bmp;
+			await Task.Delay(30);
+		}
+		pb.Image = orig;
+	}
+
+	private async Task ApplyHorizontalMeltAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		Bitmap current = new(orig);
+		Random rnd = new();
+		for (int iter = 0; iter < 15; iter++)
+		{
+			for (int y = 0; y < current.Height; y += rnd.Next(2, 6))
+			{
+				int push = rnd.Next(1, 10);
+				for (int x = current.Width - 1; x >= push; x--)
+				{
+					current.SetPixel(x, y, current.GetPixel(x - push, y));
+				}
+			}
+			pb.Image = current;
+			await Task.Delay(40);
+		}
+		await Task.Delay(300);
+		pb.Image = orig;
+		current.Dispose();
+	}
+
+	private async Task ApplyViewportWanderAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		for (int i = 0; i < 360; i += 20)
+		{
+			double rad = i * Math.PI / 180.0;
+			int xOff = (int)(Math.Sin(rad) * 15);
+			int yOff = (int)(Math.Cos(rad) * 15);
+			Bitmap bmp = new(orig.Width, orig.Height);
+			using Graphics g = Graphics.FromImage(bmp);
+			g.Clear(SystemColors.Control);
+			g.DrawImage(orig, new Rectangle(xOff, yOff, orig.Width, orig.Height), 0, 0, orig.Width, orig.Height, GraphicsUnit.Pixel);
+			pb.Image = bmp;
+			await Task.Delay(30);
+		}
+		pb.Image = orig;
+	}
+
+	private async Task ApplyFlickerInvertAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		for (int i = 0; i < 15; i++)
+		{
+			if (i % 3 == 0)
+			{
+				ApplyInvertEffect(pb);
+			}
+			else
+			{
+				pb.Image = new Bitmap(orig);
+			}
+
+			await Task.Delay(40);
+		}
+		pb.Image = orig;
+	}
+
+	private async Task ApplyImageSplitAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		for (int offset = 0; offset <= 20; offset += 2)
+		{
+			Bitmap bmp = new(orig.Width, orig.Height);
+			using Graphics g = Graphics.FromImage(bmp);
+			g.Clear(SystemColors.Control);
+			g.DrawImage(orig, new Rectangle(-offset, 0, orig.Width, orig.Height), 0, 0, orig.Width, orig.Height, GraphicsUnit.Pixel);
+			g.DrawImage(orig, new Rectangle(offset, 0, orig.Width, orig.Height), 0, 0, orig.Width, orig.Height, GraphicsUnit.Pixel);
+			pb.Image = bmp;
+			await Task.Delay(30);
+		}
+		pb.Image = orig;
+	}
+
+	private async Task ApplySoftHeartbeatAsync(PictureBox pb)
+	{
+		Size oS = pb.Size;
+		Point oL = pb.Location;
+		for (int pulse = 0; pulse < 2; pulse++)
+		{
+			for (int i = 0; i < 5; i++)
+			{
+				pb.Size = new Size(oS.Width + (i * 2), oS.Height + (i * 2));
+				pb.Location = new Point(oL.X - i, oL.Y - i);
+				await Task.Delay(30);
+			}
+			for (int i = 5; i >= 0; i--)
+			{
+				pb.Size = new Size(oS.Width + (i * 2), oS.Height + (i * 2));
+				pb.Location = new Point(oL.X - i, oL.Y - i);
+				await Task.Delay(30);
+			}
+			await Task.Delay(100);
+		}
+		pb.Size = oS;
+		pb.Location = oL;
+	}
+
+	private async Task ApplyScannerGlitchAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		Random rnd = new();
+		for (int y = 0; y < pb.Height; y += 10)
+		{
+			Bitmap bmp = new(orig);
+			using Graphics g = Graphics.FromImage(bmp);
+			using Pen p = new(Color.FromArgb(150, 0, 255, 0), 2);
+			g.DrawLine(p, 0, y, bmp.Width, y);
+			int glitchW = rnd.Next(20, 50);
+			int glitchX = rnd.Next(bmp.Width);
+			g.DrawImage(orig, new Rectangle(glitchX + rnd.Next(-10, 10), y, glitchW, 10), new Rectangle(glitchX, y, glitchW, 10), GraphicsUnit.Pixel);
+			pb.Image = bmp;
+			await Task.Delay(30);
+		}
+		pb.Image = orig;
+	}
+
+	private async Task ApplyColorNoiseAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		Random rnd = new();
+		for (int i = 0; i < 15; i++)
+		{
+			Bitmap bmp = new(orig);
+			for (int n = 0; n < 2000; n++)
+			{
+				int x = rnd.Next(bmp.Width);
+				int y = rnd.Next(bmp.Height);
+				bmp.SetPixel(x, y, Color.FromArgb(255, rnd.Next(256), rnd.Next(256), rnd.Next(256)));
+			}
+			pb.Image = bmp;
+			await Task.Delay(40);
+		}
+		pb.Image = orig;
+	}
+
+	private async Task ApplyHeavyBlurAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		for (int step = 1; step <= 3; step++)
+		{
+			int blur = step * 10;
+			Bitmap small = new(Math.Max(1, orig.Width / blur), Math.Max(1, orig.Height / blur));
+			using (Graphics g1 = Graphics.FromImage(small))
+			{
+				g1.InterpolationMode = System.Drawing.Drawing2D.InterpolationMode.HighQualityBicubic;
+				g1.DrawImage(orig, 0, 0, small.Width, small.Height);
+			}
+			Bitmap blurred = new(orig.Width, orig.Height);
+			using (Graphics g2 = Graphics.FromImage(blurred))
+			{
+				g2.InterpolationMode = System.Drawing.Drawing2D.InterpolationMode.HighQualityBicubic;
+				g2.DrawImage(small, 0, 0, blurred.Width, blurred.Height);
+			}
+			pb.Image = blurred;
+			small.Dispose();
+			await Task.Delay(100);
+		}
+		await Task.Delay(200);
+		pb.Image = orig;
+	}
+
+	private async Task ApplyDropSuckAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		for (int i = 0; i <= 20; i += 2)
+		{
+			Bitmap bmp = new(orig.Width, orig.Height);
+			using Graphics g = Graphics.FromImage(bmp);
+			g.Clear(SystemColors.Control);
+			// Draw sucked towards bottom center
+			Point[] points = {
+				new(i*2, 0),
+				new(orig.Width - (i*2), 0),
+				new((orig.Width/2) - (i*5), orig.Height),
+			};
+			g.DrawImage(orig, points);
+			pb.Image = bmp;
+			await Task.Delay(30);
+		}
+		await Task.Delay(300);
+		pb.Image = orig;
+	}
+
+	private async Task ApplyArrowWipeAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		for (int x = 0; x < pb.Width * 1.5; x += 15)
+		{
+			Bitmap bmp = new(orig.Width, orig.Height);
+			using Graphics g = Graphics.FromImage(bmp);
+			g.Clear(SystemColors.Control);
+			using System.Drawing.Drawing2D.GraphicsPath path = new();
+			path.AddPolygon([
+				new Point(0, 0),
+				new Point(x - (pb.Height/2), 0),
+				new Point(x, pb.Height/2),
+				new Point(x - (pb.Height/2), pb.Height),
+				new Point(0, pb.Height)
+			]);
+			g.SetClip(path);
+			g.DrawImage(orig, 0, 0);
+			pb.Image = bmp;
+			await Task.Delay(20);
+		}
+		pb.Image = orig;
+	}
+
+	private async Task ApplyVhsNoiseVerticalAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		Random rnd = new();
+		for (int i = 0; i < 20; i++)
+		{
+			Bitmap bmp = new(orig);
+			using Graphics g = Graphics.FromImage(bmp);
+			for (int n = 0; n < 10; n++)
+			{
+				int x = rnd.Next(bmp.Width);
+				using Pen p = new(Color.FromArgb(100, 255, 255, 255), rnd.Next(1, 4));
+				g.DrawLine(p, x, 0, x, bmp.Height);
+			}
+			int offset = rnd.Next(-10, 10);
+			g.DrawImage(orig, new Rectangle(0, offset, bmp.Width, bmp.Height), new Rectangle(0, 0, bmp.Width, bmp.Height), GraphicsUnit.Pixel);
+			pb.Image = bmp;
+			await Task.Delay(30);
+		}
+		pb.Image = orig;
+	}
+
+	private async Task ApplySpiralGhostAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		for (int i = 0; i < 360; i += 20)
+		{
+			Bitmap bmp = new(orig.Width, orig.Height);
+			using Graphics g = Graphics.FromImage(bmp);
+			ColorMatrix cm = new() { Matrix33 = 0.5f };
+			using ImageAttributes attrs = new();
+			attrs.SetColorMatrix(cm);
+			double rad = i * Math.PI / 180.0;
+			int xOff = (int)(Math.Sin(rad) * 15);
+			int yOff = (int)(Math.Cos(rad) * 15);
+			g.DrawImage(orig, 0, 0);
+			g.DrawImage(orig, new Rectangle(xOff, yOff, orig.Width, orig.Height), 0, 0, orig.Width, orig.Height, GraphicsUnit.Pixel, attrs);
+			pb.Image = bmp;
+			await Task.Delay(20);
+		}
+		pb.Image = orig;
+	}
+
+	private async Task ApplyScaleBounceAsync(Control control)
+	{
+		Size oS = control.Size;
+		Point oL = control.Location;
+		control.Size = new Size(oS.Width + 20, oS.Height - 10);
+		control.Location = new Point(oL.X - 10, oL.Y + 5);
+		await Task.Delay(100);
+		control.Size = new Size(oS.Width - 10, oS.Height + 20);
+		control.Location = new Point(oL.X + 5, oL.Y - 10);
+		await Task.Delay(100);
+		control.Size = oS;
+		control.Location = oL;
+	}
+
+	private async Task ApplyRotatingGhostAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		for (int angle = 0; angle <= 360; angle += 30)
+		{
+			Bitmap bmp = new(orig.Width, orig.Height);
+			using Graphics g = Graphics.FromImage(bmp);
+			ColorMatrix cm = new() { Matrix33 = 0.4f };
+			using ImageAttributes attrs = new();
+			attrs.SetColorMatrix(cm);
+
+			g.DrawImage(orig, 0, 0);
+			g.TranslateTransform(orig.Width / 2, orig.Height / 2);
+			g.RotateTransform(angle);
+			g.TranslateTransform(-orig.Width / 2, -orig.Height / 2);
+			g.DrawImage(orig, new Rectangle(0, 0, orig.Width, orig.Height), 0, 0, orig.Width, orig.Height, GraphicsUnit.Pixel, attrs);
+			g.ResetTransform();
+			pb.Image = bmp;
+			await Task.Delay(30);
+		}
+		pb.Image = orig;
+	}
+
+	private async Task ApplyFake3DRoomAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		for (int offset = 0; offset <= 30; offset += 3)
+		{
+			Bitmap bmp = new(orig.Width, orig.Height);
+			using Graphics g = Graphics.FromImage(bmp);
+			g.Clear(SystemColors.Control);
+			Point[] points = {
+				new(offset, offset),
+				new(orig.Width - offset, 0),
+				new(offset, orig.Height - offset)
+			};
+			g.DrawImage(orig, points);
+			pb.Image = bmp;
+			await Task.Delay(30);
+		}
+		for (int offset = 30; offset >= 0; offset -= 3)
+		{
+			Bitmap bmp = new(orig.Width, orig.Height);
+			using Graphics g = Graphics.FromImage(bmp);
+			g.Clear(SystemColors.Control);
+			Point[] points = {
+				new(offset, offset),
+				new(orig.Width - offset, 0),
+				new(offset, orig.Height - offset)
+			};
+			g.DrawImage(orig, points);
+			pb.Image = bmp;
+			await Task.Delay(30);
+		}
+		pb.Image = orig;
+	}
+
+	private async Task ApplyExplodingPixelsAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		Random rnd = new();
+		List<(int x, int y, int vx, int vy, Color c)> pixels = [];
+		Bitmap bmpInit = new(orig);
+		for (int i = 0; i < 200; i++)
+		{
+			int x = rnd.Next(bmpInit.Width);
+			int y = rnd.Next(bmpInit.Height);
+			pixels.Add((x, y, rnd.Next(-10, 11), rnd.Next(-10, 11), bmpInit.GetPixel(x, y)));
+		}
+		bmpInit.Dispose();
+
+		for (int frame = 0; frame < 20; frame++)
+		{
+			Bitmap bmp = new(orig);
+			using Graphics g = Graphics.FromImage(bmp);
+			for (int i = 0; i < pixels.Count; i++)
+			{
+				var (x, y, vx, vy, c) = pixels[i];
+				using SolidBrush b = new(c);
+				g.FillRectangle(b, x, y, 4, 4);
+				pixels[i] = (x + vx, y + vy, vx, vy, c);
+			}
+			pb.Image = bmp;
+			await Task.Delay(30);
+		}
+		pb.Image = orig;
+	}
+
+	private async Task ApplyBounceInAsync(Control control)
+	{
+		Size oS = control.Size;
+		Point oL = control.Location;
+		control.Size = new Size(0, 0);
+		control.Location = new Point(oL.X + (oS.Width / 2), oL.Y + (oS.Height / 2));
+		for (float scale = 0.1f; scale <= 1.2f; scale += 0.2f)
+		{
+			int w = (int)(oS.Width * scale);
+			int h = (int)(oS.Height * scale);
+			control.Size = new Size(w, h);
+			control.Location = new Point(oL.X + ((oS.Width - w) / 2), oL.Y + ((oS.Height - h) / 2));
+			await Task.Delay(20);
+		}
+		for (float scale = 1.2f; scale >= 1.0f; scale -= 0.1f)
+		{
+			int w = (int)(oS.Width * scale);
+			int h = (int)(oS.Height * scale);
+			control.Size = new Size(w, h);
+			control.Location = new Point(oL.X + ((oS.Width - w) / 2), oL.Y + ((oS.Height - h) / 2));
+			await Task.Delay(20);
+		}
+		control.Size = oS;
+		control.Location = oL;
+	}
+
+	private async Task ApplySlideUpAsync(Control control)
+	{
+		Point oL = control.Location;
+		int drop = 200;
+		control.Location = new Point(oL.X, oL.Y + drop);
+		for (int i = drop; i >= 0; i -= 20)
+		{
+			control.Location = new Point(oL.X, oL.Y + i);
+			await Task.Delay(15);
+		}
+		control.Location = oL;
+	}
+
+	private async Task ApplySlideDownAsync(Control control)
+	{
+		Point oL = control.Location;
+		int drop = 200;
+		control.Location = new Point(oL.X, oL.Y - drop);
+		for (int i = drop; i >= 0; i -= 20)
+		{
+			control.Location = new Point(oL.X, oL.Y - i);
+			await Task.Delay(15);
+		}
+		control.Location = oL;
+	}
+
+	private async Task ApplySlideLeftAsync(Control control)
+	{
+		Point oL = control.Location;
+		int drop = 200;
+		control.Location = new Point(oL.X + drop, oL.Y);
+		for (int i = drop; i >= 0; i -= 20)
+		{
+			control.Location = new Point(oL.X + i, oL.Y);
+			await Task.Delay(15);
+		}
+		control.Location = oL;
+	}
+
+	private async Task ApplySlideRightAsync(Control control)
+	{
+		Point oL = control.Location;
+		int drop = 200;
+		control.Location = new Point(oL.X - drop, oL.Y);
+		for (int i = drop; i >= 0; i -= 20)
+		{
+			control.Location = new Point(oL.X - i, oL.Y);
+			await Task.Delay(15);
+		}
+		control.Location = oL;
+	}
+
+	private async Task ApplyColorWipeRedAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		for (int w = 0; w <= pb.Width; w += 20)
+		{
+			Bitmap bmp = new(orig);
+			using Graphics g = Graphics.FromImage(bmp);
+			using SolidBrush b = new(Color.FromArgb(100, 255, 0, 0));
+			g.FillRectangle(b, 0, 0, w, pb.Height);
+			pb.Image = bmp;
+			await Task.Delay(20);
+		}
+		pb.Image = orig;
+	}
+
+	private async Task ApplyColorWipeGreenAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		for (int w = 0; w <= pb.Width; w += 20)
+		{
+			Bitmap bmp = new(orig);
+			using Graphics g = Graphics.FromImage(bmp);
+			using SolidBrush b = new(Color.FromArgb(100, 0, 255, 0));
+			g.FillRectangle(b, pb.Width - w, 0, w, pb.Height);
+			pb.Image = bmp;
+			await Task.Delay(20);
+		}
+		pb.Image = orig;
+	}
+
+	private async Task ApplyColorWipeBlueAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		for (int h = 0; h <= pb.Height; h += 20)
+		{
+			Bitmap bmp = new(orig);
+			using Graphics g = Graphics.FromImage(bmp);
+			using SolidBrush b = new(Color.FromArgb(100, 0, 0, 255));
+			g.FillRectangle(b, 0, 0, pb.Width, h);
+			pb.Image = bmp;
+			await Task.Delay(20);
+		}
+		pb.Image = orig;
+	}
+
+	private async Task ApplyExpandWidthFastAsync(Control control)
+	{
+		Size oS = control.Size;
+		Point oL = control.Location;
+		control.Size = new Size(1, oS.Height);
+		control.Location = new Point(oL.X + (oS.Width / 2), oL.Y);
+		for (int w = 1; w <= oS.Width; w += 30)
+		{
+			control.Size = new Size(w, oS.Height);
+			control.Location = new Point(oL.X + ((oS.Width - w) / 2), oL.Y);
+			await Task.Delay(15);
+		}
+		control.Size = oS;
+		control.Location = oL;
+	}
+
+	private async Task ApplyExpandHeightFastAsync(Control control)
+	{
+		Size oS = control.Size;
+		Point oL = control.Location;
+		control.Size = new Size(oS.Width, 1);
+		control.Location = new Point(oL.X, oL.Y + (oS.Height / 2));
+		for (int h = 1; h <= oS.Height; h += 15)
+		{
+			control.Size = new Size(oS.Width, h);
+			control.Location = new Point(oL.X, oL.Y + ((oS.Height - h) / 2));
+			await Task.Delay(15);
+		}
+		control.Size = oS;
+		control.Location = oL;
+	}
+
+	private async Task ApplyColorPulseBaseAsync(PictureBox pb, ColorMatrix cm1, ColorMatrix cm2)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		using ImageAttributes a1 = new();
+		a1.SetColorMatrix(cm1);
+		using ImageAttributes a2 = new();
+		a2.SetColorMatrix(cm2);
+
+		for (int i = 0; i < 3; i++)
+		{
+			Bitmap b1 = new(orig.Width, orig.Height);
+			using (Graphics g = Graphics.FromImage(b1))
+			{
+				g.DrawImage(orig, new Rectangle(0, 0, b1.Width, b1.Height), 0, 0, orig.Width, orig.Height, GraphicsUnit.Pixel, a1);
+			}
+
+			pb.Image = b1;
+			await Task.Delay(100);
+
+			Bitmap b2 = new(orig.Width, orig.Height);
+			using (Graphics g = Graphics.FromImage(b2))
+			{
+				g.DrawImage(orig, new Rectangle(0, 0, b2.Width, b2.Height), 0, 0, orig.Width, orig.Height, GraphicsUnit.Pixel, a2);
+			}
+
+			pb.Image = b2;
+			await Task.Delay(100);
+		}
+		pb.Image = orig;
+	}
+
+	private Task ApplyPulseRedAsync(PictureBox pb)
+	{
+		ColorMatrix cm1 = new([
+			[1.5f, 0, 0, 0, 0], [0, 0.5f, 0, 0, 0], [0, 0, 0.5f, 0, 0], [0, 0, 0, 1, 0], [0, 0, 0, 0, 1]
+		]);
+		ColorMatrix cm2 = new([
+			[1.0f, 0, 0, 0, 0], [0, 1.0f, 0, 0, 0], [0, 0, 1.0f, 0, 0], [0, 0, 0, 1, 0], [0, 0, 0, 0, 1]
+		]);
+		return ApplyColorPulseBaseAsync(pb, cm1, cm2);
+	}
+
+	private Task ApplyPulseGreenAsync(PictureBox pb)
+	{
+		ColorMatrix cm1 = new([
+			[0.5f, 0, 0, 0, 0], [1.5f, 0, 0, 0, 0], [0, 0, 0.5f, 0, 0], [0, 0, 0, 1, 0], [0, 0, 0, 0, 1]
+		]);
+		ColorMatrix cm2 = new([
+			[1.0f, 0, 0, 0, 0], [0, 1.0f, 0, 0, 0], [0, 0, 1.0f, 0, 0], [0, 0, 0, 1, 0], [0, 0, 0, 0, 1]
+		]);
+		return ApplyColorPulseBaseAsync(pb, cm1, cm2);
+	}
+
+	private Task ApplyPulseBlueAsync(PictureBox pb)
+	{
+		ColorMatrix cm1 = new([
+			[0.5f, 0, 0, 0, 0], [0, 0.5f, 0, 0, 0], [0, 0, 1.5f, 0, 0], [0, 0, 0, 1, 0], [0, 0, 0, 0, 1]
+		]);
+		ColorMatrix cm2 = new([
+			[1.0f, 0, 0, 0, 0], [0, 1.0f, 0, 0, 0], [0, 0, 1.0f, 0, 0], [0, 0, 0, 1, 0], [0, 0, 0, 0, 1]
+		]);
+		return ApplyColorPulseBaseAsync(pb, cm1, cm2);
+	}
+
+	private async Task ApplyShiftUpAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		for (int i = 0; i <= 20; i += 4)
+		{
+			Bitmap bmp = new(orig.Width, orig.Height);
+			using Graphics g = Graphics.FromImage(bmp);
+			g.Clear(SystemColors.Control);
+			g.DrawImage(orig, 0, -i);
+			pb.Image = bmp;
+			await Task.Delay(20);
+		}
+		for (int i = 20; i >= 0; i -= 4)
+		{
+			Bitmap bmp = new(orig.Width, orig.Height);
+			using Graphics g = Graphics.FromImage(bmp);
+			g.Clear(SystemColors.Control);
+			g.DrawImage(orig, 0, -i);
+			pb.Image = bmp;
+			await Task.Delay(20);
+		}
+		pb.Image = orig;
+	}
+
+	private async Task ApplyShiftDownAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		for (int i = 0; i <= 20; i += 4)
+		{
+			Bitmap bmp = new(orig.Width, orig.Height);
+			using Graphics g = Graphics.FromImage(bmp);
+			g.Clear(SystemColors.Control);
+			g.DrawImage(orig, 0, i);
+			pb.Image = bmp;
+			await Task.Delay(20);
+		}
+		for (int i = 20; i >= 0; i -= 4)
+		{
+			Bitmap bmp = new(orig.Width, orig.Height);
+			using Graphics g = Graphics.FromImage(bmp);
+			g.Clear(SystemColors.Control);
+			g.DrawImage(orig, 0, i);
+			pb.Image = bmp;
+			await Task.Delay(20);
+		}
+		pb.Image = orig;
+	}
+
+	private async Task ApplyShiftLeftAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		for (int i = 0; i <= 20; i += 4)
+		{
+			Bitmap bmp = new(orig.Width, orig.Height);
+			using Graphics g = Graphics.FromImage(bmp);
+			g.Clear(SystemColors.Control);
+			g.DrawImage(orig, -i, 0);
+			pb.Image = bmp;
+			await Task.Delay(20);
+		}
+		for (int i = 20; i >= 0; i -= 4)
+		{
+			Bitmap bmp = new(orig.Width, orig.Height);
+			using Graphics g = Graphics.FromImage(bmp);
+			g.Clear(SystemColors.Control);
+			g.DrawImage(orig, -i, 0);
+			pb.Image = bmp;
+			await Task.Delay(20);
+		}
+		pb.Image = orig;
+	}
+
+	private async Task ApplyShiftRightAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		for (int i = 0; i <= 20; i += 4)
+		{
+			Bitmap bmp = new(orig.Width, orig.Height);
+			using Graphics g = Graphics.FromImage(bmp);
+			g.Clear(SystemColors.Control);
+			g.DrawImage(orig, i, 0);
+			pb.Image = bmp;
+			await Task.Delay(20);
+		}
+		for (int i = 20; i >= 0; i -= 4)
+		{
+			Bitmap bmp = new(orig.Width, orig.Height);
+			using Graphics g = Graphics.FromImage(bmp);
+			g.Clear(SystemColors.Control);
+			g.DrawImage(orig, i, 0);
+			pb.Image = bmp;
+			await Task.Delay(20);
+		}
+		pb.Image = orig;
+	}
+
+	private async Task ApplyVignettePulseAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		for (int i = 0; i < 3; i++)
+		{
+			for (int w = 10; w <= 50; w += 10)
+			{
+				Bitmap bmp = new(orig);
+				using Graphics g = Graphics.FromImage(bmp);
+				using Pen p = new(Color.FromArgb(150, 0, 0, 0), w);
+				g.DrawRectangle(p, 0, 0, bmp.Width, bmp.Height);
+				pb.Image = bmp;
+				await Task.Delay(30);
+			}
+			for (int w = 50; w >= 10; w -= 10)
+			{
+				Bitmap bmp = new(orig);
+				using Graphics g = Graphics.FromImage(bmp);
+				using Pen p = new(Color.FromArgb(150, 0, 0, 0), w);
+				g.DrawRectangle(p, 0, 0, bmp.Width, bmp.Height);
+				pb.Image = bmp;
+				await Task.Delay(30);
+			}
+		}
+		pb.Image = orig;
+	}
+
+	private async Task ApplyNeonLinesAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		Random rnd = new();
+		Color[] colors = [Color.Cyan, Color.Magenta, Color.Lime, Color.Yellow];
+		for (int i = 0; i < 15; i++)
+		{
+			Bitmap bmp = new(orig);
+			using Graphics g = Graphics.FromImage(bmp);
+			for (int j = 0; j < 5; j++)
+			{
+				using Pen p = new(colors[rnd.Next(colors.Length)], rnd.Next(1, 4));
+				g.DrawLine(p, rnd.Next(bmp.Width), rnd.Next(bmp.Height), rnd.Next(bmp.Width), rnd.Next(bmp.Height));
+			}
+			pb.Image = bmp;
+			await Task.Delay(40);
+		}
+		pb.Image = orig;
+	}
+
+	private async Task ApplyMatrixTextAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		Random rnd = new();
+		using Font f = new("Consolas", 10);
+		using SolidBrush b = new(Color.Lime);
+		for (int i = 0; i < 15; i++)
+		{
+			Bitmap bmp = new(orig);
+			using Graphics g = Graphics.FromImage(bmp);
+			for (int j = 0; j < 20; j++)
+			{
+				char c = (char)rnd.Next(33, 126);
+				g.DrawString(c.ToString(), f, b, rnd.Next(bmp.Width), rnd.Next(bmp.Height));
+			}
+			pb.Image = bmp;
+			await Task.Delay(40);
+		}
+		pb.Image = orig;
+	}
+
+	private async Task ApplySonarCirclesAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		for (int r = 0; r < pb.Width; r += 15)
+		{
+			Bitmap bmp = new(orig);
+			using Graphics g = Graphics.FromImage(bmp);
+			using Pen p = new(Color.FromArgb(100, 0, 200, 255), 4);
+			g.DrawEllipse(p, (pb.Width / 2) - r, (pb.Height / 2) - r, r * 2, r * 2);
+			if (r > 45)
+			{
+				g.DrawEllipse(p, (pb.Width / 2) - (r - 45), (pb.Height / 2) - (r - 45), (r - 45) * 2, (r - 45) * 2);
+			}
+
+			pb.Image = bmp;
+			await Task.Delay(30);
+		}
+		pb.Image = orig;
+	}
+
+	private async Task ApplyHexagonMosaicAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		Random rnd = new();
+		for (int i = 0; i < 15; i++)
+		{
+			Bitmap bmp = new(orig);
+			using Graphics g = Graphics.FromImage(bmp);
+			for (int j = 0; j < 10; j++)
+			{
+				int sz = rnd.Next(20, 50);
+				int x = rnd.Next(bmp.Width);
+				int y = rnd.Next(bmp.Height);
+				using SolidBrush b = new(Color.FromArgb(50, rnd.Next(256), rnd.Next(256), rnd.Next(256)));
+				g.FillRectangle(b, x, y, sz, sz);
+			}
+			pb.Image = bmp;
+			await Task.Delay(40);
+		}
+		pb.Image = orig;
+	}
+
+	private async Task ApplyRaindropsAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		Random rnd = new();
+		for (int i = 0; i < 20; i++)
+		{
+			Bitmap bmp = new(orig);
+			using Graphics g = Graphics.FromImage(bmp);
+			for (int j = 0; j < 5; j++)
+			{
+				int x = rnd.Next(bmp.Width);
+				int y = rnd.Next(bmp.Height);
+				int r = rnd.Next(10, 30);
+				using Pen p = new(Color.FromArgb(150, 200, 200, 255), 2);
+				g.DrawEllipse(p, x, y, r, r);
+			}
+			pb.Image = bmp;
+			await Task.Delay(40);
+		}
+		pb.Image = orig;
+	}
+
+	private async Task ApplyLightningAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		Random rnd = new();
+		for (int i = 0; i < 10; i++)
+		{
+			Bitmap bmp = new(orig);
+			using Graphics g = Graphics.FromImage(bmp);
+			using Pen p = new(Color.White, 2);
+			int x = rnd.Next(bmp.Width);
+			int y = 0;
+			while (y < bmp.Height)
+			{
+				int nx = x + rnd.Next(-20, 20);
+				int ny = y + rnd.Next(10, 30);
+				g.DrawLine(p, x, y, nx, ny);
+				x = nx;
+				y = ny;
+			}
+			pb.Image = bmp;
+			await Task.Delay(50);
+		}
+		pb.Image = orig;
+	}
+
+	private async Task ApplyFirefliesAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		Random rnd = new();
+		List<(int x, int y, int d)> flies = [];
+		for (int i = 0; i < 15; i++)
+		{
+			flies.Add((rnd.Next(pb.Width), rnd.Next(pb.Height), rnd.Next(3)));
+		}
+
+		for (int f = 0; f < 20; f++)
+		{
+			Bitmap bmp = new(orig);
+			using Graphics g = Graphics.FromImage(bmp);
+			using SolidBrush b = new(Color.FromArgb(200, 255, 255, 100));
+			for (int i = 0; i < flies.Count; i++)
+			{
+				var (x, y, d) = flies[i];
+				g.FillEllipse(b, x, y, 6, 6);
+				flies[i] = (x + rnd.Next(-5, 6), y + rnd.Next(-5, 6), d);
+			}
+			pb.Image = bmp;
+			await Task.Delay(40);
+		}
+		pb.Image = orig;
+	}
+
+	private async Task ApplyBubblesAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		Random rnd = new();
+		List<(int x, int y, int s)> bubbles = [];
+		for (int i = 0; i < 10; i++)
+		{
+			bubbles.Add((rnd.Next(pb.Width), pb.Height + rnd.Next(50), rnd.Next(10, 30)));
+		}
+
+		for (int f = 0; f < 25; f++)
+		{
+			Bitmap bmp = new(orig);
+			using Graphics g = Graphics.FromImage(bmp);
+			using Pen p = new(Color.FromArgb(150, 255, 255, 255), 2);
+			for (int i = 0; i < bubbles.Count; i++)
+			{
+				var (x, y, s) = bubbles[i];
+				g.DrawEllipse(p, x, y, s, s);
+				bubbles[i] = (x + rnd.Next(-2, 3), y - rnd.Next(5, 15), s);
+			}
+			pb.Image = bmp;
+			await Task.Delay(30);
+		}
+		pb.Image = orig;
+	}
+
+	private async Task ApplyFogAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		Random rnd = new();
+		for (int i = 0; i < 20; i++)
+		{
+			Bitmap bmp = new(orig);
+			using Graphics g = Graphics.FromImage(bmp);
+			using SolidBrush b = new(Color.FromArgb(20, 255, 255, 255));
+			for (int j = 0; j < 5; j++)
+			{
+				g.FillEllipse(b, rnd.Next(bmp.Width), rnd.Next(bmp.Height), rnd.Next(50, 150), rnd.Next(50, 150));
+			}
+			pb.Image = bmp;
+			await Task.Delay(40);
+		}
+		pb.Image = orig;
+	}
+
+	private async Task ApplySnowstormAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		Random rnd = new();
+		List<(int x, int y, int s)> flakes = [];
+		for (int i = 0; i < 50; i++)
+		{
+			flakes.Add((rnd.Next(pb.Width), rnd.Next(pb.Height), rnd.Next(2, 6)));
+		}
+
+		for (int f = 0; f < 20; f++)
+		{
+			Bitmap bmp = new(orig);
+			using Graphics g = Graphics.FromImage(bmp);
+			for (int i = 0; i < flakes.Count; i++)
+			{
+				var (x, y, s) = flakes[i];
+				g.FillRectangle(Brushes.White, x, y, s, s);
+				flakes[i] = ((x + rnd.Next(2, 10)) % pb.Width, (y + rnd.Next(5, 15)) % pb.Height, s);
+			}
+			pb.Image = bmp;
+			await Task.Delay(30);
+		}
+		pb.Image = orig;
+	}
+
+	private async Task ApplyMeteorShowerAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		Random rnd = new();
+		for (int i = 0; i < 15; i++)
+		{
+			Bitmap bmp = new(orig);
+			using Graphics g = Graphics.FromImage(bmp);
+			using Pen p = new(Color.White, 2);
+			for (int j = 0; j < 3; j++)
+			{
+				int x = rnd.Next(bmp.Width);
+				int y = rnd.Next(bmp.Height / 2);
+				g.DrawLine(p, x, y, x - 50, y + 50);
+			}
+			pb.Image = bmp;
+			await Task.Delay(40);
+		}
+		pb.Image = orig;
+	}
+
+	private async Task ApplyStrobeLightAsync(PictureBox pb)
+	{
+		for (int i = 0; i < 10; i++)
+		{
+			ApplyInvertEffect(pb);
+			await Task.Delay(30);
+			ApplyInvertEffect(pb);
+			await Task.Delay(100);
+		}
+		AppInfoForm_Load(this, EventArgs.Empty);
+	}
+
+	private async Task ApplyPoliceLightsAsync(PictureBox pb)
+	{
+		for (int i = 0; i < 10; i++)
+		{
+			pb.BackColor = Color.Red;
+			await Task.Delay(100);
+			pb.BackColor = Color.Blue;
+			await Task.Delay(100);
+		}
+		pb.BackColor = Color.Transparent;
+	}
+
+	private async Task ApplyPartyLightsAsync(PictureBox pb)
+	{
+		Random rnd = new();
+		for (int i = 0; i < 15; i++)
+		{
+			pb.BackColor = Color.FromArgb(rnd.Next(256), rnd.Next(256), rnd.Next(256));
+			await Task.Delay(80);
+		}
+		pb.BackColor = Color.Transparent;
+	}
+
+	private async Task ApplyLaserPulseAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		for (int h = 0; h <= pb.Height; h += 15)
+		{
+			Bitmap bmp = new(orig);
+			using Graphics g = Graphics.FromImage(bmp);
+			using SolidBrush b = new(Color.FromArgb(150, 255, 0, 0));
+			g.FillRectangle(b, 0, h, pb.Width, 10);
+			pb.Image = bmp;
+			await Task.Delay(30);
+		}
+		pb.Image = orig;
+	}
+
+	private async Task ApplyEnergyShieldAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		for (int a = 0; a <= 150; a += 15)
+		{
+			Bitmap bmp = new(orig);
+			using Graphics g = Graphics.FromImage(bmp);
+			using Pen p = new(Color.FromArgb(a, 0, 255, 255), 10);
+			g.DrawEllipse(p, 10, 10, pb.Width - 20, pb.Height - 20);
+			pb.Image = bmp;
+			await Task.Delay(30);
+		}
+		for (int a = 150; a >= 0; a -= 15)
+		{
+			Bitmap bmp = new(orig);
+			using Graphics g = Graphics.FromImage(bmp);
+			using Pen p = new(Color.FromArgb(a, 0, 255, 255), 10);
+			g.DrawEllipse(p, 10, 10, pb.Width - 20, pb.Height - 20);
+			pb.Image = bmp;
+			await Task.Delay(30);
+		}
+		pb.Image = orig;
+	}
+
+	private async Task ApplyBlackAndWhiteNoiseAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		Random rnd = new();
+		for (int i = 0; i < 10; i++)
+		{
+			Bitmap bmp = new(orig.Width, orig.Height);
+			using Graphics g = Graphics.FromImage(bmp);
+			ColorMatrix cm = new([
+				[0.3f, 0.3f, 0.3f, 0, 0],
+				[0.59f, 0.59f, 0.59f, 0, 0],
+				[0.11f, 0.11f, 0.11f, 0, 0],
+				[0, 0, 0, 1, 0],
+				[0, 0, 0, 0, 1]
+			]);
+			using ImageAttributes attrs = new();
+			attrs.SetColorMatrix(cm);
+			g.DrawImage(orig, new Rectangle(0, 0, bmp.Width, bmp.Height), 0, 0, orig.Width, orig.Height, GraphicsUnit.Pixel, attrs);
+			for (int n = 0; n < 2000; n++)
+			{
+				bmp.SetPixel(rnd.Next(bmp.Width), rnd.Next(bmp.Height), rnd.NextDouble() > 0.5 ? Color.White : Color.Black);
+			}
+
+			pb.Image = bmp;
+			await Task.Delay(50);
+		}
+		pb.Image = orig;
+	}
+
+	private async Task ApplyAlienVisionAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		Bitmap bmp = new(orig.Width, orig.Height);
+		using Graphics g = Graphics.FromImage(bmp);
+		ColorMatrix cm = new([
+			[0, 1.5f, 0, 0, 0],
+			[0, 2.0f, 0, 0, 0],
+			[0, 1.5f, 0, 0, 0],
+			[0, 0, 0, 1, 0],
+			[0, 0, 0, 0, 1]
+		]);
+		using ImageAttributes attrs = new();
+		attrs.SetColorMatrix(cm);
+		g.DrawImage(orig, new Rectangle(0, 0, bmp.Width, bmp.Height), 0, 0, orig.Width, orig.Height, GraphicsUnit.Pixel, attrs);
+		pb.Image = bmp;
+		await Task.Delay(1000);
+		pb.Image = orig;
+	}
+
+	private async Task ApplyTerminatorVisionAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		Bitmap bmp = new(orig.Width, orig.Height);
+		using Graphics g = Graphics.FromImage(bmp);
+		ColorMatrix cm = new([
+			[2.0f, 0, 0, 0, 0],
+			[1.0f, 0, 0, 0, 0],
+			[1.0f, 0, 0, 0, 0],
+			[0, 0, 0, 1, 0],
+			[0.2f, 0, 0, 0, 1]
+		]);
+		using ImageAttributes attrs = new();
+		attrs.SetColorMatrix(cm);
+		g.DrawImage(orig, new Rectangle(0, 0, bmp.Width, bmp.Height), 0, 0, orig.Width, orig.Height, GraphicsUnit.Pixel, attrs);
+		pb.Image = bmp;
+		await Task.Delay(1000);
+		pb.Image = orig;
+	}
+
+	private async Task ApplyGlitchColorAsync(PictureBox pb)
+	{
+		if (pb.Image == null)
+		{
+			return;
+		}
+
+		Image orig = pb.Image;
+		Random rnd = new();
+		for (int i = 0; i < 15; i++)
+		{
+			Bitmap bmp = new(orig.Width, orig.Height);
+			using Graphics g = Graphics.FromImage(bmp);
+			ColorMatrix cm = new([
+				[(float)rnd.NextDouble()*2, 0, 0, 0, 0],
+				[0, (float)rnd.NextDouble()*2, 0, 0, 0],
+				[0, 0, (float)rnd.NextDouble()*2, 0, 0],
+				[0, 0, 0, 1, 0],
+				[0, 0, 0, 0, 1]
+			]);
+			using ImageAttributes attrs = new();
+			attrs.SetColorMatrix(cm);
+			g.DrawImage(orig, new Rectangle(rnd.Next(-10, 10), rnd.Next(-10, 10), bmp.Width, bmp.Height), 0, 0, orig.Width, orig.Height, GraphicsUnit.Pixel, attrs);
+			pb.Image = bmp;
+			await Task.Delay(40);
+		}
+		pb.Image = orig;
+	}
+
+	private async Task ApplyFlyInBottomAsync(Control control)
+	{
+		Point oL = control.Location;
+		control.Location = new Point(oL.X, oL.Y + 300);
+		control.Visible = false;
+		await Task.Delay(50);
+		control.Visible = true;
+		for (int y = control.Location.Y; y >= oL.Y; y -= 25)
+		{
+			control.Location = new Point(oL.X, y);
+			await Task.Delay(15);
+		}
+		control.Location = oL;
+	}
+
+	private async Task ApplyFlyInTopAsync(Control control)
+	{
+		Point oL = control.Location;
+		control.Location = new Point(oL.X, oL.Y - 300);
+		control.Visible = false;
+		await Task.Delay(50);
+		control.Visible = true;
+		for (int y = control.Location.Y; y <= oL.Y; y += 25)
+		{
+			control.Location = new Point(oL.X, y);
+			await Task.Delay(15);
+		}
+		control.Location = oL;
+	}
