@@ -8,6 +8,22 @@
 
 > *„It's not a bug. It's an undocumented feature.“ — unknown*
 
+<!--
+```ts
+const mjohne = {
+  age        : 24,
+  location   : "Bremen, Germany",
+  education  : "Systems Development @ Fatec AMS",
+  english    : "Beginner & improving",
+
+  currentlyBuilding : ["React Native", "React", "Python", "AWS Serverless", "Design Patterns"],
+  lookingFor        : ["Internship", "Open Source collaboration"],
+
+  superpower : "4x on the podium and once champion of Robocode @ Centro Paula Souza 🏆",
+};
+```
+-->
+
 🔭 **Currently working on:** Data management software of minor planets</br>
 🎯 **Experienced in:** astronomic stuff, desktop programming</br> 
 🎓 **Education:** Training as a technical assistant for computer science and former student of media informatics at the university; currently further training as an IT specialist for application development</br> 
