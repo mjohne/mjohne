@@ -36,11 +36,11 @@ const mjohne = {
 
 ### 📊 GitHub Stats:
 
+| [![Stats](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=mjohne&theme=github_dark)](https://github.com/marketplace/actions/github-profile-summary-cards) |  [![GitHub Streak](https://streak-stats.demolab.com?user=mjohne&theme=transparent&hide_border=true)](https://git.io/streak-stats)
+|:-:|:-:|
+
 | [![Details](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mjohne&theme=github_dark)](https://github.com/marketplace/actions/github-profile-summary-cards) | [![Productive Time](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=mjohne&theme=github_dark&utcOffset=1)](https://github.com/marketplace/actions/github-profile-summary-cards)
 |:-:|:-:|
 
-| [![Stats](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=mjohne&theme=github_dark)](https://github.com/marketplace/actions/github-profile-summary-cards) | [![Repos](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=mjohne&theme=github_dark)](https://github.com/marketplace/actions/github-profile-summary-cards) | [![Commits](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=mjohne&theme=github_dark)](https://github.com/marketplace/actions/github-profile-summary-cards)
-|:-:|:-:|:-:|
-
-| [![GitHub Streak](https://streak-stats.demolab.com?user=mjohne&theme=transparent&hide_border=true)](https://git.io/streak-stats)
-|:-:|
+| [![Repos](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=mjohne&theme=github_dark)](https://github.com/marketplace/actions/github-profile-summary-cards) | [![Commits](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=mjohne&theme=github_dark)](https://github.com/marketplace/actions/github-profile-summary-cards)
+|:-:|:-:|
