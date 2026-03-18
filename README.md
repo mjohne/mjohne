@@ -8,26 +8,21 @@
 
 > *„It's not a bug. It's an undocumented feature.“ — unknown*
 
-<!--
 ```ts
 const mjohne = {
-  age        : 24,
+  age        : 43,
   location   : "Bremen, Germany",
-  education  : "Systems Development @ Fatec AMS",
-  english    : "Beginner & improving",
+  education  : ["Training as a technical assistant for computer science and former student of media informatics at the university",
+                "currently further training as an IT specialist for application development"],
 
-  currentlyBuilding : ["React Native", "React", "Python", "AWS Serverless", "Design Patterns"],
-  lookingFor        : ["Internship", "Open Source collaboration"],
+  currentlyWorkingOn : "Data management software of minor planets",
+  appliedLanguages   : ["C#", "Java"],
+  experiencedIn      : ["desktop programming", "astronomic stuff"],
+  lookingFor         : ["Internship", "Gain new experiences"]
 
-  superpower : "4x on the podium and once champion of Robocode @ Centro Paula Souza 🏆",
+//superPower : ["I automatically open doors with telekinesis.", "Cats like me. All cats."]
 };
 ```
--->
-
-🔭 **Currently working on:** Data management software of minor planets</br>
-🎯 **Experienced in:** astronomic stuff, desktop programming</br> 
-🎓 **Education:** Training as a technical assistant for computer science and former student of media informatics at the university; currently further training as an IT specialist for application development</br> 
-📍 **Location:** Bremen, Germany
 
 ## 📈 Activity Graph
 [![My github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=mjohne&theme=github)](https://github.com/ashutosh00710/github-readme-activity-graph)
