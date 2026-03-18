@@ -20,7 +20,7 @@ const mjohne = {
   experiencedIn      : ["desktop programming", "astronomic stuff"],
   lookingFor         : ["Internship", "Gain new experiences"]
 
-//superPower : ["I automatically open doors with telekinesis.", "Cats like me. All cats."]
+//superPower : ["I open automatic doors with telekinesis.", "Cats like me. All cats."]
 };
 ```
 
