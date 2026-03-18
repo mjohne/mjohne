@@ -12,15 +12,18 @@
 const mjohne = {
   age        : 43,
   location   : "Bremen, Germany",
-  education  : ["Training as a technical assistant for computer science and former student of media informatics at the university",
+  education  : ["First training as a technical assistant for computer science",
+                "then a student of media informatics at the university",
                 "currently further training as an IT specialist for application development"],
 
-  currentlyWorkingOn : "Data management software of minor planets",
   appliedLanguages   : ["C#", "Java"],
+  currentlyWorkingOn : "Data management software of minor planets",
   experiencedIn      : ["desktop programming", "astronomic stuff"],
   lookingFor         : ["Internship", "Gain new experiences"]
 
-//superPower : ["I open automatic doors with telekinesis.", "Cats like me. All cats."]
+/*
+ * superPower : ["I open automatic doors with telekinesis.", "Cats like me. All cats."]
+ */
 };
 ```
 
