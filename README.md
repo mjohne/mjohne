@@ -12,6 +12,7 @@
 const mjohne = {
   age        : 43,
   location   : "Bremen, Germany",
+  pronouns   : "he" | "him",
   education  : ["first training as a technical assistant for computer science",
                 "then a student of media informatics at the university",
                 "currently further training as an IT specialist for application development"],
