@@ -4,7 +4,7 @@
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=600&amp;size=26&amp;pause=1&amp;color=00D4FF&amp;center=true&amp;vCenter=true&amp;width=650&amp;lines=C-Sharp+Enthusiast;Old+Stuff+Geek;Java+in+Love;Fascinated+by+AI;Scientific+something-or-other" />
 </div>
 
-## <img src="https://github.com/SP-XD/SP-XD/blob/main/images/message.gif?raw=true" width="30" />About Me 
+## <img src="https://github.com/SP-XD/SP-XD/blob/main/images/message.gif?raw=true" width="30" />About Me
 
 > *„It's not a bug. It's an undocumented feature.“ — unknown* 
 
