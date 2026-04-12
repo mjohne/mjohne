@@ -28,12 +28,10 @@ const mjohne = {
 };
 ```
 
-## 📈 Activity Graph
+## 📊 Activity Graph & GitHub Stats
 [![My github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=mjohne&theme=github)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=mjohne) [![wakatime](https://wakatime.com/badge/user/0441723d-b00a-4e96-afcf-192485957344.svg)](https://wakatime.com/@0441723d-b00a-4e96-afcf-192485957344)
-
-### 📊 GitHub Stats:
 
 | [![Stats](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=mjohne&theme=github_dark)](https://github.com/marketplace/actions/github-profile-summary-cards) |  [![GitHub Streak](https://streak-stats.demolab.com?user=mjohne&theme=transparent&hide_border=true)](https://git.io/streak-stats)
 |:-:|:-:|
