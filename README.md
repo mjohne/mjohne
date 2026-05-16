@@ -1,7 +1,7 @@
 <div align="center">
 <!--<img src="./Header.svg" width="100%" alt="header"/>-->
 <h1 align="center"><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/> Hi there! I'm Michael de Radobýl.</h1>
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=600&amp;size=26&amp;pause=1&amp;color=00D4FF&amp;center=true&amp;vCenter=true&amp;width=650&amp;lines=C-Sharp+Enthusiast;Old+Stuff+Geek;Java+in+Love;Fascinated+by+AI;Scientific+something-or-other" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=600&amp;size=26&amp;pause=1&amp;color=00D4FF&amp;center=true&amp;vCenter=true&amp;width=650&amp;lines=C-Sharp+Enthusiast;Old+Stuff+Geek;Java+in+Love;Fascinated+in+AI;Scientific+something-or-other" />
 </div>
 
 ## <img src="https://github.com/SP-XD/SP-XD/blob/main/images/message.gif?raw=true" width="30" />About Me 
