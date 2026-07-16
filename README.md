@@ -33,7 +33,7 @@ const mjohne = {
 
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=mjohne) [![wakatime](https://wakatime.com/badge/user/0441723d-b00a-4e96-afcf-192485957344.svg)](https://wakatime.com/@0441723d-b00a-4e96-afcf-192485957344)
 
-| [![Stats](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=mjohne&theme=github_dark)](https://github.com/marketplace/actions/github-profile-summary-cards) |  [![GitHub Streak](https://streak-stats.demolab.com?user=mjohne&theme=transparent&hide_border=true)](https://git.io/streak-stats)
+| [![Stats](https://github-stats-extended.vercel.app/api?username=mjohne&show_icons=true&theme=tokyonight&hide_border=true)](https://github.com/marketplace/actions/github-profile-summary-cards) |  [![GitHub Streak](https://streak-stats.demolab.com?user=mjohne&theme=tokyonight&hide_border=true)](https://git.io/streak-stats)
 |:-:|:-:|
 
 | [![Details](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mjohne&theme=github_dark)](https://github.com/marketplace/actions/github-profile-summary-cards) | [![Productive Time](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=mjohne&theme=github_dark&utcOffset=1)](https://github.com/marketplace/actions/github-profile-summary-cards)
